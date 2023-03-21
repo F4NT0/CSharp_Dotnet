@@ -1,0 +1,62 @@
+C:\Users\Gabriel_Stundner\OneDrive - Dell Technologies\Documents\C# Learning\Fundamentals\ASPNETCORE\RazorPagesPizza\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Gabriel_Stundner\OneDrive - Dell Technologies\Documents\C# Learning\Fundamentals\ASPNETCORE\RazorPagesPizza\bin\Debug\net6.0\appsettings.json
+C:\Users\Gabriel_Stundner\OneDrive - Dell Technologies\Documents\C# Learning\Fundamentals\ASPNETCORE\RazorPagesPizza\bin\Debug\net6.0\RazorPagesPizza.staticwebassets.runtime.json
+C:\Users\Gabriel_Stundner\OneDrive - Dell Technologies\Documents\C# Learning\Fundamentals\ASPNETCORE\RazorPagesPizza\bin\Debug\net6.0\RazorPagesPizza.exe
+C:\Users\Gabriel_Stundner\OneDrive - Dell Technologies\Documents\C# Learning\Fundamentals\ASPNETCORE\RazorPagesPizza\bin\Debug\net6.0\RazorPagesPizza.deps.json
+C:\Users\Gabriel_Stundner\OneDrive - Dell Technologies\Documents\C# Learning\Fundamentals\ASPNETCORE\RazorPagesPizza\bin\Debug\net6.0\RazorPagesPizza.runtimeconfig.json
+C:\Users\Gabriel_Stundner\OneDrive - Dell Technologies\Documents\C# Learning\Fundamentals\ASPNETCORE\RazorPagesPizza\bin\Debug\net6.0\RazorPagesPizza.dll
+C:\Users\Gabriel_Stundner\OneDrive - Dell Technologies\Documents\C# Learning\Fundamentals\ASPNETCORE\RazorPagesPizza\bin\Debug\net6.0\RazorPagesPizza.pdb
+C:\Users\Gabriel_Stundner\OneDrive - Dell Technologies\Documents\C# Learning\Fundamentals\ASPNETCORE\RazorPagesPizza\obj\Debug\net6.0\RazorPagesPizza.csproj.AssemblyReference.cache
+C:\Users\Gabriel_Stundner\OneDrive - Dell Technologies\Documents\C# Learning\Fundamentals\ASPNETCORE\RazorPagesPizza\obj\Debug\net6.0\RazorPagesPizza.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gabriel_Stundner\OneDrive - Dell Technologies\Documents\C# Learning\Fundamentals\ASPNETCORE\RazorPagesPizza\obj\Debug\net6.0\RazorPagesPizza.AssemblyInfoInputs.cache
+C:\Users\Gabriel_Stundner\OneDrive - Dell Technologies\Documents\C# Learning\Fundamentals\ASPNETCORE\RazorPagesPizza\obj\Debug\net6.0\RazorPagesPizza.AssemblyInfo.cs
+C:\Users\Gabriel_Stundner\OneDrive - Dell Technologies\Documents\C# Learning\Fundamentals\ASPNETCORE\RazorPagesPizza\obj\Debug\net6.0\RazorPagesPizza.csproj.CoreCompileInputs.cache
+C:\Users\Gabriel_Stundner\OneDrive - Dell Technologies\Documents\C# Learning\Fundamentals\ASPNETCORE\RazorPagesPizza\obj\Debug\net6.0\RazorPagesPizza.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Gabriel_Stundner\OneDrive - Dell Technologies\Documents\C# Learning\Fundamentals\ASPNETCORE\RazorPagesPizza\obj\Debug\net6.0\RazorPagesPizza.RazorAssemblyInfo.cache
+C:\Users\Gabriel_Stundner\OneDrive - Dell Technologies\Documents\C# Learning\Fundamentals\ASPNETCORE\RazorPagesPizza\obj\Debug\net6.0\RazorPagesPizza.RazorAssemblyInfo.cs
+C:\Users\Gabriel_Stundner\OneDrive - Dell Technologies\Documents\C# Learning\Fundamentals\ASPNETCORE\RazorPagesPizza\obj\Debug\net6.0\staticwebassets\msbuild.RazorPagesPizza.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Gabriel_Stundner\OneDrive - Dell Technologies\Documents\C# Learning\Fundamentals\ASPNETCORE\RazorPagesPizza\obj\Debug\net6.0\staticwebassets\msbuild.build.RazorPagesPizza.props
+C:\Users\Gabriel_Stundner\OneDrive - Dell Technologies\Documents\C# Learning\Fundamentals\ASPNETCORE\RazorPagesPizza\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.RazorPagesPizza.props
+C:\Users\Gabriel_Stundner\OneDrive - Dell Technologies\Documents\C# Learning\Fundamentals\ASPNETCORE\RazorPagesPizza\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.RazorPagesPizza.props
+C:\Users\Gabriel_Stundner\OneDrive - Dell Technologies\Documents\C# Learning\Fundamentals\ASPNETCORE\RazorPagesPizza\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Gabriel_Stundner\OneDrive - Dell Technologies\Documents\C# Learning\Fundamentals\ASPNETCORE\RazorPagesPizza\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Gabriel_Stundner\OneDrive - Dell Technologies\Documents\C# Learning\Fundamentals\ASPNETCORE\RazorPagesPizza\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Gabriel_Stundner\OneDrive - Dell Technologies\Documents\C# Learning\Fundamentals\ASPNETCORE\RazorPagesPizza\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Gabriel_Stundner\OneDrive - Dell Technologies\Documents\C# Learning\Fundamentals\ASPNETCORE\RazorPagesPizza\obj\Debug\net6.0\scopedcss\bundle\RazorPagesPizza.styles.css
+C:\Users\Gabriel_Stundner\OneDrive - Dell Technologies\Documents\C# Learning\Fundamentals\ASPNETCORE\RazorPagesPizza\obj\Debug\net6.0\scopedcss\projectbundle\RazorPagesPizza.bundle.scp.css
+C:\Users\Gabriel_Stundner\OneDrive - Dell Technologies\Documents\C# Learning\Fundamentals\ASPNETCORE\RazorPagesPizza\obj\Debug\net6.0\RazorPagesPizza.dll
+C:\Users\Gabriel_Stundner\OneDrive - Dell Technologies\Documents\C# Learning\Fundamentals\ASPNETCORE\RazorPagesPizza\obj\Debug\net6.0\refint\RazorPagesPizza.dll
+C:\Users\Gabriel_Stundner\OneDrive - Dell Technologies\Documents\C# Learning\Fundamentals\ASPNETCORE\RazorPagesPizza\obj\Debug\net6.0\RazorPagesPizza.pdb
+C:\Users\Gabriel_Stundner\OneDrive - Dell Technologies\Documents\C# Learning\Fundamentals\ASPNETCORE\RazorPagesPizza\obj\Debug\net6.0\RazorPagesPizza.genruntimeconfig.cache
+C:\Users\Gabriel_Stundner\OneDrive - Dell Technologies\Documents\C# Learning\Fundamentals\ASPNETCORE\RazorPagesPizza\obj\Debug\net6.0\ref\RazorPagesPizza.dll
+C:\Users\Gabriel_Stundner\Downloads\Fundamentals\ASPNETCORE\RazorPagesPizza\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Gabriel_Stundner\Downloads\Fundamentals\ASPNETCORE\RazorPagesPizza\bin\Debug\net6.0\appsettings.json
+C:\Users\Gabriel_Stundner\Downloads\Fundamentals\ASPNETCORE\RazorPagesPizza\bin\Debug\net6.0\RazorPagesPizza.staticwebassets.runtime.json
+C:\Users\Gabriel_Stundner\Downloads\Fundamentals\ASPNETCORE\RazorPagesPizza\bin\Debug\net6.0\RazorPagesPizza.exe
+C:\Users\Gabriel_Stundner\Downloads\Fundamentals\ASPNETCORE\RazorPagesPizza\bin\Debug\net6.0\RazorPagesPizza.deps.json
+C:\Users\Gabriel_Stundner\Downloads\Fundamentals\ASPNETCORE\RazorPagesPizza\bin\Debug\net6.0\RazorPagesPizza.runtimeconfig.json
+C:\Users\Gabriel_Stundner\Downloads\Fundamentals\ASPNETCORE\RazorPagesPizza\bin\Debug\net6.0\RazorPagesPizza.dll
+C:\Users\Gabriel_Stundner\Downloads\Fundamentals\ASPNETCORE\RazorPagesPizza\bin\Debug\net6.0\RazorPagesPizza.pdb
+C:\Users\Gabriel_Stundner\Downloads\Fundamentals\ASPNETCORE\RazorPagesPizza\obj\Debug\net6.0\RazorPagesPizza.csproj.AssemblyReference.cache
+C:\Users\Gabriel_Stundner\Downloads\Fundamentals\ASPNETCORE\RazorPagesPizza\obj\Debug\net6.0\RazorPagesPizza.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gabriel_Stundner\Downloads\Fundamentals\ASPNETCORE\RazorPagesPizza\obj\Debug\net6.0\RazorPagesPizza.AssemblyInfoInputs.cache
+C:\Users\Gabriel_Stundner\Downloads\Fundamentals\ASPNETCORE\RazorPagesPizza\obj\Debug\net6.0\RazorPagesPizza.AssemblyInfo.cs
+C:\Users\Gabriel_Stundner\Downloads\Fundamentals\ASPNETCORE\RazorPagesPizza\obj\Debug\net6.0\RazorPagesPizza.csproj.CoreCompileInputs.cache
+C:\Users\Gabriel_Stundner\Downloads\Fundamentals\ASPNETCORE\RazorPagesPizza\obj\Debug\net6.0\RazorPagesPizza.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Gabriel_Stundner\Downloads\Fundamentals\ASPNETCORE\RazorPagesPizza\obj\Debug\net6.0\RazorPagesPizza.RazorAssemblyInfo.cache
+C:\Users\Gabriel_Stundner\Downloads\Fundamentals\ASPNETCORE\RazorPagesPizza\obj\Debug\net6.0\RazorPagesPizza.RazorAssemblyInfo.cs
+C:\Users\Gabriel_Stundner\Downloads\Fundamentals\ASPNETCORE\RazorPagesPizza\obj\Debug\net6.0\staticwebassets\msbuild.RazorPagesPizza.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Gabriel_Stundner\Downloads\Fundamentals\ASPNETCORE\RazorPagesPizza\obj\Debug\net6.0\staticwebassets\msbuild.build.RazorPagesPizza.props
+C:\Users\Gabriel_Stundner\Downloads\Fundamentals\ASPNETCORE\RazorPagesPizza\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.RazorPagesPizza.props
+C:\Users\Gabriel_Stundner\Downloads\Fundamentals\ASPNETCORE\RazorPagesPizza\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.RazorPagesPizza.props
+C:\Users\Gabriel_Stundner\Downloads\Fundamentals\ASPNETCORE\RazorPagesPizza\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Gabriel_Stundner\Downloads\Fundamentals\ASPNETCORE\RazorPagesPizza\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Gabriel_Stundner\Downloads\Fundamentals\ASPNETCORE\RazorPagesPizza\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Gabriel_Stundner\Downloads\Fundamentals\ASPNETCORE\RazorPagesPizza\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Gabriel_Stundner\Downloads\Fundamentals\ASPNETCORE\RazorPagesPizza\obj\Debug\net6.0\scopedcss\bundle\RazorPagesPizza.styles.css
+C:\Users\Gabriel_Stundner\Downloads\Fundamentals\ASPNETCORE\RazorPagesPizza\obj\Debug\net6.0\scopedcss\projectbundle\RazorPagesPizza.bundle.scp.css
+C:\Users\Gabriel_Stundner\Downloads\Fundamentals\ASPNETCORE\RazorPagesPizza\obj\Debug\net6.0\RazorPagesPizza.dll
+C:\Users\Gabriel_Stundner\Downloads\Fundamentals\ASPNETCORE\RazorPagesPizza\obj\Debug\net6.0\refint\RazorPagesPizza.dll
+C:\Users\Gabriel_Stundner\Downloads\Fundamentals\ASPNETCORE\RazorPagesPizza\obj\Debug\net6.0\RazorPagesPizza.pdb
+C:\Users\Gabriel_Stundner\Downloads\Fundamentals\ASPNETCORE\RazorPagesPizza\obj\Debug\net6.0\RazorPagesPizza.genruntimeconfig.cache
+C:\Users\Gabriel_Stundner\Downloads\Fundamentals\ASPNETCORE\RazorPagesPizza\obj\Debug\net6.0\ref\RazorPagesPizza.dll

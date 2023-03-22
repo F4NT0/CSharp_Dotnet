@@ -147,3 +147,103 @@ Partial markup elements that are shared across several Razor pages are located b
 - Layouts: In ASP.NET Core, layouts are .cshtml files that define a top-level template for views in the app. Apps don't require a layout. Apps can define more than one layout, with different views specifying different layouts. Most web apps have a common layout that provides a consistent user experience. The layout typically includes common UI elements such as the app header, navigation or menu elements, and footer. Common HTML structures such as scripts and stylesheets are also frequently used by many pages within an app. All of these shared elements may be defined in a layout file, which can then be referenced by any view used within the app. Layouts reduce duplicate code in views.
 
 - Partial view: A partial view is a Razor markup file (.cshtml) that renders HTML output within another markup file's rendered output. Partial views are used to break up large markup files into smaller components. They also reduce the duplication of common markup content across markup files. Partial views aren't used to maintain common layout elements. Common layout elements are specified in a _Layout.cshtml file.
+
+# Create a Page
+
+to create a Page in .NET CLI, use the following code to create a Page in this project:
+
+```cli
+dotnet new page --name Pizza --namespace RazorPagesPizza.Pages --output Pages
+```
+
+# Create Classes
+
+## Model
+
+- A model class is needed to represent a pizza in inventory. The model contains properties that represent the characteristics of a pizza. The model is used to pass data in the web app and to persist pizza options in the data store.
+
+- Create on Project Root the Directory called `Models`
+
+- Create a file called `Pizza.cs`
+
+- Explain the namespace, it's the directory names to your class
+
+```csharp
+namespace RazorPagesPizza.Models;
+```
+
+- Create a Class with the name of the Model
+
+```csharp
+public class Pizza {
+    // ...  
+}
+```
+
+- Put the informations you wanted in this Model like following:
+      - the names from the Atributes beggin with Uppercase
+      - `{ get; set; }` are the Getters and Setters from this atribute
+
+```csharp
+public class Pizza {
+
+      public int Id { get; set; } // Getter and Setter added
+      public String Name { get; set; }
+      public PizzaSize Size { get; set; }
+      public bool IsGlutenFree { get; set; }
+      public decimal Price { get; set; }
+}
+
+// Enums
+public enum PizzaSize {
+      Small,
+      Medium,
+      Large
+}
+```
+
+- When some information is Required (not null) you can put the `[Required]` in the atribute
+
+```csharp
+public class Pizza {
+      // ...
+
+      [Required]
+      public int Id { get; set; }
+
+      // ...
+}
+```
+
+- When some atribute can have the value **null** you can put `?` after his type
+
+```csharp
+public class Pizza {
+      // ...
+
+      public string? Name { get; set; }
+
+      // ...
+}
+```
+
+- You can put some range in decimal, when it send error if the value is off this range
+
+```csharp
+public class Pizza {
+      // ...
+
+      [Range(0.01, 9999.99)]
+      public decimal Price { get; set; }
+
+      // ...
+}
+```
+
+## Services
+
+- Create a `Services` folder into the Root folder
+
+- Create a file called `PizzaService.cs` into the `Services` folder
+
+

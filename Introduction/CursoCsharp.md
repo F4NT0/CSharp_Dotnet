@@ -38,6 +38,26 @@ public class Teste {
 
 <img src="images\namespace.png">
 
+- uma estrutura de namespace no projeto:
+
+    - nome do diretório principal
+    - nome do diretório onde se encontra o arquivo
+
+```text
+Name
+ |
+ | - Model
+       |
+       | - Main.cs
+```
+
+```csharp
+namespace Name.Model;
+public class Main {
+    // ...
+}
+```
+
 - Outra coisa é algo chamado **Assembly**, que é um agrupamento físico de classes relacionadas (DLL ou EXE)
 
 <img src="images\Assembly.png">

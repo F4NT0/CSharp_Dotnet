@@ -1,5 +1,9 @@
 # $$\boxed{\mathbb{COMO \space CRIAR \space PROJETOS \space CONSOLE \space .NET}}$$
 
+<p align="center">
+    <img src="https://github.com/F4NT0/CSharp_Dotnet/blob/main/C%23/imagens/R%20(3).png" width=200>
+</p>
+
 
 Para programar em C# é necessário o .NET SDK, é com ele que podemos construir projetos .NET chamado de `Console Project` para compilar programas em C#.
 

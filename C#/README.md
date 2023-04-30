@@ -1,9 +1,24 @@
-# $$\boxed{\mathbb{COMO \space CRIAR \space PROJETOS \space CONSOLE \space .NET}}$$
+# $$\boxed{\color{magenta}\mathbb{C\text{\#}}}$$
 
 <p align="center">
-    <img src="https://github.com/F4NT0/CSharp_Dotnet/blob/main/C%23/imagens/R%20(3).png" width=200>
+    <img src="imagens\R (3).png" width=200>
 </p>
+<p align="center">Linguagem de Programação criada pela Microsoft em 2001</p>
 
+---
+
+#### $$\mathbb{CONTEÚDO}$$
+
+- [Programação Básica de C#](/C%23/Basico/README.md)
+- [Algoritmos em C#](/C%23/Algoritmos/README.md)
+- [Orientação a Objetos em C#](/C%23/Orientacao-Objetos/README.md)
+- [Clean Code em C# [EM CONTRUÇÃO]]()
+- [LINQ [EM CONSTRUÇÃO]]()
+- [Exemplos [EM CONSTRUÇÃO]]()
+
+---
+
+## Como começar a desenvolver em C#
 
 Para programar em C# é necessário o .NET SDK, é com ele que podemos construir projetos .NET chamado de `Console Project` para compilar programas em C#.
 
@@ -15,7 +30,7 @@ dotnet new console
 
 ```mermaid
 flowchart LR
-    A("#128193; HelloWorld") --> B>"💽 Run dotnet new console"]
+    A("#128193; HelloWorld") --> B>"💽 dotnet new console"]
 ```
 
 
@@ -34,7 +49,7 @@ flowchart LR
     E --> F("#128193; net6.0")
 ```
 
-* $\color{magenta}\sf HelloWorld.csproj$ : Este é o arquivo de projeto do C# ($\color{magenta}\sf cs$harp $\color{magenta}\sf proj$ect) onde ficam as configurações e dependências para o projeto.
+* $\color{magenta}\sf HelloWorld.csproj$ : Este é o arquivo de projeto do C# (**cs**harp **proj**ect) onde ficam as configurações e dependências para o projeto.
 * $\color{magenta}\sf Program.cs$ : Este é o arquivo (incialmente começa com o nome Program, mas pode ser renomeado) onde iremos colocar nosso código C#.
 * $\color{lightgreen}\sf bin/Debug/net6.0$ : É um diretório com os binários do programa, com arquivos necessários para o processo de tradução do programa para ser compilado.
 
@@ -50,7 +65,7 @@ dotnet run
 
 Com esse comando ele vai compilar o arquivo `Program.cs` e apresentar no console o resultado do programa.
 
-Além disso ele vai criar um diretório chamado  $\color{magenta}\sf obj$ com od arquivos da compilação feita pelo .NET
+Além disso ele vai criar um diretório chamado  $\color{magenta}\sf obj$ com os arquivos da compilação feita pelo .NET
 
 No Fim o Projeto vai ficar estruturado da seguinte forma:
 
@@ -65,3 +80,5 @@ flowchart LR
 ```
 
 Esta é a estrutura básica de um programa do tipo console gerado pelo .NET para compilarmos programas em C#.
+
+---

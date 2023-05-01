@@ -70,7 +70,61 @@ namespace Matematica
             Console.WriteLine("Decremento antes = " + --valor1); // 6
 
             Console.WriteLine("Decremento depois = " + valor2--); // 9
-            Console.WriteLine("Decremento depois = " + valor2); // 8
+            Console.WriteLine("Decremento depois = " + valor2 + "\n"); // 8
+
+            /*
+                Tipos de valores 
+            */
+            int maxInt = int.MaxValue;
+            int minInt = int.MinValue;
+            decimal maxDecimal = decimal.MaxValue;
+            decimal minDecimal = decimal.MinValue;
+            sbyte maxSByte = sbyte.MaxValue;
+            sbyte minSByte = sbyte.MinValue;
+            double maxDouble = double.MaxValue;
+            double minDouble = double.MinValue;
+            long maxLong = long.MaxValue;
+            long minLong = long.MinValue;
+
+            Console.WriteLine($"Max Int: {maxInt}");
+            Console.WriteLine($"Min Int: {minInt}");
+            Console.WriteLine($"Max Decimal: {maxDecimal}");
+            Console.WriteLine($"Min Decimal: {minDecimal}");
+            Console.WriteLine($"Max Sbyte: {maxSByte}");
+            Console.WriteLine($"Min Sbyte: {minSByte}");
+            Console.WriteLine($"Max Double: {maxDouble}");
+            Console.WriteLine($"Min Double: {minDouble}");
+            Console.WriteLine($"Max Long: {maxLong}");
+            Console.WriteLine($"Min Long: {minLong}\n");
+
+            /*
+                Classe Math
+            */
+            double dividendo = 8;
+            double divisor = 3;
+            Console.WriteLine($"Dividendo: {dividendo}, Divisor: {divisor}, {dividendo}/{divisor} = {dividendo/divisor}"); // 2,6666666666666665
+            
+            double arredondamentoMaior = Math.Ceiling(dividendo/divisor);
+            double arredondamentoMenor = Math.Floor(dividendo/divisor);
+            Console.WriteLine($"Arredondamento para mais: {arredondamentoMaior}");
+            Console.WriteLine($"Arredondamento para menos: {arredondamentoMenor}");
+
+            double arredondamentoControle = Math.Round(dividendo/divisor);
+            Console.WriteLine($"Arredondamento usando Round: {arredondamentoControle}\n");
+
+            double maximo = Math.Max(dividendo,divisor);
+            double minimo = Math.Min(dividendo, divisor);
+
+            Console.WriteLine($"Máximo valor entre {dividendo} e {divisor}: {maximo}");
+            Console.WriteLine($"Mínimo valor entre {dividendo} e {divisor}: {minimo}");
+
+            int basePot = 2;
+            int expoente = 3;
+            int potencia = (int)Math.Pow(basePot, expoente);
+            double potencia2 = Math.Pow(basePot, expoente);
+            Console.WriteLine($"Potência \n\n Base: {basePot} \n Expoente: {expoente} \n potência normal: {potencia2}, \n potência usando cast de Inteiro: {potencia}");
+
+
         }
     }
 }

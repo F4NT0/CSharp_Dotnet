@@ -1,0 +1,63 @@
+# .NET Core
+## Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+AnyCPU/
+build/
+bin/
+[Oo]bj/
+## MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+## NUNIT
+*.VisualState.xml
+TestResult.xml
+## Build Results of an ATL Project
+[Dd]ebugPS/
+[Rr]eleasePS/
+dlldata.c
+## .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+**/bin/
+**/obj/
+**/out/
+**/*.exe
+**/*.dll
+**/*.zip
+*.sw*
+*.user
+*.vspscc
+*.vssscc
+*.cache
+*.suo
+*.userosscache
+*.sln.docstates
+*.NT.*
+*.Cachefile
+*.dotCover
+*.resharper
+[Tt]humbs.db
+_UpgradeReport_Files/
+_ReSharper*/
+*.pidb
+*.resharperlock
+*.ncrunch*
+*.dotSettings
+*.csproj.user
+*.bak
+*.nuget/
+packages/
+*.nupkg
+**/*.config
+**/npm-debug.log
+**/yarn-debug.log*
+**/yarn-error.log*
+bower_components/
+jspm_packages/
+tools/bower/
+tools/node/
+*.code-workspace

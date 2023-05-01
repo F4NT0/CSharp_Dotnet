@@ -11,7 +11,7 @@ assignees: ''
 
 Deve colocar os tópicos do que foi estudado e o status (se ja foi concluído ou ainda fazendo)
 
-- [ x ] Tópico 1
+- [x] Tópico 1
 - [ ] Tópico 2
 
 ## Etapa(s)

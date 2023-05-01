@@ -20,6 +20,7 @@ jobs:
       uses: actions/setup-dotnet@v3
       with:
         dotnet-version: 6.0.x
-    - name: Run Hello World
+    - name: Access Hello World
       run: cd C%23/Basico/HelloWorld
+    - name: Run .NET  
       run: dotnet run

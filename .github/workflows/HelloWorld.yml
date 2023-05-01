@@ -21,6 +21,6 @@ jobs:
       with:
         dotnet-version: 6.0.x
     - name: Access Hello World
-      run: cd C%23/Basico/HelloWorld
+      run: cd C#/Basico/HelloWorld
     - name: Run .NET  
       run: dotnet run

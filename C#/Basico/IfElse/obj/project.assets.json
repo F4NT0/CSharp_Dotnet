@@ -8,23 +8,23 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Gabriel_Stundner\\.nuget\\packages\\": {},
+    "C:\\Users\\fanto\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Gabriel_Stundner\\source\\repos\\GITHUB\\CSharp_Dotnet\\C#\\Basico\\IfElse\\IfElse.csproj",
+      "projectUniqueName": "C:\\Users\\fanto\\GIT\\CSharp_Dotnet\\C#\\Basico\\IfElse\\IfElse.csproj",
       "projectName": "IfElse",
-      "projectPath": "C:\\Users\\Gabriel_Stundner\\source\\repos\\GITHUB\\CSharp_Dotnet\\C#\\Basico\\IfElse\\IfElse.csproj",
-      "packagesPath": "C:\\Users\\Gabriel_Stundner\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Gabriel_Stundner\\source\\repos\\GITHUB\\CSharp_Dotnet\\C#\\Basico\\IfElse\\obj\\",
+      "projectPath": "C:\\Users\\fanto\\GIT\\CSharp_Dotnet\\C#\\Basico\\IfElse\\IfElse.csproj",
+      "packagesPath": "C:\\Users\\fanto\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\fanto\\GIT\\CSharp_Dotnet\\C#\\Basico\\IfElse\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Gabriel_Stundner\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\fanto\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

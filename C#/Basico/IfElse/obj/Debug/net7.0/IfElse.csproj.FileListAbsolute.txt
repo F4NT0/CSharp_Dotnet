@@ -1,0 +1,15 @@
+C:\Users\fanto\GIT\CSharp_Dotnet\C#\Basico\IfElse\bin\Debug\net7.0\IfElse.exe
+C:\Users\fanto\GIT\CSharp_Dotnet\C#\Basico\IfElse\bin\Debug\net7.0\IfElse.deps.json
+C:\Users\fanto\GIT\CSharp_Dotnet\C#\Basico\IfElse\bin\Debug\net7.0\IfElse.runtimeconfig.json
+C:\Users\fanto\GIT\CSharp_Dotnet\C#\Basico\IfElse\bin\Debug\net7.0\IfElse.dll
+C:\Users\fanto\GIT\CSharp_Dotnet\C#\Basico\IfElse\bin\Debug\net7.0\IfElse.pdb
+C:\Users\fanto\GIT\CSharp_Dotnet\C#\Basico\IfElse\obj\Debug\net7.0\IfElse.csproj.AssemblyReference.cache
+C:\Users\fanto\GIT\CSharp_Dotnet\C#\Basico\IfElse\obj\Debug\net7.0\IfElse.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fanto\GIT\CSharp_Dotnet\C#\Basico\IfElse\obj\Debug\net7.0\IfElse.AssemblyInfoInputs.cache
+C:\Users\fanto\GIT\CSharp_Dotnet\C#\Basico\IfElse\obj\Debug\net7.0\IfElse.AssemblyInfo.cs
+C:\Users\fanto\GIT\CSharp_Dotnet\C#\Basico\IfElse\obj\Debug\net7.0\IfElse.csproj.CoreCompileInputs.cache
+C:\Users\fanto\GIT\CSharp_Dotnet\C#\Basico\IfElse\obj\Debug\net7.0\IfElse.dll
+C:\Users\fanto\GIT\CSharp_Dotnet\C#\Basico\IfElse\obj\Debug\net7.0\refint\IfElse.dll
+C:\Users\fanto\GIT\CSharp_Dotnet\C#\Basico\IfElse\obj\Debug\net7.0\IfElse.pdb
+C:\Users\fanto\GIT\CSharp_Dotnet\C#\Basico\IfElse\obj\Debug\net7.0\IfElse.genruntimeconfig.cache
+C:\Users\fanto\GIT\CSharp_Dotnet\C#\Basico\IfElse\obj\Debug\net7.0\ref\IfElse.dll

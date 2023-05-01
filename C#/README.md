@@ -1,5 +1,3 @@
-# $$\boxed{\color{magenta}\mathbb{C\text{\#}}}$$
-
 <p align="center">
     <img src="imagens\R (3).png" width=200>
 </p>

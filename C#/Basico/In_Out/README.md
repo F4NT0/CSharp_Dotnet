@@ -91,7 +91,7 @@ Console.WriteLine("Valor = " + valor);
 // Saída: Valor = 5
 ```
 
-* Chamando dentro de uma string:
+* Chamando dentro de uma string, isso se chama **Interpolação**:
 
 ```csharp
 using System;

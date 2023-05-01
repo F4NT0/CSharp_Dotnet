@@ -20,7 +20,9 @@ jobs:
       uses: actions/setup-dotnet@v3
       with:
         dotnet-version: 6.0.x
-    - name: Access Hello World
-      run: cd C#/Basico/HelloWorld
-    - name: Run .NET  
-      run: dotnet run
+        
+    - name: Build application
+      run: dotnet build ./C#/Basico/HelloWorld/HelloWorld.csproj
+
+    - name: Run application
+      run: dotnet run --project ./C#/Basico/HelloWorld/HelloWorld.csproj

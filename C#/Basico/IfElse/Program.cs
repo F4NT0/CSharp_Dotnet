@@ -32,6 +32,23 @@ namespace IfElse
             }
 
             /*
+                COM OPERADORES LÓGICOS
+            */
+            string value = "Teste";
+
+            if (value != null && value.Equals("Teste"))
+            {
+                Console.WriteLine("Entrou no bloco AND");
+            }
+
+            bool valueBool = false;
+
+            if (valueBool == true || !valueBool)
+            {
+                Console.WriteLine("Entrou no bloco OR");
+            }
+
+            /*
                 IF TERNÁRIO
             */
             

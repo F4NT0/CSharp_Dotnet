@@ -9,6 +9,11 @@
 - [O que é IF-ELSE](#o-que-é-if-else)
 - [Operadores de Comparação](#operadores-de-comparação)
 - [Criando um IF](#criando-um-if)
+- [Verificação de valores nulos](#verificação-de-valores-nulos)
+- [Operadores lógicos](#operadores-lógicos)
+    - [Operador AND(&&)](#operador-and)
+    - [Operador OR(||)](#operador-or)
+    - [Operador NOT(!)](#operador-not)
 - [Criando um ELSE](#criando-um-else)
 - [Criando múltiplos blocos](#criando-multiplos-blocos)
 - [IF ternário](#if-ternário)
@@ -68,6 +73,19 @@ Simbolo|Nome|Exemplo teórico|Exemplo em código
 |$\sf \color{lightgreen}>=$|Maior ou igual a|6 é maior ou igual a 5|`6 >= 5`
 |$\sf \color{lightgreen}<=$|Menor ou igual a|5 é menor ou igual a 6|`5 <= 6`
 
+Exemplos:
+
+```csharp
+3 == 3 // True
+3 != 4 // True
+5 > 3 // True
+3 < 5 // True
+5 >= 5 // True
+5 >= 3 // True
+3 <= 3 // True
+3 <= 5 // True
+```
+
 ---
 
 ## Criando um IF
@@ -78,7 +96,8 @@ If é uma instrução na programação que ativa uma área do código quando a c
 int x = 5;
 int y = 5;
 
-if (x == y) {
+if (x == y) 
+{
     // bloco de código
 }
 ```
@@ -96,6 +115,85 @@ if (x == y)
     // Aqui não é acessado
 }
 ```
+
+---
+
+## Verificação de valores nulos
+
+Com os operadores de comparação podemos verificar se uma variável é nula ou não, isso é muito útil para evitar que valores nulos sigam em frente no código.
+
+Para isso usamos a comparação $\sf \color{magenta}!=$ comparando com o objeto $\sf \color{lightblue}null$:
+
+```csharp
+int value = 1;
+
+if (value != null) 
+{
+    Console.WriteLine("Valor não é nulo");
+}
+```
+
+---
+
+## Operadores Lógicos
+
+* Podemos fazer verificações lógicas no IF utilizando lógica matemática, utilizando operadores lógicos conhecidos como AND,OR,NOT:
+* Na linguagem C# o AND é utilizado o Símbolo $\sf \color{magenta}\&\&$
+* Na linguagem C# o OR é utilizado o Símbolo $\sf \color{magenta} \|\|$
+* Na linguagem C# o NOT é utilizando o Símbolo $\sf \color{magenta} !$
+
+Abaixo a tabela verdade com os retornos booleanos possíveis no IF
+
+### Operador AND (&&)
+
+| A     | B     | A && B |
+|-------|-------|--------|
+| true  | true  | true   |
+| true  | false | false  |
+| false | true  | false  |
+| false | false | false  |
+
+### Operador OR (||)
+
+| A     | B     | A \|\| B |
+|-------|-------|----------|
+| true  | true  | true     |
+| true  | false | true     |
+| false | true  | true     |
+| false | false | false    |
+
+### Operador NOT (!)
+
+| A     | !A    |
+|-------|-------|
+| true  | false |
+| false | true  |
+
+Exemplos de códigos:
+
+A) Verificando se o valor não é nulo e se é maior que 1:
+
+```csharp
+int value = 1;
+
+if (value == 1 && value >= 1) 
+{
+    Console.WriteLine("Entrou aqui!");
+}
+```
+
+B) Verificando se o valor é diferente de nulo ou se o valor é falso:
+
+```csharp
+bool value = false;
+
+if (value == true || !value)
+{
+    Console.WriteLine("Acessou Aqui!");
+}
+```
+
+---
 
 ## Criando um Else
 
@@ -141,6 +239,8 @@ else {
 //Saída: 5 é diferente de 6
 ```
 
+---
+
 ## IF ternário
 
 Quando temos uma condição simples de IF-ELSE não precisamos construir toda uma estrutura para isso, podemos utilizar uma única linha de código utilizando a seguinte sintaxe:
@@ -180,6 +280,8 @@ string mensagem = (x == y) ? "Entrou no IF" : "Entrou no ELSE";
 Console.WriteLine(mensagem);
 // Saída: Entrou no ELSE
 ```
+
+---
 
 ## Verificação de strings
 

@@ -116,15 +116,39 @@ namespace Matematica
             double minimo = Math.Min(dividendo, divisor);
 
             Console.WriteLine($"Máximo valor entre {dividendo} e {divisor}: {maximo}");
-            Console.WriteLine($"Mínimo valor entre {dividendo} e {divisor}: {minimo}");
+            Console.WriteLine($"Mínimo valor entre {dividendo} e {divisor}: {minimo} \n");
 
             int basePot = 2;
             int expoente = 3;
             int potencia = (int)Math.Pow(basePot, expoente);
             double potencia2 = Math.Pow(basePot, expoente);
-            Console.WriteLine($"Potência \n\n Base: {basePot} \n Expoente: {expoente} \n potência normal: {potencia2}, \n potência usando cast de Inteiro: {potencia}");
+            Console.WriteLine($"Base: {basePot}, Expoente: {expoente}");
+            Console.WriteLine($"Potencia normal: {potencia2}");
+            Console.WriteLine($"Potencia usando cast de int: {potencia} \n");
 
+            double square = Math.Sqrt(144);
+            Console.WriteLine("Valor original - Raiz Quadrada de 144 : " + square + "\n");
 
+            double baseLog = 10;
+            double argumento = 100;
+            double valor = Math.Log(100,10);
+            Console.WriteLine($"Log base {baseLog} argumento {argumento} = {valor} \n");
+
+            double exponencial = Math.Exp(2.0); // e^2
+            Console.WriteLine("Exponencial: " + exponencial);
+            Console.WriteLine("Arredondando Exponencial: " + exponencial.ToString("0.###") + "\n");
+
+            Random random = new Random();
+            int numeroRandom = random.Next(100);
+            Console.WriteLine("Valor inteiro aleatório: " + numeroRandom); // pode ser entre 0 á 99
+
+            Random random2 = new Random();
+            double randomDouble = random2.NextDouble();
+            Console.WriteLine("Valor de ponto flutuante aleatório: " + randomDouble); // pode ser entre 0 á 1
+
+            Random random3 = new Random();
+            bool randomBoolean = random3.Next(2) == 0;
+            Console.WriteLine("Booleano Aleatório: " + randomBoolean); // True ou False
         }
     }
 }

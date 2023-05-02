@@ -28,7 +28,7 @@ Soma|$\sf \color{lightgreen}+$|`x + y`
 Subtração|$\sf \color{yellow}-$|`x - y`
 Multiplicação|$\sf \color{lightblue}*$|`x * y`
 Divisão|$\sf \color{red}/$|`x / y`
-Resto da divisão|$\sf \color{magenta}\%$|`x % y`
+Resto da divisão|%|`x % y`
 
 * Exemplo de resto da divisão
 
@@ -169,15 +169,14 @@ int basePot = 2;
 int expoente = 3;
 int potencia = (int)Math.Pow(basePot, expoente);
 double potencia2 = Math.Pow(basePot, expoente);
-Console.WriteLine($"Potência \n\n Base: {basePot} \n Expoente: {expoente} \n potência normal: {potencia2}, \n potência usando cast de Inteiro: {potencia}");
+Console.WriteLine($" Base: {basePot}, Expoente: {expoente}");
+Console.WriteLine($" Potencia normal: {potencia2}");
+Console.WriteLine($" Potencia usando cast de int: {potencia}");
 /*
 Saída:
-Potência 
-
- Base: 2
- Expoente: 3
- potência normal: 8,
- potência usando cast de Inteiro: 8
+Base: 2, Expoente: 3
+potência normal: 8,
+potência usando cast de int: 8
 */
 ```
 

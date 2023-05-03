@@ -18,6 +18,7 @@
     - [Logaritmo](#logaritmo)
     - [Exponencial](#exponencial)
 - [Valores Randomicos](#valores-randomicos)
+- [Fórmulas avançadas](#fórmulas-avançadas)
 
 
 ---
@@ -315,6 +316,65 @@ Se quisermos pegar valores booleanos para verificar, podemos utilizar o método 
 Random random = new Random();
 bool randomBoolean = random.Next(2) == 0;
 Console.WriteLine(randomBoolean); // True ou False
+```
+
+---
+
+## Fórmulas avançadas
+
+Agora com todo esse conhecimento podemos implementar fórmulas avançadas de diversos tipos, como a fórmula de Bhaskara:
+
+$$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$
+
+Onde $a$, $b$ e $c$ são os coeficientes de uma equação quadrática na forma $ax^2 + bx + c = 0$ e $x$ são as soluções da equação. A fórmula de Bhaskara é usada para calcular as soluções da equação quadrática.
+
+Com essa fórmula matemática podemos resolver matemáticamente a seguinte equação quadrática:
+
+$$x^2 - 5x + 6 = 0$$
+
+**Passo 1:** Identifique os valores de $a$, $b$ e $c$ na equação.
+
+Neste caso, $a = 1$, $b = -5$ e $c = 6$.
+
+**Passo 2:** Substitua os valores de $a$, $b$ e $c$ na fórmula de Bhaskara.
+
+$$x = \frac{-(-5) \pm \sqrt{(-5)^2 - 4(1)(6)}}{2(1)}$$
+
+**Passo 3:** Simplifique a expressão.
+
+$$x = \frac{5 \pm \sqrt{25 - 24}}{2}$$
+
+$$x = \frac{5 \pm 1}{2}$$
+
+**Passo 4:** Resolva para as soluções.
+
+$$x_1 = \frac{5 + 1}{2} = 3$$
+
+$$x_2 = \frac{5 - 1}{2} = 2$$
+
+Portanto, as soluções da equação quadrática $x^2 - 5x + 6 = 0$ são $x_1 = 3$ e $x_2 = 2$.
+
+Agora podemos construir esse cálculo e essa fórmula em C# usando todo o conhecimento adquirido até o momento:
+
+```csharp
+double a = 1;
+double b = -5;
+double c = 6;
+
+double delta = Math.Pow(b, 2) - 4 * a * c;
+double x1 = (-b + Math.Sqrt(delta)) / (2 * a);
+double x2 = (-b - Math.Sqrt(delta)) / (2 * a);
+
+Console.WriteLine("As soluções da equação são:");
+Console.WriteLine("x1 = " + x1);
+Console.WriteLine("x2 = " + x2);
+
+/*
+    Saída:
+    As soluções da equação são:
+    x1 = 3
+    x2 = 2
+*/
 ```
 
 

@@ -148,7 +148,23 @@ namespace Matematica
 
             Random random3 = new Random();
             bool randomBoolean = random3.Next(2) == 0;
-            Console.WriteLine("Booleano Aleatório: " + randomBoolean); // True ou False
+            Console.WriteLine("Booleano Aleatório: " + randomBoolean + "\n"); // True ou False
+
+            /*
+                FÓRMUMA DE BHASKARA
+            */
+            
+            double a = 1;
+            double b = -5;
+            double c = 6;
+
+            double delta = Math.Pow(b, 2) - 4 * a * c;
+            double x1 = (-b + Math.Sqrt(delta)) / (2 * a);
+            double x2 = (-b - Math.Sqrt(delta)) / (2 * a);
+
+            Console.WriteLine("As soluções da equação são:");
+            Console.WriteLine("x1 = " + x1);
+            Console.WriteLine("x2 = " + x2);
         }
     }
 }

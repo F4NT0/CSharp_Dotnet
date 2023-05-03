@@ -1,7 +1,7 @@
 ---
 name: Conteúdos de C#
 about: Informação sobre a linguagem C#
-title: "[FEATURE]"
+title: "[C#]"
 labels: C#
 assignees: F4NT0
 

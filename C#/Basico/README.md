@@ -18,7 +18,7 @@
 ## Roadmap
 
 ```mermaid
-flowchart
+flowchart TD
     subgraph text [Roadmap do Básico]
         subgraph comp [Operadores de Comparação]
             IG[igual a]

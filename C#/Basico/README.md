@@ -18,60 +18,62 @@
 ## Roadmap
 
 ```mermaid
-flowchart 
-    subgraph comp [Operadores de Comparação]
-        IG[igual a]
-        DI[diferente de]
-        MA[maior que]
-        ME[menor que]
-        MAI[maior ou igual a]
-        MEI[menor ou igual a]
-    end
+flowchart
+    subgraph text [Roadmap do Básico]
+        subgraph comp [Operadores de Comparação]
+            IG[igual a]
+            DI[diferente de]
+            MA[maior que]
+            ME[menor que]
+            MAI[maior ou igual a]
+            MEI[menor ou igual a]
+        end
 
-    subgraph logic [Operadores Lógicos]
-        E[AND]
-        OU[OR]
-        NÃO[NOT]
-    end
+        subgraph logic [Operadores Lógicos]
+            E[AND]
+            OU[OR]
+            NÃO[NOT]
+        end
 
-    subgraph cont [Estruturas de Controle]
-        I[If/Else]
-        F[For]
-        F2[ForEach]
-        F3[While]
-        F4[Do-While]
-        Lamb[Lambda]
-        S[Switch]
-    end
+        subgraph cont [Estruturas de Controle]
+            I[If/Else]
+            F[For]
+            F2[ForEach]
+            F3[While]
+            F4[Do-While]
+            Lamb[Lambda]
+            S[Switch]
+        end
 
-    subgraph dsa [Estruturas de Dados]
-        L[Listas]
-        A[Arrays]
-        Stack[Filas]
-        Graph[Grafos]
-        Three[Árvores]
-        D[Dicionários]
-    end
+        subgraph dsa [Estruturas de Dados]
+            L[Listas]
+            A[Arrays]
+            Stack[Filas]
+            Graph[Grafos]
+            Three[Árvores]
+            D[Dicionários]
+        end
 
-    subgraph arit [Matemática]
-        Add[Adição]
-        Sub[Subtração]
-        M[Multiplicação]
-        Div[Divisão]
-        MD[Módulo]
-        rand[Random]
-        math[Classe Math]
-        cast[Cast]
-    end
+        subgraph arit [Matemática]
+            Add[Adição]
+            Sub[Subtração]
+            M[Multiplicação]
+            Div[Divisão]
+            MD[Módulo]
+            rand[Random]
+            math[Classe Math]
+            cast[Cast]
+        end
 
-    subgraph types [Tipos de Dados]
-        Str[Strings]
-        int[Inteiro]
-        bool[Booleano]
-        double[Ponto Fluante]
-        sbyte[sbyte]
+        subgraph types [Tipos de Dados]
+            Str[Strings]
+            int[Inteiro]
+            bool[Booleano]
+            double[Ponto Fluante]
+            sbyte[sbyte]
+        end
     end
-
+    
     types --> arit
     types --> logic
     arit --> cont
@@ -79,13 +81,14 @@ flowchart
     comp --> cont
     comp --> logic
     cont --> dsa
-
+    
     style types fill: #000,color:#fff
     style arit fill: #000,color:#fff
     style logic fill: #000,color:#fff
     style cont fill: #000,color:#fff
     style comp fill: #000,color:#fff
     style dsa fill: #000,color:#fff
+    style text fill: #000,stroke:#fff
     
 
     style F fill: #000,stroke:#f66,stroke-width:2px,color:#fff,stroke-dasharray: 5 5
@@ -128,4 +131,5 @@ flowchart
     style Stack fill: #000,stroke:lightgreen,stroke-width:2px,color:#fff,stroke-dasharray: 5 5
     style A fill: #000,stroke:lightgreen,stroke-width:2px,color:#fff,stroke-dasharray: 5 5
     style L fill: #000,stroke:lightgreen,stroke-width:2px,color:#fff,stroke-dasharray: 5 5
+    
 ```

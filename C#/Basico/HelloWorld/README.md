@@ -1,4 +1,8 @@
-# $${\boxed{\mathbb{Criando \space primeiro \space Hello \space World}}}$$
+# $${\boxed{\sf CRIANDO \space PRIMEIRO \space HELLO \space WORLD}}$$
+
+<p align="center">
+    <img src="../../imagens/R (3).png" width=200>
+</p>
 
 ---
 

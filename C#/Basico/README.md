@@ -1,7 +1,7 @@
-# $$\boxed{\mathbb{BÁSICO \space DE \space CSHARP}}$$
+# $$\boxed{\sf BÁSICO \space DE \space CSHARP}$$
 
 <p align="center">
-    <img src="../imagens\R (3).png" width=200>
+    <img src="../imagens/R (3).png" width=200>
 </p>
 
 ---

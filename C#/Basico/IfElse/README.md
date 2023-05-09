@@ -1,7 +1,7 @@
-# $$\boxed{\mathbb{\color{orange}IF-ELSE}}$$
+# $$\boxed{\sf IF-ELSE}$$
 
 <p align="center">
-    <img src="../../imagens\R (3).png" width=200>
+    <img src="../../imagens/R (3).png" width=200>
 </p>
 
 ---

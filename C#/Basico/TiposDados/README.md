@@ -1,8 +1,30 @@
-# $$\boxed{\mathbb{TIPOS \space DE \space DADOS}}$$
+# $$\boxed{\sf TIPOS \space DE \space DADOS}$$
 
 <p align="center">
     <img src="../../imagens\R (3).png" width=200>
 </p>
+
+---
+
+- [$$\\boxed{\\sf TIPOS \\space DE \\space DADOS}$$](#boxedsf-tipos-space-de-space-dados)
+	- [Tipos de dados](#tipos-de-dados)
+		- [Tipos de dados de referência e de valor](#tipos-de-dados-de-referência-e-de-valor)
+		- [Tipos de valor](#tipos-de-valor)
+		- [Tipos de referência](#tipos-de-referência)
+	- [Hierarquia de tipos de dados](#hierarquia-de-tipos-de-dados)
+	- [Backing Types](#backing-types)
+	- [Utilizando tipos de dados básicos do C#](#utilizando-tipos-de-dados-básicos-do-c)
+		- [Booleanos](#booleanos)
+		- [Inteiros](#inteiros)
+		- [Pontos Flutuantes](#pontos-flutuantes)
+		- [Caracteres](#caracteres)
+	- [Utilizando DateTime](#utilizando-datetime)
+	- [Convertendo o tipos de dados](#convertendo-o-tipos-de-dados)
+	- [Tipo implicito](#tipo-implicito)
+		- [Uso de var em C#](#uso-de-var-em-c)
+		- [Exemplos de uso de var](#exemplos-de-uso-de-var)
+	- [Strings](#strings)
+	- [Utilizando Parse](#utilizando-parse)
 
 ---
 

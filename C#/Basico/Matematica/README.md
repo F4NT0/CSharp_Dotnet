@@ -1,7 +1,7 @@
-# $$\boxed{\sf Matemática}$$
+# $$\boxed{\sf MATEMÁTICA}$$
 
 <p align="center">
-    <img src="../../imagens\R (3).png" width=200>
+    <img src="../../imagens/R (3).png" width=200>
 </p>
 
 ## $$\sf Glossário$$

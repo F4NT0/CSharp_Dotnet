@@ -15,7 +15,7 @@ namespace In_Out
             // Entrada de valor pré-definido
             string valorDefinido = "6";
             Console.SetIn(new StringReader(valorDefinido));
-            string entrada = Console.ReadLine();
+            //string entrada = Console.ReadLine();
 
             // Entrada de valor esperando o usuário
             // Console.Write("Insira um valor de 0 a 10: ");
@@ -28,7 +28,7 @@ namespace In_Out
             Console.WriteLine("Valor = " + valor);
             Console.WriteLine($"Valor = {valor}");
 
-            Console.WriteLine($"Valor de entrada: {entrada}");
+            //Console.WriteLine($"Valor de entrada: {entrada}");
 
             Console.WriteLine($"Divisão = {divisao}");
             Console.WriteLine($"Divisão = {divisao.ToString("0.##")}");

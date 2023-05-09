@@ -22,7 +22,7 @@ jobs:
         dotnet-version: 6.0.x
         
     - name: Build application
-      run: dotnet build ./C#/Basico/TipoDados/TipoDados.csproj
+      run: dotnet build ./C#/Basico/TiposDados/TiposDados.csproj
 
     - name: Run application
-      run: dotnet run --project ./C#/Basico/TipoDados/TipoDados.csproj
+      run: dotnet run --project ./C#/Basico/TiposDados/TiposDados.csproj

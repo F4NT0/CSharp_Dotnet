@@ -1,7 +1,7 @@
 # $$\boxed{\sf TIPOS \space DE \space DADOS}$$
 
 <p align="center">
-    <img src="../../imagens\R (3).png" width=200>
+    <img src="../../imagens/R (3).png" width=200>
 </p>
 
 ---

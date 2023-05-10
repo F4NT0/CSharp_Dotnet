@@ -16,3 +16,5 @@ Todo código novo que vai ser incluido deve estar bem documentado e seguindo o p
 - Explicação teórica do porque a estrutura foi utlizada.
 - Preste atenção se esse conteúdo já foi apresentado em outro diretório do projeto.
 - Cada parte do código deve seguir o melhor padrão definido na documentação oficial do C# ou .NET.
+
+

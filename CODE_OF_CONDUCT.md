@@ -21,3 +21,4 @@ Nenhum commit pode ser feito na branch Main sem a aprovação do criador, todo t
 ## Divulgação
 
 Nenhum conteúdo pode ser divulgado sem a participação direta do criador deste Repositório, onde deve ser explicado aonde esse conteúdo será utilizado na comunidade.
+

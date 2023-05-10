@@ -7,3 +7,5 @@
 ---
 
 Métodos são blocos de códigos que podem ser reutilizado quantas vezes quiser, utilizando todo o conhecimento adquirido nos tópicos anteriores.
+
+Teste

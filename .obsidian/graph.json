@@ -48,6 +48,13 @@
         "a": 1,
         "rgb": 15208721
       }
+    },
+    {
+      "query": "path:Obsidian  ",
+      "color": {
+        "a": 1,
+        "rgb": 15209452
+      }
     }
   ],
   "collapse-display": true,

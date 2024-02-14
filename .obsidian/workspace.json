@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "d7a2ca69946b126a",
+        "id": "f9a97dd6bd8d795a",
         "type": "tabs",
         "children": [
           {
-            "id": "800afcf2a68bc057",
+            "id": "b9ffcdb5cdd0ad98",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Página Principal.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b346d811721e378d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Obsidian/Utilizando Obsidian.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/Utilizando Obsidian.md",
+                "file": "README.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/Utilizando Obsidian.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/Utilizando Obsidian.md"
+                "file": "README.md"
               }
             }
           },
@@ -175,22 +162,25 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "dff1c6618bc1f866",
+  "active": "b9ffcdb5cdd0ad98",
   "lastOpenFiles": [
+    "Página Principal.md",
+    "README.md",
+    "[Obsidian.md",
+    "Dotnet/Página Inicial Dotnet.md",
+    "Obsidian/Utilizando Obsidian.md",
+    "Obsidian/Página inicial do Obsidian.md",
     "Obsidian/images/Obsidian_Git_CommitandPush.png",
     "Obsidian/images/Obsidian_Git_StagedChanges.png",
     "Obsidian/images/Obsidian_Git_Changes.png",
     "Obsidian/images/Obsidian_Git_OpenSourceControlView.png",
     "Obsidian/images/Obsidian_CommandPalletes.png",
     "ASP.NET/Básico de REST.md",
-    "Página Principal.md",
-    "Obsidian/Utilizando Obsidian.md",
     "Obsidian/images/Obsidian_Git_UserAndEmail.png",
     "Obsidian/images/Obsidian_Git_Configuration.png",
     "Obsidian/images/Obsidian_Git_Enable.png",
     "Obsidian/images/Obsidian_Git_Install.png",
     "Obsidian/images/Obsidian_Search_Plugins.png",
-    "Obsidian/images/Obsidian_Enable_Plugins.png",
     "Obsidian/images",
     "Obsidian",
     "ASP.NET/Página Inicial ASP_NET.md",
@@ -202,7 +192,6 @@
     "C%23",
     "VSCode/Página Inicial Visual Studio Code.md",
     "Visual_Studio/Página Inicial Visual Studio.md",
-    "Dotnet/Página Inicial Dotnet.md",
     "Dotnet/Instalacao.md",
     "C#/Página Inicial Csharp.md",
     "C#/Basico/Tipo de dados.md",

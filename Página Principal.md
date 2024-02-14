@@ -14,6 +14,7 @@
 | **ASP.NET** | [[Página Inicial ASP_NET]] | 14/02/2024 |
 | **Visual Studio** | [[Página Inicial Visual Studio]] | 14/02/2024 |
 | **Visual Studio Code** | [[Página Inicial Visual Studio Code]] | 14/02/2024 |
+| **Obsidian** | [[Página inicial do Obsidian]] | 14/02/2024 |
 
 ---
 ## Sites

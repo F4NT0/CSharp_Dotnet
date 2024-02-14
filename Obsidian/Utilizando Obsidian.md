@@ -1,4 +1,4 @@
-[[Página Principal]]
+[[Página inicial do Obsidian]]
 
 ---
 

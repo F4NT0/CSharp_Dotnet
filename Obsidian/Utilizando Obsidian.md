@@ -43,5 +43,9 @@ Para abrir e ver as modificações feitas, clique no botão de paleta de comando
 ![[Obsidian_CommandPalletes.png]]
 Depois escreva **Git: Open Source control view**
 ![[Obsidian_Git_OpenSourceControlView.png]]
-Irá abrir uma tela no canto direito mostrando todas as modificações feitas e devemos clicar no simbolo de **+** ao lado da palava **Changes** para preparar todas as modificações para ser enviado ao Git, chamado de **Staged Changes**
-![[Pasted image 20240214152103.png]]
+Irá abrir uma tela no canto direito mostrando todas as modificações feitas e devemos clicar no simbolo de **+** ao lado da palava **Changes** para preparar todas as modificações para ser enviado ao Git, chamado de **Staged Changes**.
+![[Obsidian_Git_Changes.png]]
+![[Obsidian_Git_StagedChanges.png]]
+Agora estamos prontos para fazer o commit, podemos colocar um texto de commit ou simplesmente utilizar a mensagem padrão.
+Devemos clicar no símbolo do check para criar um commit e depois no símbolo de push para enviar.
+![[Obsidian_Git_CommitandPush.png]]

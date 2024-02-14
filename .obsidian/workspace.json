@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "f9a97dd6bd8d795a",
+        "id": "fbd09257fa3b3f31",
         "type": "tabs",
         "children": [
           {
-            "id": "b9ffcdb5cdd0ad98",
+            "id": "8a479280e2bbe74d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Visual_Studio/Criando repositório no Visual Studio.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Visual_Studio/Criando repositório no Visual Studio.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Visual_Studio/Criando repositório no Visual Studio.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Visual_Studio/Criando repositório no Visual Studio.md"
               }
             }
           },
@@ -162,10 +162,19 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "b9ffcdb5cdd0ad98",
+  "active": "dff1c6618bc1f866",
   "lastOpenFiles": [
-    "Página Principal.md",
+    "Visual_Studio/images/VS_GIT_PUSH.png",
+    "Visual_Studio/images/VS_SEECommits.png",
+    "Visual_Studio/images/Github_NewRepo.png",
+    "Visual_Studio/images/VS_GitSelectAccount.png",
+    "Visual_Studio/images/VS_GitCreate_Background.png",
+    "Visual_Studio/images/VS_CreateGitRepository.png",
+    "Visual_Studio/images",
+    "Visual_Studio/images/VS_Add_to_Source_Control.png",
+    "Visual_Studio/Criando repositório no Visual Studio.md",
     "README.md",
+    "Página Principal.md",
     "[Obsidian.md",
     "Dotnet/Página Inicial Dotnet.md",
     "Obsidian/Utilizando Obsidian.md",
@@ -174,13 +183,7 @@
     "Obsidian/images/Obsidian_Git_StagedChanges.png",
     "Obsidian/images/Obsidian_Git_Changes.png",
     "Obsidian/images/Obsidian_Git_OpenSourceControlView.png",
-    "Obsidian/images/Obsidian_CommandPalletes.png",
     "ASP.NET/Básico de REST.md",
-    "Obsidian/images/Obsidian_Git_UserAndEmail.png",
-    "Obsidian/images/Obsidian_Git_Configuration.png",
-    "Obsidian/images/Obsidian_Git_Enable.png",
-    "Obsidian/images/Obsidian_Git_Install.png",
-    "Obsidian/images/Obsidian_Search_Plugins.png",
     "Obsidian/images",
     "Obsidian",
     "ASP.NET/Página Inicial ASP_NET.md",
@@ -201,8 +204,6 @@
     "C#/Basico/If-Else.md",
     "C#/Basico/Hello World.md",
     "C#/Basico/Básico de Csharp.md",
-    "C#/Orientacao-Objetos/README.md",
-    "C#/Algoritmos/README.md",
-    "CONTRIBUTING.md"
+    "C#/Orientacao-Objetos/README.md"
   ]
 }

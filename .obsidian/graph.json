@@ -1,0 +1,65 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:Dotnet  ",
+      "color": {
+        "a": 1,
+        "rgb": 7997421
+      }
+    },
+    {
+      "query": "path:C#  ",
+      "color": {
+        "a": 1,
+        "rgb": 14725458
+      }
+    },
+    {
+      "query": "path:Visual_Studio  ",
+      "color": {
+        "a": 1,
+        "rgb": 11933922
+      }
+    },
+    {
+      "query": "path:VSCode  ",
+      "color": {
+        "a": 1,
+        "rgb": 1217011
+      }
+    },
+    {
+      "query": "file:Principal",
+      "color": {
+        "a": 1,
+        "rgb": 5431473
+      }
+    },
+    {
+      "query": "path:ASP.NET  ",
+      "color": {
+        "a": 1,
+        "rgb": 15208721
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": true,
+  "centerStrength": 0.518713248970312,
+  "repelStrength": 10,
+  "linkStrength": 1,
+  "linkDistance": 250,
+  "scale": 1.0256653964664417,
+  "close": false
+}

@@ -1,0 +1,215 @@
+{
+  "main": {
+    "id": "70e9d3c70eddead5",
+    "type": "split",
+    "children": [
+      {
+        "id": "d7a2ca69946b126a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "800afcf2a68bc057",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Página Principal.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ceb7c042491cb403",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Obsidian/Utilizando Obsidian.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b346d811721e378d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ASP.NET/Básico de REST.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "98f1be79b000769f",
+    "type": "split",
+    "children": [
+      {
+        "id": "1cd16372753fe8cc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dff1c6618bc1f866",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "0aee3475557f2c12",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "9108b1720118f958",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "7905a2e06098f1bd",
+    "type": "split",
+    "children": [
+      {
+        "id": "fd079d7e82ef8a3c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2b8474acb454a4e0",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Obsidian/Utilizando Obsidian.md",
+                "collapseAll": true,
+                "extraContext": true,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a7e679a8b99b8d79",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Obsidian/Utilizando Obsidian.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "29063d37a6bd3e6d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "fc99bf9a35a39b6e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Obsidian/Utilizando Obsidian.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "canvas:Criar novo canvas": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "templates:Inserir modelo": false,
+      "command-palette:Abrir paleta de comandos": false
+    }
+  },
+  "active": "2b8474acb454a4e0",
+  "lastOpenFiles": [
+    "Pasted image 20240214150716.png",
+    "Pasted image 20240214150406.png",
+    "Pasted image 20240214150402.png",
+    "Pasted image 20240214150211.png",
+    "Obsidian/images/Obsidian_Search_Plugins.png",
+    "Obsidian/images/Obsidian_Enable_Plugins.png",
+    "Obsidian/images/Obsidian_Theme_Appearance.png",
+    "Obsidian/images",
+    "Obsidian/Utilizando Obsidian.md",
+    "Obsidian/images/Obsidian_Theme_Select.png",
+    "Obsidian/images/Obsidian_Theme_config.png",
+    "Página Principal.md",
+    "Obsidian",
+    "ASP.NET/Página Inicial ASP_NET.md",
+    "ASP.NET/Básico de REST.md",
+    "ASP.NET/Criando template ASPNET no Visual Studio.md",
+    "Pasted image 20240214143931.png",
+    "ASP.NET/images/Exemplo_Postman_Body.png",
+    "ASP.NET/images",
+    "Dotnet/Criar projeto pelo console.md",
+    "C.md",
+    "C%23/README.md",
+    "C%23",
+    "VSCode/Página Inicial Visual Studio Code.md",
+    "Visual_Studio/Página Inicial Visual Studio.md",
+    "Dotnet/Página Inicial Dotnet.md",
+    "Dotnet/Instalacao.md",
+    "C#/Página Inicial Csharp.md",
+    "C#/Basico/Tipo de dados.md",
+    "C#/Basico/Métodos.md",
+    "C#/Basico/Matemática.md",
+    "C#/Basico/In_Out.md",
+    "C#/Basico/If-Else.md",
+    "C#/Basico/Hello World.md",
+    "C#/Basico/Básico de Csharp.md",
+    "C#/Orientacao-Objetos/README.md",
+    "C#/Algoritmos/README.md",
+    "CONTRIBUTING.md"
+  ]
+}

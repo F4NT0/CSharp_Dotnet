@@ -1,3 +1,11 @@
+- [[Página inicial do Obsidian]]
+
+## Glossário
+
+```table-of-contents
+```
+
+
 #### Git no Obsidian
 ---
 Git é o principal plugin que dever ser instalado se você deseja salvar seu vault do obsidian no Github, com ele configurado podemos atualizar nossa documentação de forma muito mais fácil.

@@ -8,27 +8,30 @@
         "type": "tabs",
         "children": [
           {
-            "id": "382206082d865aae",
+            "id": "30527f3e13da5ce9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "VSCode/Página Inicial Visual Studio Code.md",
+                "file": "ASP.NET/Controller.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "30527f3e13da5ce9",
+            "id": "e9592a5b01f3198e",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Obsidian/Plugins do Obsidian.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,6 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "ASP.NET/Controller.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -110,6 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "ASP.NET/Controller.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +136,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "ASP.NET/Controller.md"
+              }
             }
           },
           {
@@ -169,12 +176,12 @@
   },
   "active": "30527f3e13da5ce9",
   "lastOpenFiles": [
+    "Obsidian/Plugins do Obsidian.md",
     "ASP.NET/Controller.md",
     "Obsidian/Vídeos de auxilio.md",
     "ASP.NET/images/ASPNET_launchsettings_config1.png",
     "ASP.NET/images/ASPNET_CREATE_CONTROLLER.png",
     "ASP.NET/Página Inicial ASP_NET.md",
-    "Obsidian/Plugins do Obsidian.md",
     "Obsidian/Utilizando Obsidian.md",
     "Obsidian/Página inicial do Obsidian.md",
     "VSCode/Página Inicial Visual Studio Code.md",

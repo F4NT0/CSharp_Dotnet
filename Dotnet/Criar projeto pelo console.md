@@ -1,5 +1,7 @@
-# COMO CRIAR PROJETO CONSOLE
+## Glossário
 
+```table-of-contents
+```
 ---
 
 Um projeto console é um projeto simples sem interface gráfica, para poder fazer programas que podem ser rodados pelo terminal do seu sistema operacional.
@@ -7,6 +9,8 @@ Um projeto console é um projeto simples sem interface gráfica, para poder faze
 Este é o tipo mais primitivo de programa que se pode fazer com .NET, e serve principalmente para programas simples na linguagem C#
 
 ---
+
+### Criando projeto pelo console
 
 Rode o seguinte comando dentro de um diretório
 
@@ -31,7 +35,7 @@ flowchart LR
 
 ---
 
-## Compilando o projeto
+### Compilando o projeto
 
 Dentro do diretório criado chamado `NomePrograma` com o projeto e o arquivo C# deve ser rodado o seguinte comando:
 

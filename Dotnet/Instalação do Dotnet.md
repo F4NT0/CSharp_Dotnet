@@ -10,10 +10,8 @@ Ele é necessário para compilar e executar aplicativos .NET em um ambiente de d
 
 ## Glossário
 
-
-- [Sites para Download e Documentação](#sites-para-download-e-documentação)
-- [Como instalar o .NET SDK](#como-instalar)
-- [Como testar a instalação](#como-testar-a-instalação)
+```table-of-contents
+```
 
 ---
 

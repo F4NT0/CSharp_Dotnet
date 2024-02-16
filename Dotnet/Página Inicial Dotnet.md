@@ -1,10 +1,16 @@
 [[Página Principal]]
 # .NET
 ---
-## Conteúdo
+## Páginas
 
-- [Instalação do .NET SDK](Instalação%20do%20Dotnet.md)
-- [Como criar um projeto console](Criar%20projeto%20pelo%20console.md)
+- [[Instalação do Dotnet]]
+- [[Criar projeto pelo console]]
+
+## Glossário
+
+```table-of-contents
+```
+
 ---
 
 .NET é uma **plataforma de desenvolvimento de  software** da Microsoft que permite a criação e execução de aplicativos e serviços para diferentes sistemas operacionais, incluindo Windows, MACOS e Linux.

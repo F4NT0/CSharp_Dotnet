@@ -1,4 +1,16 @@
 [[Página Principal]]
-# $$\boxed{\mathbb{\color{magenta}VISUAL \space STUDIO}}$$
 
+
+## Páginas
 ---
+- [[Criando repositório no Visual Studio]]
+
+## Glossário
+
+```table-of-contents
+```
+
+
+### O que é Visual Studio
+---
+

@@ -6,11 +6,11 @@
     "emojiStyle": "none",
     "iconColor": "#ffc800",
     "recentlyUsedIcons": [
+      "SiYoutube",
       "SiVisualstudiocode",
       "FiImage",
       "SiVisualstudio",
-      "SiMarkdown",
-      "TiApi"
+      "SiMarkdown"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -66,5 +66,8 @@
   "VSCode": "SiVisualstudiocode",
   "VSCode/Página Inicial Visual Studio Code.md": "SiMarkdown",
   "Página Principal.md": "SiMarkdown",
-  "README.md": "SiMarkdown"
+  "README.md": "SiMarkdown",
+  "ASP.NET/Controller.md": "SiMarkdown",
+  "Obsidian/Vídeos de auxilio.md": "SiYoutube",
+  "Obsidian/Plugins do Obsidian.md": "SiMarkdown"
 }

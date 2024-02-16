@@ -23,12 +23,8 @@
             "id": "30527f3e13da5ce9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Controller.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ],
@@ -98,7 +94,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Controller.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -115,7 +110,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Controller.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,9 +131,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Controller.md"
-              }
+              "state": {}
             }
           },
           {
@@ -163,7 +155,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 217.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -177,15 +169,21 @@
   },
   "active": "30527f3e13da5ce9",
   "lastOpenFiles": [
+    "ASP.NET/Controller.md",
+    "Obsidian/Vídeos de auxilio.md",
+    "ASP.NET/images/ASPNET_launchsettings_config1.png",
+    "ASP.NET/images/ASPNET_CREATE_CONTROLLER.png",
+    "ASP.NET/Página Inicial ASP_NET.md",
+    "Obsidian/Plugins do Obsidian.md",
+    "Obsidian/Utilizando Obsidian.md",
+    "Obsidian/Página inicial do Obsidian.md",
     "VSCode/Página Inicial Visual Studio Code.md",
-    "Controller.md",
     "Página Principal.md",
     "Visual_Studio/Página Inicial Visual Studio.md",
     "Visual_Studio/Criando repositório no Visual Studio.md",
     "Dotnet/Criar projeto pelo console.md",
     "Dotnet/Instalação do Dotnet.md",
     "Dotnet/Página Inicial Dotnet.md",
-    "Obsidian/Utilizando Obsidian.md",
     "C#/Página Inicial Csharp.md",
     "Obsidian/images/Obsidian_TableContent3.png",
     "Obsidian/images/Obsidian_TableContent2.png",
@@ -195,17 +193,13 @@
     "Obsidian/images/obsidian_iconize7.png",
     "Obsidian/images/obsidian_iconize6.png",
     "Obsidian/images/obsidian_iconize5.png",
-    "Obsidian/images/obsidian_iconize4.png",
-    "Obsidian/images/obsidian_iconize3.png",
     "README.md",
     "C.md",
-    "Obsidian/Página inicial do Obsidian.md",
     "Visual_Studio/images",
     "[Obsidian.md",
     "ASP.NET/Básico de REST.md",
     "Obsidian/images",
     "Obsidian",
-    "ASP.NET/Página Inicial ASP_NET.md",
     "ASP.NET/Criando template ASPNET no Visual Studio.md",
     "ASP.NET/images",
     "C%23/README.md",
@@ -214,9 +208,6 @@
     "C#/Basico/Métodos.md",
     "C#/Basico/Matemática.md",
     "C#/Basico/In_Out.md",
-    "C#/Basico/If-Else.md",
-    "C#/Basico/Hello World.md",
-    "C#/Basico/Básico de Csharp.md",
-    "C#/Orientacao-Objetos/README.md"
+    "C#/Basico/If-Else.md"
   ]
 }

@@ -1,9 +1,27 @@
+[[Página Inicial ASP_NET]]
+
 Vamos criar um Controller com as requisições para testarmos nossa API:
+
+## Inicio
+---
+Primeiro criamos um arquivo dentro do diretório **Controller** no projeto
+
+![[ASPNET_CREATE_CONTROLLER.png]]
+Depois abrimos o arquivo **launchSettings.json** e colocamos uma rota que iremos criar para ajustar do template criado
+
+![[ASPNET_launchsettings_config1.png]]
+
+## Template
+---
+Agora vamos criar e entender as partes do template de um Controller!
 
 ```csharp
 [ApiController]
 [Route("[controller]")]
-public class CalculatorController : ControllerBase
+public class CalculatorController : ControllerBase 
+{
+	// Insert code Here
+}
 ```
 
 Aqui, estamos definindo uma classe chamada `CalculatorController` que herda de `ControllerBase`. As anotações `ApiController` e `Route` são usadas para indicar que esta classe é um controlador de API e para definir a rota base para este controlador, respectivamente.

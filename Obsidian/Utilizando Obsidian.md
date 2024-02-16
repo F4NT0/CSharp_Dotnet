@@ -5,8 +5,14 @@
 Este projeto todo foi escrito em Markdown do App Obsidian, que é um super projeto para escrever documentação de projetos e leitura deles de forma simples e rápida.
 
 ---
+## Glossário
 
-## Alterando o tema do obsidian
+```table-of-contents
+
+```
+
+
+### Alterando o tema do obsidian
 
 1) Devemos acessar as configurações do obsidian no canto inferior esquerdo.
 ![[Obsidian_Theme_config.png]]
@@ -16,7 +22,7 @@ Este projeto todo foi escrito em Markdown do App Obsidian, que é um super proje
 3) Então é só escolher o tema que mais lhe agrada e instalar ele no seu projeto.
 ![[Obsidian_Theme_Select.png]]
 
-## Baixando programas no obsidian
+### Baixando programas no obsidian
 
 Obsidian por si só tem várias ferramentas, mas pode ser baixado softwares de terceiros para auxiliar no desenvolvimento de documentação, onde esses softwares foram desenvolvidos por programadores da comunidade Obsidian para ajudar outros desenvolvedores.
 
@@ -27,7 +33,9 @@ Depois de ativado clique em **Procurar**
 
 Os melhores plugins na minha opinião são:
 
-### Git no Obsidian
+---
+
+#### Git no Obsidian
 ---
 Git é o principal plugin que dever ser instalado se você deseja salvar seu vault do obsidian no Github, com ele configurado podemos atualizar nossa documentação de forma muito mais fácil.
 
@@ -49,3 +57,34 @@ Irá abrir uma tela no canto direito mostrando todas as modificações feitas e 
 Agora estamos prontos para fazer o commit, podemos colocar um texto de commit ou simplesmente utilizar a mensagem padrão.
 Devemos clicar no símbolo do check para criar um commit e depois no símbolo de push para enviar.
 ![[Obsidian_Git_CommitandPush.png]]
+
+---
+
+#### Iconize e Icons
+---
+Adiciona ícones no Obsidiana
+![[obsidian_iconize1.png]]
+Acesse as configs e busque por ícones
+![[obsidian_iconize3.png]]
+
+![[obsidian_iconize4.png]]
+![[obsidian_iconize5.png]]
+Para adicionar clique com o botão direito na pasta/arquivo e selecione **change Icon**
+![[obsidian_iconize6.png]]
+Busque o ícone que deseja e selecione ele
+![[obsidian_iconize7.png]]
+Pode mudar a cor do ícone nas configurações do app
+![[obsidian_iconize8.png]]
+
+---
+
+#### Table of contents
+---
+Table of content é um plugin de terceiros que serve para arrumar as informações de uma página em um glossário a partir dos títulos internos do arquivo
+![[Obsidian_TableContent1.png]]
+Para utilizar somente crie um bloco de texto com o nome **table-of-content**
+![[Obsidian_TableContent2.png]]
+Então ele automaticamente cria uma lista de informações internas do arquivo
+![[Obsidian_TableContent3.png]]
+
+---

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Visual_Studio/Criando repositório no Visual Studio.md",
+                "file": "Obsidian/Utilizando Obsidian.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Visual_Studio/Criando repositório no Visual Studio.md",
+                "file": "Obsidian/Utilizando Obsidian.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Visual_Studio/Criando repositório no Visual Studio.md",
+                "file": "Obsidian/Utilizando Obsidian.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Visual_Studio/Criando repositório no Visual Studio.md"
+                "file": "Obsidian/Utilizando Obsidian.md"
               }
             }
           },
@@ -164,25 +164,27 @@
   },
   "active": "dff1c6618bc1f866",
   "lastOpenFiles": [
-    "Visual_Studio/images/VS_GIT_PUSH.png",
-    "Visual_Studio/images/VS_SEECommits.png",
-    "Visual_Studio/images/Github_NewRepo.png",
-    "Visual_Studio/images/VS_GitSelectAccount.png",
-    "Visual_Studio/images/VS_GitCreate_Background.png",
-    "Visual_Studio/images/VS_CreateGitRepository.png",
-    "Visual_Studio/images",
-    "Visual_Studio/images/VS_Add_to_Source_Control.png",
-    "Visual_Studio/Criando repositório no Visual Studio.md",
-    "README.md",
+    "Obsidian/images/Obsidian_TableContent3.png",
+    "Obsidian/images/Obsidian_TableContent2.png",
+    "Obsidian/images/Obsidian_TableContent1.png",
+    "Obsidian/images/obsidian_iconize1.png",
+    "Obsidian/Utilizando Obsidian.md",
+    "Obsidian/images/obsidian_iconize8.png",
+    "Obsidian/images/obsidian_iconize7.png",
+    "Obsidian/images/obsidian_iconize6.png",
+    "Obsidian/images/obsidian_iconize5.png",
+    "Obsidian/images/obsidian_iconize4.png",
+    "Obsidian/images/obsidian_iconize3.png",
+    "Obsidian/images/obsidian_iconize2.png",
     "Página Principal.md",
+    "README.md",
+    "C.md",
+    "Obsidian/Página inicial do Obsidian.md",
+    "VSCode/Página Inicial Visual Studio Code.md",
+    "Visual_Studio/Criando repositório no Visual Studio.md",
+    "Visual_Studio/images",
     "[Obsidian.md",
     "Dotnet/Página Inicial Dotnet.md",
-    "Obsidian/Utilizando Obsidian.md",
-    "Obsidian/Página inicial do Obsidian.md",
-    "Obsidian/images/Obsidian_Git_CommitandPush.png",
-    "Obsidian/images/Obsidian_Git_StagedChanges.png",
-    "Obsidian/images/Obsidian_Git_Changes.png",
-    "Obsidian/images/Obsidian_Git_OpenSourceControlView.png",
     "ASP.NET/Básico de REST.md",
     "Obsidian/images",
     "Obsidian",
@@ -190,12 +192,10 @@
     "ASP.NET/Criando template ASPNET no Visual Studio.md",
     "ASP.NET/images",
     "Dotnet/Criar projeto pelo console.md",
-    "C.md",
     "C%23/README.md",
     "C%23",
-    "VSCode/Página Inicial Visual Studio Code.md",
     "Visual_Studio/Página Inicial Visual Studio.md",
-    "Dotnet/Instalacao.md",
+    "Dotnet/Instalação do Dotnet.md",
     "C#/Página Inicial Csharp.md",
     "C#/Basico/Tipo de dados.md",
     "C#/Basico/Métodos.md",

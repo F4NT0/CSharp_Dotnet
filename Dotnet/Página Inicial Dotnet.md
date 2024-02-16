@@ -3,7 +3,7 @@
 ---
 ## Conteúdo
 
-- [Instalação do .NET SDK](Instalacao.md)
+- [Instalação do .NET SDK](Instalação%20do%20Dotnet.md)
 - [Como criar um projeto console](Criar%20projeto%20pelo%20console.md)
 ---
 

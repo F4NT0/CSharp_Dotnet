@@ -33,7 +33,7 @@ Para criar uma interface é bem simples, clicamos com o botão direito no folder
 Em **Class...** selecionamos a opção **Interface** e colocamos o nome do nosso Model desejado começando com um I para dizer que é uma Interface e depois escrito Service para sabermos que é um Service da API, como no exemplo abaixo:
 
 | Nome do Model | Nome do Service |
-| --- | --- |
+| ---- | ---- |
 | Person | IPersonService |
 Isso é um padrão para qualquer Service no C#.
 
@@ -65,4 +65,108 @@ $\color{yellow}{\sf Read}$ = utilizamos a requisição HTTP $\color{cyan}{\sf GE
 $\color{yellow}{\sf Update}$ = utilizamos a requisição HTTP $\color{lightgreen}{\sf PUT}$ para editar um objeto no banco de dados, mas na nossa Interface usamos o método $\color{lightblue}{\sf Update(Object \space object)}$ para atualizarmos um objeto já existente no banco de dados.
 $\color{yellow}{\sf Delete}$ = utilizamos a requisição HTTP $\color{red}{\sf DELETE}$ para criar um objeto no banco de dados, mas na nossa Interface usamos o método $\color{lightblue}{\sf Create(Object object)}$ 
 
+Com esses métodos temos as seguinte estruturas nas interfaces
 
+```csharp
+public interface IPersonService
+{
+    Person Create(Person person); // Cria uma nova pessoa no banco de dados
+    Person FindbyID(long id); // Busca uma pessoa específica pelo seu ID
+    List<Person> FindAll(); // Busca todas as pessoas cadastradas
+    Person Update(Person person); // Atualiza uma pessoa definida no objeto
+    void Delete(long id); // Deleta uma pessoa específica pelo seu ID
+}
+```
+
+### Implementando os métodos da Interface
+---
+Agora que temos o nosso template do Service com sua interface, devemos implementar os métodos, por isso iremos criar um folder dentro do nosso folder **Services** chamado de **Implementations** onde iremos criar arquivos implementando os Services.
+
+![[ASPNET_CreateImplementation1.png]]
+![[ASPNET_CreateImplementation2.png]]
+Como estamos criando um Service do Objeto Person, o nome da nossa implementação deve começar com o nome do objeto, dizer que é de um Service e dizer que é uma implementação.
+
+| Nome do Model | Nome do Service | Nome do Implementation |
+| ---- | ---- | ---- |
+| Person | IPersonService | PersonServiceImplementation |
+Para isso iremos criar uma classe com esse nome da seguinte forma: iremos clicar com o botão direito encima do folder **Implementations** e depois no **Add...** e selecione a opção **Class...**
+![[ASPNET_CreateImplementation3.png]]
+Dai colocamos o nome da implementation escolhendo a opção **Class**
+
+![[ASPNET_CreateImplementation4.png]]
+Para utilizarmos a nossa interface, devemos chamar ela na nossa classe inicial, a classe inicial é esta abaixo:
+
+```csharp
+namespace RESTTemplate.Services.Implementations
+{
+    public class PersonServiceImplementation
+    {
+
+    }
+}
+```
+
+Para implementar devemos chamar a Interface como mostrado abaixo:
+
+```csharp
+namespace RESTTemplate.Services.Implementations
+{
+    public class PersonServiceImplementation : IPersonService
+    {
+
+    }
+}
+```
+
+Chamar a interface vai mostrar um erro no Visual Studio, porque não foram implementados os métodos construtores definidos na Interface dentro da classe, para isso o Visual Studio mostra como implementar essa funções mais rápido usando o `Quick Fix` como na imagem abaixo:
+
+![[ASPNET_ImplementInterface.png]]
+A estrutura inicial implementada utilizando o Visual Studio ficou assim
+
+```csharp
+using RESTTemplate.Model;
+
+namespace RESTTemplate.Services.Implementations
+{
+    public class PersonServiceImplementation : IPersonService
+    {
+        public Person Create(Person person)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Delete(long id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public List<Person> FindAll()
+        {
+            throw new NotImplementedException();
+        }
+
+        public Person FindbyID(long id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Person Update(Person person)
+        {
+            throw new NotImplementedException();
+        }
+    }
+}
+```
+
+Agora podemos implementar a lógica que quisermos nos métodos do objeto Person.
+Vamos implementar esses método após definirmos a conexão com o banco de dados.
+#### Criando o método Create
+---
+#### Criando o método Delete
+---
+#### Criando o método FindAll
+---
+#### Criando o método FindById
+---
+#### Criando o método Update
+---

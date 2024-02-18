@@ -13,19 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ASP.NET/Controller.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e9592a5b01f3198e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Obsidian/Plugins do Obsidian.md",
+                "file": "ASP.NET/Básico/Model.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ASP.NET/Controller.md",
+                "file": "ASP.NET/Básico/Model.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -114,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ASP.NET/Controller.md",
+                "file": "ASP.NET/Básico/Model.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ASP.NET/Controller.md"
+                "file": "ASP.NET/Básico/Model.md"
               }
             }
           },
@@ -176,15 +164,26 @@
   },
   "active": "dff1c6618bc1f866",
   "lastOpenFiles": [
-    "ASP.NET/images/ASPNET_logger.png",
+    "ASP.NET/images/ASPNET_ClassExample.png",
+    "ASP.NET/images/ASPNET_CreateClass2.png",
+    "ASP.NET/Básico/Model.md",
+    "ASP.NET/images/ASPNET_CreateClass3.png",
+    "ASP.NET/images/ASPNET_CreateClass1.png",
+    "ASP.NET/images/ASPNET_AddFolder3.png",
+    "ASP.NET/images/ASPNET_AddFolder2.png",
+    "ASP.NET/images/ASPNET_AddFolder1.png",
+    "ASP.NET/Página Inicial ASP_NET.md",
+    "ASP.NET/Básico/Criando template ASPNET no Visual Studio.md",
+    "ASP.NET/Básico",
+    "Sem título",
+    "ASP.NET/Básico/Controller.md",
+    "Obsidian/Página inicial do Obsidian.md",
     "Obsidian/Plugins do Obsidian.md",
-    "ASP.NET/Controller.md",
+    "ASP.NET/images/ASPNET_logger.png",
     "Obsidian/Vídeos de auxilio.md",
     "ASP.NET/images/ASPNET_launchsettings_config1.png",
     "ASP.NET/images/ASPNET_CREATE_CONTROLLER.png",
-    "ASP.NET/Página Inicial ASP_NET.md",
     "Obsidian/Utilizando Obsidian.md",
-    "Obsidian/Página inicial do Obsidian.md",
     "VSCode/Página Inicial Visual Studio Code.md",
     "Página Principal.md",
     "Visual_Studio/Página Inicial Visual Studio.md",
@@ -194,28 +193,19 @@
     "Dotnet/Página Inicial Dotnet.md",
     "C#/Página Inicial Csharp.md",
     "Obsidian/images/Obsidian_TableContent3.png",
-    "Obsidian/images/Obsidian_TableContent2.png",
-    "Obsidian/images/Obsidian_TableContent1.png",
-    "Obsidian/images/obsidian_iconize1.png",
-    "Obsidian/images/obsidian_iconize8.png",
-    "Obsidian/images/obsidian_iconize7.png",
-    "Obsidian/images/obsidian_iconize6.png",
-    "Obsidian/images/obsidian_iconize5.png",
     "README.md",
     "C.md",
     "Visual_Studio/images",
     "[Obsidian.md",
-    "ASP.NET/Básico de REST.md",
+    "ASP.NET/Básico/Básico de REST.md",
     "Obsidian/images",
     "Obsidian",
-    "ASP.NET/Criando template ASPNET no Visual Studio.md",
     "ASP.NET/images",
     "C%23/README.md",
     "C%23",
     "C#/Basico/Tipo de dados.md",
     "C#/Basico/Métodos.md",
     "C#/Basico/Matemática.md",
-    "C#/Basico/In_Out.md",
-    "C#/Basico/If-Else.md"
+    "C#/Basico/In_Out.md"
   ]
 }

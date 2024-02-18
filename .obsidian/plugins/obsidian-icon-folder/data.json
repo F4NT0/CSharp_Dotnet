@@ -6,11 +6,11 @@
     "emojiStyle": "none",
     "iconColor": "#ffc800",
     "recentlyUsedIcons": [
+      "SiMarkdown",
+      "FasFolder",
       "SiYoutube",
       "SiVisualstudiocode",
-      "FiImage",
-      "SiVisualstudio",
-      "SiMarkdown"
+      "FiImage"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -56,8 +56,6 @@
   "C#/Basico/TiposDados": "FasFolder",
   "ASP.NET": "TiApi",
   "ASP.NET/images": "LiImage",
-  "ASP.NET/Básico de REST.md": "SiMarkdown",
-  "ASP.NET/Criando template ASPNET no Visual Studio.md": "SiMarkdown",
   "ASP.NET/Página Inicial ASP_NET.md": "SiMarkdown",
   "Visual_Studio": "SiVisualstudio",
   "Visual_Studio/images": "FiImage",
@@ -67,7 +65,11 @@
   "VSCode/Página Inicial Visual Studio Code.md": "SiMarkdown",
   "Página Principal.md": "SiMarkdown",
   "README.md": "SiMarkdown",
-  "ASP.NET/Controller.md": "SiMarkdown",
   "Obsidian/Vídeos de auxilio.md": "SiYoutube",
-  "Obsidian/Plugins do Obsidian.md": "SiMarkdown"
+  "Obsidian/Plugins do Obsidian.md": "SiMarkdown",
+  "ASP.NET/Básico": "FasFolder",
+  "ASP.NET/Básico/Básico de REST.md": "SiMarkdown",
+  "ASP.NET/Básico/Controller.md": "SiMarkdown",
+  "ASP.NET/Básico/Criando template ASPNET no Visual Studio.md": "SiMarkdown",
+  "ASP.NET/Básico/Model.md": "SiMarkdown"
 }

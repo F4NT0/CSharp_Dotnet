@@ -71,5 +71,6 @@
   "ASP.NET/Básico/Básico de REST.md": "SiMarkdown",
   "ASP.NET/Básico/Controller.md": "SiMarkdown",
   "ASP.NET/Básico/Criando template ASPNET no Visual Studio.md": "SiMarkdown",
-  "ASP.NET/Básico/Model.md": "SiMarkdown"
+  "ASP.NET/Básico/Model.md": "SiMarkdown",
+  "ASP.NET/Básico/Services.md": "SiMarkdown"
 }

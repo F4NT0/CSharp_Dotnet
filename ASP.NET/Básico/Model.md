@@ -57,3 +57,19 @@ $\color{yellow}{\sf class}$ = class mostra que esse arquivo é uma classe que po
 ### Colocando objetos nessa classe
 ---
 podemos colocar objetos e atributos dentro de uma classe Model, onde colocamos do seguinte exemplo:
+
+```csharp
+namespace RESTTemplate.Model
+{
+    public class Person
+    {
+        public long Id { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public string Adress { get; set; }
+        public string Gender { get; set; }
+    }
+}
+```
+
+quando colocamos $\color{yellow}{\sf get; \space set;}$ estamos já definindo de forma limpa (clean code) os Getters e Setter do atributo, onde não precisamos criar métodos locais para cada atributo.

@@ -19,10 +19,10 @@ Para ver o código abra o projeto no **Visual Studio Code** para ver os exemplos
 | ---- | ---- |
 | **C#** | 14/02/2024 |
 | **.NET** | 14/02/2024 |
-| **ASP.NET** | 14/02/2024 |
+| **ASP.NET** | 19/02/2024 |
 | **Visual Studio** | 14/02/2024 |
 | **Visual Studio Code** | 14/02/2024 |
-| **Obsidian** | 14/02/2024 |
+| **Obsidian** | 19/02/2024 |
 
 ---
 ## Sites
@@ -60,3 +60,4 @@ Para ver o código abra o projeto no **Visual Studio Code** para ver os exemplos
 | Criptografia e Descriptografia | [C# SHA256_HTTPS F4NT0](https://github.com/F4NT0/SHA256_HTTPS) | Programa de criptografia e descriptografia de mensagens utilizando o SHA256. |
 | Exemplo de programa console no .NET | [C# Csharp_Console_App F4NT0](https://github.com/F4NT0/Csharp_Console_App) | Exemplo simples de como criar um projeto console básico para .NET pelo Visual Studio. |
 | Exemplo de programa console no .NET | [C# Csharp_ConsoleProgram F4NT0](https://github.com/F4NT0/Csharp_ConsoleProgram) | Exemplo mais avançado de como criar e utilizar projetos consoles para .NET pelo Visual Studio. |
+| Exemplo de uma API REST em ASP.NET com C# | [C# RESTTemplate F4NT0](https://github.com/F4NT0/RESTTemplate) | Exemplo completo de uma API REST utilizando ASP.NET e C# com .NET |

@@ -1,4 +1,7 @@
 [[Página Inicial ASP_NET]]
+
+```table-of-contents
+```
 # Entendendo REST
 
 ## Definição

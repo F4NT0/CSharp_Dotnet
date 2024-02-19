@@ -1,3 +1,5 @@
+[[Página Inicial ASP_NET]]
+
 Em uma API REST no C#, os “Services” são componentes que encapsulam a lógica de negócios e as operações que podem ser reutilizadas. Eles são responsáveis por realizar tarefas específicas e complexas, como interagir com um banco de dados ou processar dados.
 
 Os Services são usados para manter os [[Controller]] enxutos e o código organizado. Em vez de colocar toda a lógica de negócios em um [[Controller]], você pode criar um Service para lidar com essa lógica e, em seguida, injetar esse serviço no controlador. Isso torna o código mais fácil de manter e testar.
@@ -170,3 +172,7 @@ Vamos implementar esses método após definirmos a conexão com o banco de dados
 ---
 #### Criando o método Update
 ---
+
+## Ativando o nosso Service na API 
+---
+Agora que temos criado a nossa Service e seu Implementation, devemos chamar esse Service em nosso arquivo **Startup.cs**

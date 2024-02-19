@@ -2,7 +2,9 @@
 
 Como criar um Controller para definirmos nossas Requisições a API REST
 Entenda o [[Básico de REST]] neste artigo.
+Entenda como criar um template ASP.NET neste artigo: [[Criando template ASPNET no Visual Studio]]
 
+---
 ```table-of-contents
 ```
 ## Inicio
@@ -217,3 +219,12 @@ if (decimal.TryParse(strNumber, out decimalValue))
 }
 return 0;
 ```
+
+## Controller da classe Person
+---
+Antes de mexer aqui deve ser feito os seguintes tutoriais primeiros:
+
+1. [[Model]]
+2. [[Services]]
+3. [[Controller]]
+---

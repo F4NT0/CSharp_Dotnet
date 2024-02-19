@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "7ba223c12a146a11",
+        "id": "4d58504d869a3836",
         "type": "tabs",
         "children": [
           {
-            "id": "30527f3e13da5ce9",
+            "id": "189cccb14dece8d6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ASP.NET/Básico/Controller.md",
+                "file": "Página Principal.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ASP.NET/Básico/Controller.md",
+                "file": "Página Principal.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ASP.NET/Básico/Controller.md",
+                "file": "Página Principal.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ASP.NET/Básico/Controller.md"
+                "file": "Página Principal.md"
               }
             }
           },
@@ -162,25 +162,27 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "30527f3e13da5ce9",
+  "active": "189cccb14dece8d6",
   "lastOpenFiles": [
+    "README.md",
     "ASP.NET/Básico/Services.md",
+    "ASP.NET/Básico/Model.md",
+    "ASP.NET/Básico/Criando template ASPNET no Visual Studio.md",
+    "ASP.NET/Básico/Controller.md",
+    "ASP.NET/Básico/Básico de REST.md",
     "ASP.NET/images/ASPNET_ImplementInterface.png",
     "ASP.NET/images/ASPNET_CreateImplementation4.png",
     "ASP.NET/images/ASPNET_CreateImplementation3.png",
     "ASP.NET/images/ASPNET_CreateImplementation2.png",
     "ASP.NET/images/ASPNET_CreateImplementation1.png",
-    "ASP.NET/Básico/Model.md",
     "ASP.NET/images/ASPNET_CreateInterface2.png",
     "ASP.NET/images/ASPNET_CreateInterface1.png",
     "ASP.NET/images/ASPNET_CreateFolderServices.png",
     "ASP.NET/images/ASPNET_ClassExample.png",
     "ASP.NET/images/ASPNET_CreateClass2.png",
     "ASP.NET/Página Inicial ASP_NET.md",
-    "ASP.NET/Básico/Criando template ASPNET no Visual Studio.md",
     "ASP.NET/Básico",
     "Sem título",
-    "ASP.NET/Básico/Controller.md",
     "Obsidian/Página inicial do Obsidian.md",
     "Obsidian/Plugins do Obsidian.md",
     "Obsidian/Vídeos de auxilio.md",
@@ -193,11 +195,9 @@
     "Dotnet/Instalação do Dotnet.md",
     "Dotnet/Página Inicial Dotnet.md",
     "C#/Página Inicial Csharp.md",
-    "README.md",
     "C.md",
     "Visual_Studio/images",
     "[Obsidian.md",
-    "ASP.NET/Básico/Básico de REST.md",
     "Obsidian/images",
     "Obsidian",
     "ASP.NET/images",

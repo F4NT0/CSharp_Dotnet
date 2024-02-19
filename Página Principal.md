@@ -7,14 +7,14 @@
 
 ## Conteúdos
 
-| Nome | Página Inicial | Última atualização |
-| ---- | ---- | ---- |
-| **C#** | [[Página Inicial Csharp]] | 14/02/2024 |
-| **.NET** | [[Página Inicial Dotnet]] | 14/02/2024 |
-| **ASP.NET** | [[Página Inicial ASP_NET]] | 14/02/2024 |
-| **Visual Studio** | [[Página Inicial Visual Studio]] | 14/02/2024 |
-| **Visual Studio Code** | [[Página Inicial Visual Studio Code]] | 14/02/2024 |
-| **Obsidian** | [[Página inicial do Obsidian]] | 14/02/2024 |
+| Nome | Página Inicial |
+| ---- | ---- |
+| **C#** | [[Página Inicial Csharp]] |
+| **.NET** | [[Página Inicial Dotnet]] |
+| **ASP.NET** | [[Página Inicial ASP_NET]] |
+| **Visual Studio** | [[Página Inicial Visual Studio]] |
+| **Visual Studio Code** | [[Página Inicial Visual Studio Code]] |
+| **Obsidian** | [[Página inicial do Obsidian]] |
 
 ---
 ## Sites

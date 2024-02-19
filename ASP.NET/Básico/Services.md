@@ -175,4 +175,22 @@ Vamos implementar esses método após definirmos a conexão com o banco de dados
 
 ## Ativando o nosso Service na API 
 ---
-Agora que temos criado a nossa Service e seu Implementation, devemos chamar esse Service em nosso arquivo **Startup.cs**
+Agora que temos criado a nossa Service e seu Implementation, devemos chamar esse Service em nosso arquivo **Program.cs** (depois de .NET 8) ou **Startup.cs** (antes de .NET 8).
+Isso que iremos fazer se chama $\color{magenta}{\sf Injeção \space de \space dependências}$ no .NET.
+1) Abrimos o nosso arquivo **Program.cs**
+2) Vamos até o método **ConfigureServices**
+3)  Abaixo de _services.AddControllers();_ iremos adicionar as nossas Services
+4) Para isso iremos usar o método _AddScoped<>_ passando como atributos primeiro o nosso Service com sua Interface e depois a nossa Implementation, como mostra abaixo
+
+- Para versões anteriores do .NET 8 (no Startup.cs)
+```csharp
+services.AddScoped<IPersonService, PersonServiceImplementation>();
+```
+* Para versões depois do .NET 8 (no Program.cs)
+```csharp
+builder.Services.AddScoped<IPersonService, PersonServiceImplementation>();
+```
+
+5) Para adicionar as dependências podemos clicar em `Alt` + `Enter` para ele importar automaticamente o Service e o Implementation.
+
+Agora podemos voltar ao nosso [[Controller]] para configurarmos o Service nele.

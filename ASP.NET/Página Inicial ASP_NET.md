@@ -8,10 +8,14 @@ $\sf \color{magenta}ASP.NET$ é um framework de desenvolvimento web para criarmo
 ---
 ### Glossário
 
-- [[Criando template ASPNET no Visual Studio]]
-- [[Básico de REST]]
-- [[Controller]]
-- 
+- [[1 - Criando template ASPNET no Visual Studio]]
+- [[2 - Básico de REST]]
+- [[3 - Model]]
+- [[4 - Services]]
+- [[5 - Template de um Controller]]
+- [[6 - Controller]]
+- [[7 - Iniciando o projeto]]
+- [[8 - Postman]]
 ## $$\sf ROADMAP$$
 
 ```mermaid

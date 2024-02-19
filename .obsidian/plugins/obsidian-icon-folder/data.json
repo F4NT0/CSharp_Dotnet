@@ -6,11 +6,11 @@
     "emojiStyle": "none",
     "iconColor": "#ffc800",
     "recentlyUsedIcons": [
+      "SiPostman",
       "SiMarkdown",
       "FasFolder",
       "SiYoutube",
-      "SiVisualstudiocode",
-      "FiImage"
+      "SiVisualstudiocode"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -68,9 +68,12 @@
   "Obsidian/Vídeos de auxilio.md": "SiYoutube",
   "Obsidian/Plugins do Obsidian.md": "SiMarkdown",
   "ASP.NET/Básico": "FasFolder",
-  "ASP.NET/Básico/Básico de REST.md": "SiMarkdown",
-  "ASP.NET/Básico/Controller.md": "SiMarkdown",
-  "ASP.NET/Básico/Criando template ASPNET no Visual Studio.md": "SiMarkdown",
-  "ASP.NET/Básico/Model.md": "SiMarkdown",
-  "ASP.NET/Básico/Services.md": "SiMarkdown"
+  "ASP.NET/Básico/1 - Criando template ASPNET no Visual Studio.md": "SiMarkdown",
+  "ASP.NET/Básico/2 - Básico de REST.md": "SiMarkdown",
+  "ASP.NET/Básico/3 - Model.md": "SiMarkdown",
+  "ASP.NET/Básico/4 - Services.md": "SiMarkdown",
+  "ASP.NET/Básico/5 - Template de um Controller.md": "SiMarkdown",
+  "ASP.NET/Básico/6 - Controller.md": "SiMarkdown",
+  "ASP.NET/Básico/8 - Postman.md": "SiPostman",
+  "ASP.NET/Básico/7 - Iniciando o projeto.md": "SiMarkdown"
 }

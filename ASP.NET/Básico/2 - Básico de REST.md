@@ -93,15 +93,8 @@ Uma API REST utiliza os status HTTP como respostas recebidas de um servidor, ond
 - Utilizamos o verbo HTTP chamado $\color{red}{\sf DELETE}$ e ele remove um recurso identificado por um ID
 - Em uma deleção bem sucedida retorna-se o HTTP status $\color{green}{\sf 200 \space OK}$ junto com um corpo de resposta (**response**) com uma representação do item deletado.
 
-## Utilizando os verbos HTTP
 ---
-Agora que foi entendido o CRUD e seus verbos HTTPs podemos testar as requisições criadas em código no programa **Postman**.
 
-Quando abrimos uma requisição no Postman, ele nos pede qual tipo de verbo HTTP pertence a requisição.
-
-![[Postman_Verbo_options.png]]
-Se for uma requisição do tipo $\color{yellow}{\sf POST}$ devemos passar um **Body** com as informações que queremos enviar ao banco de dados.
-
-Para isso devemos acessar a aba do **Body**, colocar como tipo **raw** e o tipo de informação que deve ser enviada, no caso mais comum um **JSON**.
-
-![[Exemplo_Postman_Body.png]]
+## Próximo
+---
+[[3 - Model]]

@@ -36,3 +36,7 @@ Com o `F2` do teclado podemos renomear um arquivo que tivermos selecionado no Vi
 Pelo Visual Studio podemos colocar o nome de uma função e ele pode nos gerar o esqueleto da função.
 
 ![[6_CreateAPI_VS_GenerateMethod.png]]
+
+## Próximo
+---
+[[2 - Básico de REST]]

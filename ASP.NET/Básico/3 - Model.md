@@ -75,3 +75,8 @@ namespace RESTTemplate.Model
 ```
 
 quando colocamos $\color{yellow}{\sf get; \space set;}$ estamos já definindo de forma limpa (clean code) os Getters e Setter do atributo, onde não precisamos criar métodos locais para cada atributo.
+
+---
+## Próximo
+---
+[[4 - Services]]

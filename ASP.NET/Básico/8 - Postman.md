@@ -35,14 +35,37 @@ Agora que temos nosso Workspace pronto, vamos entender suas partes
 7. Área onde mostra e podemos ativar os Enviroments.
 ### Como criar uma Collection
 ---
+Para criarmos uma Collection clicamos no botão de `New...` no topo esquerdo e selecione a opção de `Collection`.
+Podemos escrever na Collection uma documentação explicando de como usar essa Collection
+![[CreatePostmanCollection.gif]]
 ### Como criar um Enviroment
 ---
+Enviroment serve para salvarmos variáveis para usarmos em todas as requisições, facilitando a necessidade de ter que repetir informações básicas ou tokens entre múltiplas requisições e também podemos exportar para algum diretório ou salvar.
+Podemos criar um Enviroment clicando em `New...` e depois `Enviroment` ou podemos clicar no símbolo de um olho no canto direito e selecionar `Add`
+#### Opção 1
+
+![[PostmanCreateEnviroment1.png]]
+#### Opção 2
+
+![[PostmanCreateEnviroment2.png]]
+
+Com isso agora podemos criar as variáveis que desejamos como mostra no vídeo abaixo:
+![[CreatePostmanEnviroment.gif]]
+Assim podemos acessar nossos Enviroments no canto esquerdo e o Enviroment somente vai estar ativo quando chamamos no canto direito.
+![[PostmanSelectEnviroment.png]]
 ### Criando Requisições
 ---
 Agora que temos tudo pronto, podemos criar as requisições da API que implementamos no Postman.
 Enquanto o projeto estiver rodando localmente no Computador, podemos testar requisições no Postman como irei mostrar em seguida para cada tipos.
 #### POST
 ---
+Post como sabemos foi definido por uma URL básica definido pelo Controller, por isso para utilizar o POST criamos uma requisição dentro de um Collection do tipo POST.
+Para isso clicamos nos três pontos do lado do nome da nossa Collection e selecionamos a opção
+`Add request`
+
+![[PostmanAddRequest.png]]
+
+
 #### GET ALL
 ---
 #### GET BY ID

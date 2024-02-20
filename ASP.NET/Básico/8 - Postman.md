@@ -59,15 +59,47 @@ Agora que temos tudo pronto, podemos criar as requisições da API que implement
 Enquanto o projeto estiver rodando localmente no Computador, podemos testar requisições no Postman como irei mostrar em seguida para cada tipos.
 #### POST
 ---
+###### Criando
 Post como sabemos foi definido por uma URL básica definido pelo Controller, por isso para utilizar o POST criamos uma requisição dentro de um Collection do tipo POST.
 Para isso clicamos nos três pontos do lado do nome da nossa Collection e selecionamos a opção
 `Add request`
 
 ![[PostmanAddRequest.png]]
+Isso vai abrir uma nova tela onde devemos dizer:
+1) nome da nossa requisição. 
+2) o tipo de requisição(GET, POST, PUT, DELETE entre outras).
+3) A URL para fazer essa requisição.
+![[PostmanCreateRequest1.png]]
+Devemos então colocar um nome que nos ajude a entender que tipo de requisição estamos querendo fazer, colocar com a opção POST e colocar a rota definida na nossa API, como o seguinte exemplo:
+![[Pasted image 20240220181926.png]]
+Agora temos que pegar as informações do nosso [[3 - Model]] e colocar em formato JSON na aba **Body** onde iremos definir os valores do nosso Objeto Person, para isso deve ser seguido os passos abaixo.
+1. Acesse a aba **Body**
+2. Selecione a opção de texto **raw**
+3. Quando selecionado **raw** vai mostrar no final da linha de opções escrito **JSON**
+4. Devemos construir o JSON com os dados como abaixo:
+```JSON
+{
+    "Id": 1,
+    "FirstName": "Gabriel",
+    "LastName": "Fanto",
+    "Address": "Porto Alegre",
+    "Gender": "Male"
+}
+```
 
+Agora em vídeo:
 
+![[CreatePersonPOST.gif]]
+
+###### Testando
+Agora que temos a requisição preparada, devemos rodar o projeto e testar nossa rota, onde no caso do POST ele vai pegar as informações do **Body** e enviar para o banco de dados e nos dar o resultado 200 OK junto com os dados salvos no banco no **Response**
+
+![[CreatePersonPOSTResponse.gif]]
+
+Com isso temos a response mostrando o que foi salvo no banco de dados e nos retornando o objeto que criamos, além do código 200.
 #### GET ALL
 ---
+
 #### GET BY ID
 ---
 #### PUT

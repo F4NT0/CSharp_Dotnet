@@ -6,11 +6,11 @@
     "emojiStyle": "none",
     "iconColor": "#ffc800",
     "recentlyUsedIcons": [
+      "FasDatabase",
       "SiPostman",
       "SiMarkdown",
       "FasFolder",
-      "SiYoutube",
-      "SiVisualstudiocode"
+      "SiYoutube"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -75,5 +75,6 @@
   "ASP.NET/Básico/5 - Template de um Controller.md": "SiMarkdown",
   "ASP.NET/Básico/6 - Controller.md": "SiMarkdown",
   "ASP.NET/Básico/8 - Postman.md": "SiPostman",
-  "ASP.NET/Básico/7 - Iniciando o projeto.md": "SiMarkdown"
+  "ASP.NET/Básico/7 - Iniciando o projeto.md": "SiMarkdown",
+  "ASP.NET/Básico/9 - Banco de dados.md": "FasDatabase"
 }

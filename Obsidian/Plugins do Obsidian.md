@@ -59,4 +59,14 @@ Então ele automaticamente cria uma lista de informações internas do arquivo
 ![[Obsidian_TableContent3.png]]
 
 ---
+#### Calendário
+---
+Podemos colocar um calendário no nosso Obsidian, onde podemos criar notas em dias específicos ou somente para podermos ver o calendário no canto direito, como irei mostrar.
 
+![[Pasted image 20240221110804.png]]
+Instalamos e iniciamos o nosso calendário, com isso ele vai mostrar a opção no canto direito.
+
+![[Pasted image 20240221110908.png]]
+Podemos abrir e arrumar como quisermos nosso calendário no Obsidian simplesmente segurando o ícone e arrastando onde quisermos.
+
+![[AddCalendarObsidian.gif]]

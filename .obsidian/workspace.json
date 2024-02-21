@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ASP.NET/Básico/8 - Postman.md",
+                "file": "Obsidian/Plugins do Obsidian.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 387.5
+    "width": 315.5
   },
   "right": {
     "id": "7905a2e06098f1bd",
@@ -78,7 +78,7 @@
       {
         "id": "fd079d7e82ef8a3c",
         "type": "tabs",
-        "dimension": 33.81782945736434,
+        "dimension": 47.93956043956044,
         "children": [
           {
             "id": "2b8474acb454a4e0",
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ASP.NET/Básico/8 - Postman.md",
+                "file": "Obsidian/Plugins do Obsidian.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ASP.NET/Básico/8 - Postman.md",
+                "file": "Obsidian/Plugins do Obsidian.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ASP.NET/Básico/8 - Postman.md"
+                "file": "Obsidian/Plugins do Obsidian.md"
               }
             }
           },
@@ -139,7 +139,7 @@
             }
           },
           {
-            "id": "7e87f1767ffb9174",
+            "id": "6a74bf8454df2389",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -150,9 +150,9 @@
         "currentTab": 5
       },
       {
-        "id": "b152faad634d9fda",
+        "id": "7f5f146e7b0342fe",
         "type": "tabs",
-        "dimension": 66.18217054263566,
+        "dimension": 52.06043956043956,
         "children": [
           {
             "id": "73d2edd0c9a91ccd",
@@ -166,7 +166,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 362.5
+    "width": 391.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -180,20 +180,21 @@
   },
   "active": "189cccb14dece8d6",
   "lastOpenFiles": [
+    "AddCalendarObsidian.gif",
+    "Pasted image 20240221110908.png",
+    "Pasted image 20240221110804.png",
+    "ASP.NET/Básico/9 - Banco de dados.md",
+    "ASP.NET/Básico/8 - Postman.md",
+    "ASP.NET/Básico/7 - Iniciando o projeto.md",
     "CreatePersonPOSTResponse.gif",
     "CreatePersonPOST.gif",
     "Pasted image 20240220181926.png",
     "Obsidian/Vídeos de auxilio.md",
-    "ASP.NET/Básico/8 - Postman.md",
     "ASP.NET/images/PostmanCreateRequest1.png",
     "ASP.NET/images/PostmanAddRequest.png",
     "ASP.NET/images/PostmanSelectEnviroment.png",
     "ASP.NET/images/CreatePostmanEnviroment.gif",
     "ASP.NET/images/PostmanCreateEnviroment2.png",
-    "ASP.NET/images/PostmanCreateEnviroment1.png",
-    "ASP.NET/images/CreatePostmanCollection.gif",
-    "ASP.NET/Básico/7 - Iniciando o projeto.md",
-    "ASP.NET/images/PostmanInfos.png",
     "ASP.NET/Básico/6 - Controller.md",
     "ASP.NET/Página Inicial ASP_NET.md",
     "ASP.NET/Básico/5 - Template de um Controller.md",
@@ -221,7 +222,6 @@
     "Obsidian/images",
     "Obsidian",
     "ASP.NET/images",
-    "C%23/README.md",
     "C%23"
   ]
 }

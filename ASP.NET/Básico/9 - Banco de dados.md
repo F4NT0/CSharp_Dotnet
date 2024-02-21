@@ -14,6 +14,12 @@
 ```
 
 ---
+### Baixando o SQL Server
+---
+Primeiro precisamos baixar o SQL Server em si no computador, onde podemos escolher a opção no site oficial: [Downloads do SQL Server | Microsoft](https://www.microsoft.com/pt-br/sql-server/sql-server-downloads)
+
+
+
 ### Utilizando SQL Server
 ---
 Microsoft SQL Server é o banco de dados relacional, que utiliza a linguagem [[SQL]] para interagir no banco de dados.

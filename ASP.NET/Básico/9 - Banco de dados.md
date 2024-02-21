@@ -16,4 +16,4 @@
 ---
 ### Utilizando SQL Server
 ---
-Microsoft SQL Server é o banco de dados relacional, que utiliza a linguagem [[SQL]] 
+Microsoft SQL Server é o banco de dados relacional, que utiliza a linguagem [[SQL]] para interagir no banco de dados.

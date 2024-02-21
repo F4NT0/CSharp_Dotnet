@@ -6,11 +6,11 @@
     "emojiStyle": "none",
     "iconColor": "#ffc800",
     "recentlyUsedIcons": [
+      "TiSql",
       "SiMicrosoftsqlserver",
       "FasDatabase",
       "SiPostman",
-      "SiMarkdown",
-      "FasFolder"
+      "SiMarkdown"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -78,5 +78,7 @@
   "ASP.NET/Básico/7 - Iniciando o projeto.md": "SiMarkdown",
   "ASP.NET/Básico/9 - Banco de dados.md": "FasDatabase",
   "SQL Server": "SiMicrosoftsqlserver",
-  "SQL Server/Básico": "FasFolder"
+  "SQL Server/Básico": "FasFolder",
+  "SQL Server/Página Inicial SQL Server.md": "SiMarkdown",
+  "SQL Server/Básico/SQL.md": "TiSql"
 }

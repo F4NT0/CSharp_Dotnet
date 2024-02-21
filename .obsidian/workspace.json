@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SQL Server/Básico/SQL.md",
+                "file": "ASP.NET/Básico/9 - Banco de dados.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SQL Server/Básico/SQL.md",
+                "file": "ASP.NET/Básico/9 - Banco de dados.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SQL Server/Básico/SQL.md",
+                "file": "ASP.NET/Básico/9 - Banco de dados.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SQL Server/Básico/SQL.md"
+                "file": "ASP.NET/Básico/9 - Banco de dados.md"
               }
             }
           },
@@ -181,6 +181,7 @@
   "active": "01512992e868d6c0",
   "lastOpenFiles": [
     "SQL Server/Básico/SQL.md",
+    "SQL Server/Página Inicial SQL Server.md",
     "ASP.NET/Básico/9 - Banco de dados.md",
     "SQL Server/Básico",
     "Sem título",
@@ -220,7 +221,6 @@
     "C#/Página Inicial Csharp.md",
     "C.md",
     "Visual_Studio/images",
-    "[Obsidian.md",
     "Obsidian/images",
     "Obsidian",
     "ASP.NET/images",

@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "d720ab949d3ca812",
+        "id": "86291b32ab997f0f",
         "type": "tabs",
         "children": [
           {
-            "id": "aea74175d5bc09ac",
+            "id": "01512992e868d6c0",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "SQL Server/Básico/SQL.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -82,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/images/ObsidianCalendarOpen.png",
+                "file": "SQL Server/Básico/SQL.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -99,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/images/ObsidianCalendarOpen.png",
+                "file": "SQL Server/Básico/SQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -122,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/images/ObsidianCalendarOpen.png"
+                "file": "SQL Server/Básico/SQL.md"
               }
             }
           },
@@ -167,22 +171,26 @@
   "left-ribbon": {
     "hiddenItems": {
       "switcher:Abrir a troca rápida": false,
-      "graph:Abrir visualização em gráfico": false,
       "canvas:Criar novo canvas": false,
       "daily-notes:Abrir a nota de hoje": false,
       "templates:Inserir modelo": false,
-      "command-palette:Abrir paleta de comandos": false
+      "command-palette:Abrir paleta de comandos": false,
+      "graph:Abrir visualização em gráfico": false
     }
   },
-  "active": "dff1c6618bc1f866",
+  "active": "01512992e868d6c0",
   "lastOpenFiles": [
+    "SQL Server/Básico/SQL.md",
+    "ASP.NET/Básico/9 - Banco de dados.md",
+    "SQL Server/Básico",
+    "Sem título",
+    "SQL Server",
+    "Obsidian/images/ObsidianCalendarOpen.png",
     "Obsidian/images/ObsidianCalendarInstall.png",
     "ASP.NET/images/CreatePersonPostman1.png",
     "Obsidian/Página inicial do Obsidian.md",
     "Obsidian/Plugins do Obsidian.md",
     "Obsidian/images/AddCalendarObsidian.gif",
-    "Obsidian/images/ObsidianCalendarOpen.png",
-    "ASP.NET/Básico/9 - Banco de dados.md",
     "ASP.NET/Básico/8 - Postman.md",
     "ASP.NET/Básico/7 - Iniciando o projeto.md",
     "ASP.NET/images/CreatePersonPOSTResponse.gif",
@@ -202,7 +210,6 @@
     "Página Principal.md",
     "README.md",
     "ASP.NET/Básico",
-    "Sem título",
     "Obsidian/Utilizando Obsidian.md",
     "VSCode/Página Inicial Visual Studio Code.md",
     "Visual_Studio/Página Inicial Visual Studio.md",

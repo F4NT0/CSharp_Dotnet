@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "4d58504d869a3836",
+        "id": "d720ab949d3ca812",
         "type": "tabs",
         "children": [
           {
-            "id": "189cccb14dece8d6",
+            "id": "aea74175d5bc09ac",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Obsidian/Plugins do Obsidian.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -86,7 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/Plugins do Obsidian.md",
+                "file": "Obsidian/images/ObsidianCalendarOpen.png",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +99,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/Plugins do Obsidian.md",
+                "file": "Obsidian/images/ObsidianCalendarOpen.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +122,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/Plugins do Obsidian.md"
+                "file": "Obsidian/images/ObsidianCalendarOpen.png"
               }
             }
           },
@@ -166,7 +162,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 391.5
+    "width": 245.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -178,23 +174,24 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "189cccb14dece8d6",
+  "active": "dff1c6618bc1f866",
   "lastOpenFiles": [
-    "AddCalendarObsidian.gif",
-    "Pasted image 20240221110908.png",
-    "Pasted image 20240221110804.png",
+    "Obsidian/images/ObsidianCalendarInstall.png",
+    "ASP.NET/images/CreatePersonPostman1.png",
+    "Obsidian/Página inicial do Obsidian.md",
+    "Obsidian/Plugins do Obsidian.md",
+    "Obsidian/images/AddCalendarObsidian.gif",
+    "Obsidian/images/ObsidianCalendarOpen.png",
     "ASP.NET/Básico/9 - Banco de dados.md",
     "ASP.NET/Básico/8 - Postman.md",
     "ASP.NET/Básico/7 - Iniciando o projeto.md",
-    "CreatePersonPOSTResponse.gif",
-    "CreatePersonPOST.gif",
-    "Pasted image 20240220181926.png",
+    "ASP.NET/images/CreatePersonPOSTResponse.gif",
+    "ASP.NET/images/CreatePersonPOST.gif",
     "Obsidian/Vídeos de auxilio.md",
     "ASP.NET/images/PostmanCreateRequest1.png",
     "ASP.NET/images/PostmanAddRequest.png",
     "ASP.NET/images/PostmanSelectEnviroment.png",
     "ASP.NET/images/CreatePostmanEnviroment.gif",
-    "ASP.NET/images/PostmanCreateEnviroment2.png",
     "ASP.NET/Básico/6 - Controller.md",
     "ASP.NET/Página Inicial ASP_NET.md",
     "ASP.NET/Básico/5 - Template de um Controller.md",
@@ -206,8 +203,6 @@
     "README.md",
     "ASP.NET/Básico",
     "Sem título",
-    "Obsidian/Página inicial do Obsidian.md",
-    "Obsidian/Plugins do Obsidian.md",
     "Obsidian/Utilizando Obsidian.md",
     "VSCode/Página Inicial Visual Studio Code.md",
     "Visual_Studio/Página Inicial Visual Studio.md",

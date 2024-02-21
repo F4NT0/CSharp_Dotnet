@@ -71,7 +71,7 @@ Isso vai abrir uma nova tela onde devemos dizer:
 3) A URL para fazer essa requisição.
 ![[PostmanCreateRequest1.png]]
 Devemos então colocar um nome que nos ajude a entender que tipo de requisição estamos querendo fazer, colocar com a opção POST e colocar a rota definida na nossa API, como o seguinte exemplo:
-![[Pasted image 20240220181926.png]]
+![[CreatePersonPostman1.png]]
 Agora temos que pegar as informações do nosso [[3 - Model]] e colocar em formato JSON na aba **Body** onde iremos definir os valores do nosso Objeto Person, para isso deve ser seguido os passos abaixo.
 1. Acesse a aba **Body**
 2. Selecione a opção de texto **raw**

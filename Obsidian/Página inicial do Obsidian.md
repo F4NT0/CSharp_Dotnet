@@ -5,4 +5,5 @@
 ## Glossário
 ---
 - [[Utilizando Obsidian]]
+- [[Plugins do Obsidian]]
 - [[Vídeos de auxilio]]

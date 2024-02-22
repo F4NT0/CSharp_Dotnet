@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "a4d8975fe8bc3854",
+        "id": "d0a59027c2dc415c",
         "type": "tabs",
         "children": [
           {
-            "id": "9c57df88bae67247",
+            "id": "5831269345801d7b",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -170,8 +170,10 @@
       "graph:Abrir visualização em gráfico": false
     }
   },
-  "active": "9c57df88bae67247",
+  "active": "5831269345801d7b",
   "lastOpenFiles": [
+    "Página Principal.md",
+    "README.md",
     "Banco de dados/SQLite/Básico/SQLite Database.md",
     "ASP.NET/Básico/9 - Banco de dados.md",
     "Banco de dados/SQL Linguagem/Database.md",
@@ -197,7 +199,6 @@
     "ASP.NET/Página Inicial ASP_NET.md",
     "Banco de dados/SQLite/images",
     "Banco de dados/SQLite/Básico",
-    "Página Principal.md",
     "Banco de dados/SQLite",
     "Banco de dados",
     "ASP.NET/Básico/2 - Básico de REST.md",
@@ -213,7 +214,6 @@
     "Obsidian/Página inicial do Obsidian.md",
     "Obsidian/Plugins do Obsidian.md",
     "Obsidian/Vídeos de auxilio.md",
-    "README.md",
     "ASP.NET/Básico",
     "Obsidian/Utilizando Obsidian.md",
     "Visual_Studio/images",

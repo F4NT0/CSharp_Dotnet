@@ -13,16 +13,21 @@ Para ver o código abra o projeto no **Visual Studio Code** para ver os exemplos
 
 ---
 
-## Atualização dos Conteúdos
+## Páginas principais
 
-| Nome | Última atualização |
+| Nome | Descrição |
 | ---- | ---- |
-| **C#** | 14/02/2024 |
-| **.NET** | 14/02/2024 |
-| **ASP.NET** | 19/02/2024 |
-| **Visual Studio** | 14/02/2024 |
-| **Visual Studio Code** | 14/02/2024 |
-| **Obsidian** | 19/02/2024 |
+| [[Página Inicial ASP_NET]] | Conteúdos sobre ASP.NET |
+| [[Página Inicial Csharp]] | Conteúdos sobre a linguagem C# |
+| [[Página Inicial Dotnet]] | Conteúdos sobre .NET |
+| [[Página Inicial do SQLite]] | Conteúdos sobre o banco de dados SQLite |
+| [[Página Inicial SQL Server]] | Conteúdos sobre o banco de dados SQL Server |
+| [[Página inicial do Obsidian]] | Conteúdos sobre como utilizar o Obsidian |
+| [[Página inicial SQL Linguagem]] | Conteúdos sobre a linguagem SQL |
+| [[Página Inicial Visual Studio]] | Conteúdos de como utilizar o Visual Studio |
+| [[Página Inicial Visual Studio Code]] | Conteúdos de como utilizar o Visual Studio Code |
+| [[Página Principal]] | Página principal onde o Obsidian é inciado. |
+
 
 ---
 ## Sites

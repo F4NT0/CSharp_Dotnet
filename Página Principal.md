@@ -16,7 +16,8 @@
 | **Visual Studio Code** | [[Página Inicial Visual Studio Code]] |
 | **Obsidian** | [[Página inicial do Obsidian]] |
 | **SQL Server** | [[Página Inicial SQL Server]] |
-| SQLLite |  |
+| **SQLite** | [[Página Inicial do SQLite]] |
+| **SQL** | [[Página inicial SQL Linguagem]] |
 
 ---
 ## Sites

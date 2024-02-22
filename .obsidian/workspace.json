@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Banco de dados/SQLite/Vídeos de estudo.md",
+                "file": "Banco de dados/SQLite/Página Inicial do SQLite.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Banco de dados/SQLite/Vídeos de estudo.md",
+                "file": "Banco de dados/SQLite/Página Inicial do SQLite.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Banco de dados/SQLite/Vídeos de estudo.md",
+                "file": "Banco de dados/SQLite/Página Inicial do SQLite.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Banco de dados/SQLite/Vídeos de estudo.md"
+                "file": "Banco de dados/SQLite/Página Inicial do SQLite.md"
               }
             }
           },
@@ -180,8 +180,8 @@
   },
   "active": "45feb7106677d007",
   "lastOpenFiles": [
-    "Banco de dados/SQLite/Página Inicial do SQLite.md",
     "Banco de dados/SQLite/Vídeos de estudo.md",
+    "Banco de dados/SQLite/Página Inicial do SQLite.md",
     "ASP.NET/Página Inicial ASP_NET.md",
     "Banco de dados/SQLite/images",
     "Banco de dados/SQLite/Básico",

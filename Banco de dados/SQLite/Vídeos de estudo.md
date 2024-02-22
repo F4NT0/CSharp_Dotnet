@@ -6,7 +6,6 @@
 ## Lista de cursos
 
 - [Minicurso de SQL com Banco Sqlite - YouTube](https://www.youtube.com/playlist?list=PLTYLKz3zyxKonrLifrisb02uIjIIVvGnZ)
-- 
 
 ## Básico
 

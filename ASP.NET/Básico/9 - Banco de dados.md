@@ -14,12 +14,9 @@
 ```
 
 ---
-### Baixando o SQL Server
+## Conectando a um banco de dados
 ---
-Primeiro precisamos baixar o SQL Server em si no computador, onde podemos escolher a opção no site oficial: [Downloads do SQL Server | Microsoft](https://www.microsoft.com/pt-br/sql-server/sql-server-downloads)
+Podemos usar vários tipos de banco de dados, mas nesse exemplo irei utilizar o SQLite por ser mais simples de configurar e mais simples de utilizar em projetos de POC (Proof of Concept).
+Criei uma explicação bem mais a fundo de como utilizar o SQLite e como usar ele em nosso projeto como explicado em [[SQLite Database]] onde criamos lá como exemplo o banco de dados **restemplate** para nosso objetivo de entender a conexão de forma simples.
 
 
-
-### Utilizando SQL Server
----
-Microsoft SQL Server é o banco de dados relacional, que utiliza a linguagem [[SQL]] para interagir no banco de dados.

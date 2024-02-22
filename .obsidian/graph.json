@@ -62,6 +62,20 @@
         "a": 1,
         "rgb": 844296
       }
+    },
+    {
+      "query": "path:\"Banco de dados/SQLite\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 65531
+      }
+    },
+    {
+      "query": "path:\"Banco de dados/SQL Linguagem\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
     }
   ],
   "collapse-display": true,
@@ -74,6 +88,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.7453046609091812,
+  "scale": 1.1940978759847547,
   "close": true
 }

@@ -6,11 +6,11 @@
     "emojiStyle": "none",
     "iconColor": "#ffc800",
     "recentlyUsedIcons": [
+      "TiDatabaseStar",
+      "TiSql",
       "FiImage",
       "FasFolder",
-      "SiMarkdown",
-      "SiYoutube",
-      "SiSqlite"
+      "SiMarkdown"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -80,12 +80,17 @@
   "Banco de dados/SQL Server": "SiMicrosoftsqlserver",
   "Banco de dados/SQL Server/Básico": "FasFolder",
   "Banco de dados/SQL Server/Página Inicial SQL Server.md": "SiMarkdown",
-  "Banco de dados/SQL Server/Básico/SQL.md": "TiSql",
   "Banco de dados": "FasDatabase",
   "Banco de dados/SQLite": "SiSqlite",
   "Banco de dados/SQLite/Vídeos de estudo.md": "SiYoutube",
   "Banco de dados/SQLite/Página Inicial do SQLite.md": "SiMarkdown",
   "Banco de dados/SQLite/Básico": "FasFolder",
   "Banco de dados/SQLite/images": "FiImage",
-  "Banco de dados/SQLite/Básico/Instalando SQLite e SQLite Studio.md": "SiMarkdown"
+  "Banco de dados/SQLite/Básico/Instalando SQLite e SQLite Studio.md": "SiMarkdown",
+  "Banco de dados/SQLite/Básico/SQLite Database.md": "SiMarkdown",
+  "Banco de dados/SQLite/Básico/Comandos SQLite console.md": "SiMarkdown",
+  "Banco de dados/SQL Linguagem": "TiSql",
+  "Banco de dados/SQL Linguagem/Database.md": "TiDatabaseStar",
+  "Banco de dados/SQL Linguagem/Página inicial SQL Linguagem.md": "SiMarkdown",
+  "Banco de dados/SQLite/Básico/SQLite Tables.md": "SiMarkdown"
 }

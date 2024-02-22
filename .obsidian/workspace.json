@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Banco de dados/SQLite/Página Inicial do SQLite.md",
+                "file": "Banco de dados/SQLite/Básico/Instalando SQLite e SQLite Studio.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Banco de dados/SQLite/Página Inicial do SQLite.md",
+                "file": "Banco de dados/SQLite/Básico/Instalando SQLite e SQLite Studio.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Banco de dados/SQLite/Página Inicial do SQLite.md",
+                "file": "Banco de dados/SQLite/Básico/Instalando SQLite e SQLite Studio.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Banco de dados/SQLite/Página Inicial do SQLite.md"
+                "file": "Banco de dados/SQLite/Básico/Instalando SQLite e SQLite Studio.md"
               }
             }
           },
@@ -180,8 +180,12 @@
   },
   "active": "45feb7106677d007",
   "lastOpenFiles": [
-    "Banco de dados/SQLite/Vídeos de estudo.md",
     "Banco de dados/SQLite/Página Inicial do SQLite.md",
+    "Banco de dados/SQLite/Básico/Instalando SQLite e SQLite Studio.md",
+    "Pasted image 20240222143135.png",
+    "Pasted image 20240222141514.png",
+    "Banco de dados/SQLite/images/SQLiteVersionWindows.png",
+    "Banco de dados/SQLite/Vídeos de estudo.md",
     "ASP.NET/Página Inicial ASP_NET.md",
     "Banco de dados/SQLite/images",
     "Banco de dados/SQLite/Básico",
@@ -211,9 +215,6 @@
     "ASP.NET/images/CreatePersonPOST.gif",
     "Obsidian/Vídeos de auxilio.md",
     "ASP.NET/images/PostmanCreateRequest1.png",
-    "ASP.NET/images/PostmanAddRequest.png",
-    "ASP.NET/images/PostmanSelectEnviroment.png",
-    "ASP.NET/images/CreatePostmanEnviroment.gif",
     "README.md",
     "ASP.NET/Básico",
     "Obsidian/Utilizando Obsidian.md",

@@ -16,6 +16,7 @@ $\sf \color{magenta}ASP.NET$ é um framework de desenvolvimento web para criarmo
 - [[6 - Controller]]
 - [[7 - Iniciando o projeto]]
 - [[8 - Postman]]
+- [[9 - Banco de dados]]
 ## $$\sf ROADMAP$$
 
 ```mermaid

@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "86291b32ab997f0f",
+        "id": "278c910d87eff4d2",
         "type": "tabs",
         "children": [
           {
-            "id": "01512992e868d6c0",
+            "id": "45feb7106677d007",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "ASP.NET/Página Inicial ASP_NET.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -82,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "ASP.NET/Página Inicial ASP_NET.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -98,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "ASP.NET/Página Inicial ASP_NET.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "ASP.NET/Página Inicial ASP_NET.md"
+              }
             }
           },
           {
@@ -170,23 +178,35 @@
       "graph:Abrir visualização em gráfico": false
     }
   },
-  "active": "01512992e868d6c0",
+  "active": "45feb7106677d007",
   "lastOpenFiles": [
-    "ASP.NET/Básico/1 - Criando template ASPNET no Visual Studio.md",
+    "Banco de dados/SQLite/Vídeos de estudo.md",
+    "Banco de dados/SQLite/Página Inicial do SQLite.md",
+    "Banco de dados/SQLite/images",
+    "Banco de dados/SQLite/Básico",
+    "Página Principal.md",
+    "Banco de dados/SQLite",
+    "Banco de dados/SQL Server/Página Inicial SQL Server.md",
+    "Banco de dados/SQL Server/Básico/SQL.md",
     "ASP.NET/Básico/9 - Banco de dados.md",
-    "SQL Server/Básico/SQL.md",
-    "SQL Server/Página Inicial SQL Server.md",
-    "SQL Server/Básico",
-    "Sem título",
-    "SQL Server",
+    "Banco de dados",
+    "ASP.NET/Básico/2 - Básico de REST.md",
+    "ASP.NET/Básico/3 - Model.md",
+    "ASP.NET/Básico/4 - Services.md",
+    "ASP.NET/Básico/5 - Template de um Controller.md",
+    "ASP.NET/Básico/6 - Controller.md",
+    "ASP.NET/Básico/7 - Iniciando o projeto.md",
+    "ASP.NET/Básico/8 - Postman.md",
+    "ASP.NET/Página Inicial ASP_NET.md",
+    "ASP.NET/Básico/1 - Criando template ASPNET no Visual Studio.md",
+    "Banco de dados/SQL Server/Básico",
+    "Banco de dados/SQL Server",
     "Obsidian/images/ObsidianCalendarOpen.png",
     "Obsidian/images/ObsidianCalendarInstall.png",
     "ASP.NET/images/CreatePersonPostman1.png",
     "Obsidian/Página inicial do Obsidian.md",
     "Obsidian/Plugins do Obsidian.md",
     "Obsidian/images/AddCalendarObsidian.gif",
-    "ASP.NET/Básico/8 - Postman.md",
-    "ASP.NET/Básico/7 - Iniciando o projeto.md",
     "ASP.NET/images/CreatePersonPOSTResponse.gif",
     "ASP.NET/images/CreatePersonPOST.gif",
     "Obsidian/Vídeos de auxilio.md",
@@ -194,13 +214,6 @@
     "ASP.NET/images/PostmanAddRequest.png",
     "ASP.NET/images/PostmanSelectEnviroment.png",
     "ASP.NET/images/CreatePostmanEnviroment.gif",
-    "ASP.NET/Básico/6 - Controller.md",
-    "ASP.NET/Página Inicial ASP_NET.md",
-    "ASP.NET/Básico/5 - Template de um Controller.md",
-    "ASP.NET/Básico/4 - Services.md",
-    "ASP.NET/Básico/3 - Model.md",
-    "ASP.NET/Básico/2 - Básico de REST.md",
-    "Página Principal.md",
     "README.md",
     "ASP.NET/Básico",
     "Obsidian/Utilizando Obsidian.md",
@@ -209,13 +222,8 @@
     "Visual_Studio/Criando repositório no Visual Studio.md",
     "Dotnet/Criar projeto pelo console.md",
     "Dotnet/Instalação do Dotnet.md",
-    "Dotnet/Página Inicial Dotnet.md",
-    "C#/Página Inicial Csharp.md",
-    "C.md",
     "Visual_Studio/images",
     "Obsidian/images",
-    "Obsidian",
-    "ASP.NET/images",
-    "C%23"
+    "Obsidian"
   ]
 }

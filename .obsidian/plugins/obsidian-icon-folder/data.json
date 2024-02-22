@@ -6,11 +6,11 @@
     "emojiStyle": "none",
     "iconColor": "#ffc800",
     "recentlyUsedIcons": [
-      "TiSql",
-      "SiMicrosoftsqlserver",
-      "FasDatabase",
-      "SiPostman",
-      "SiMarkdown"
+      "FiImage",
+      "FasFolder",
+      "SiMarkdown",
+      "SiYoutube",
+      "SiSqlite"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -76,9 +76,15 @@
   "ASP.NET/Básico/6 - Controller.md": "SiMarkdown",
   "ASP.NET/Básico/8 - Postman.md": "SiPostman",
   "ASP.NET/Básico/7 - Iniciando o projeto.md": "SiMarkdown",
-  "ASP.NET/Básico/9 - Banco de dados.md": "FasDatabase",
-  "SQL Server": "SiMicrosoftsqlserver",
-  "SQL Server/Básico": "FasFolder",
-  "SQL Server/Página Inicial SQL Server.md": "SiMarkdown",
-  "SQL Server/Básico/SQL.md": "TiSql"
+  "ASP.NET/Básico/9 - Banco de dados.md": "SiMarkdown",
+  "Banco de dados/SQL Server": "SiMicrosoftsqlserver",
+  "Banco de dados/SQL Server/Básico": "FasFolder",
+  "Banco de dados/SQL Server/Página Inicial SQL Server.md": "SiMarkdown",
+  "Banco de dados/SQL Server/Básico/SQL.md": "TiSql",
+  "Banco de dados": "FasDatabase",
+  "Banco de dados/SQLite": "SiSqlite",
+  "Banco de dados/SQLite/Vídeos de estudo.md": "SiYoutube",
+  "Banco de dados/SQLite/Página Inicial do SQLite.md": "SiMarkdown",
+  "Banco de dados/SQLite/Básico": "FasFolder",
+  "Banco de dados/SQLite/images": "FiImage"
 }

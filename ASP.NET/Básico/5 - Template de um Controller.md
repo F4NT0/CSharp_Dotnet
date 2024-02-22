@@ -5,7 +5,7 @@
 
 Agora vamos criar e entender as partes do template de um Controller!
 
-### Classe
+## Classe
 
 ```csharp
 [ApiController]
@@ -63,7 +63,7 @@ Em relação ao código limpo, é melhor usar o **HttpGet**, ou **HttpPost** ou 
 ```
 ****
 
-### Construtor
+## Construtor
 
 ```csharp
 private readonly ILogger<CalculatorController> _logger;
@@ -108,11 +108,11 @@ O resultado então é que sempre que chamar a requisição de soma, vai mostrar 
 
 ---
 
-### Métodos
+## Métodos
 
 Construímos dois tipos de métodos, os $\color{orange}{\sf Método \space de \space requisição}$ e $\color{orange}{\sf Métodos \space auxiliares}$.
 
-#### Métodos de requisição
+### Métodos de requisição
 
 ###### HttpGet
 
@@ -147,7 +147,7 @@ Caso algum dos valores não seja válido, podemos colocar um status 400 (Bad Req
 return BadRequest("Error! Invalid Input");
 ```
 
-#### Métodos auxiliares
+### Métodos auxiliares
 
 Métodos auxiliares são métodos que ajudam a fazer alguma validação antes de criar um método, dessa forma podemos separar as lógicas necessárias
 

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ASP.NET/Página Inicial ASP_NET.md",
+                "file": "Banco de dados/SQLite/Vídeos de estudo.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ASP.NET/Página Inicial ASP_NET.md",
+                "file": "Banco de dados/SQLite/Vídeos de estudo.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ASP.NET/Página Inicial ASP_NET.md",
+                "file": "Banco de dados/SQLite/Vídeos de estudo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ASP.NET/Página Inicial ASP_NET.md"
+                "file": "Banco de dados/SQLite/Vídeos de estudo.md"
               }
             }
           },
@@ -180,8 +180,9 @@
   },
   "active": "45feb7106677d007",
   "lastOpenFiles": [
-    "Banco de dados/SQLite/Vídeos de estudo.md",
     "Banco de dados/SQLite/Página Inicial do SQLite.md",
+    "ASP.NET/Página Inicial ASP_NET.md",
+    "Banco de dados/SQLite/Vídeos de estudo.md",
     "Banco de dados/SQLite/images",
     "Banco de dados/SQLite/Básico",
     "Página Principal.md",
@@ -197,7 +198,6 @@
     "ASP.NET/Básico/6 - Controller.md",
     "ASP.NET/Básico/7 - Iniciando o projeto.md",
     "ASP.NET/Básico/8 - Postman.md",
-    "ASP.NET/Página Inicial ASP_NET.md",
     "ASP.NET/Básico/1 - Criando template ASPNET no Visual Studio.md",
     "Banco de dados/SQL Server/Básico",
     "Banco de dados/SQL Server",

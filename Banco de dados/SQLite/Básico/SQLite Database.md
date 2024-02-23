@@ -41,8 +41,8 @@ Podemos ver se criou mesmo na pasta **C:/sqlite/db** onde deve existir no nosso 
 ![[SQLiteDatabaseCreation3.png]]
 Aqui temos um Gif mostrando a criação do diretório __db__ para a criação do banco de dados
 ![[SQLiteDBFolder.gif]]
-Depois somente devemos rodar o comando de criação 
-
+Depois somente devemos rodar o comando de criação que ele vai criar um database vazio, onde no vídeo iremos criar pelo Powershell
+![[SQLiteConsoleDBCreation.gif]]
 ### Acessando no SQLite Studio
 ---
 Com o nosso banco de dados criado, podemos acessar ele pelo GUI do SQLite Studio da seguinte forma:
@@ -56,6 +56,8 @@ Com o nosso banco de dados criado, podemos acessar ele pelo GUI do SQLite Studio
 
 ![[SQLiteStudioAddDatabase3.png]]
 Pronto! com isso podemos interagir com o nosso banco de dados desejado.
+Um Gif mostrando o acesso!
+![[SQLiteAddDatabaseGUI.gif]]
 
 ## Próximo assunto
 ---

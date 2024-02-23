@@ -72,3 +72,19 @@ ORDER BY id
 LIMIT 24;
 ```
 Esse comando vai criar um arquivo chamado `persons.txt` e vai salvar nele o resultado da query que passamos embaixo, onde é esperado os primeiros nomes das pessoas organizados pelo ID e limitado a somente 24 registros.
+
+### Copiando nosso banco de dados
+---
+Podemos copiar (criar um dump) com todos os dados que criamos no nosso banco de dados, para isso o SQLite possui um comando chamado __.dump__ que cria uma cópia do banco de dados em um arquivo que dissermos.
+1. Primeiro criamos um arquivo de output que desejamos.
+2. Depois rodamos o comando .dump que vai salvar todo o database no arquivo criado.
+```sql
+sqlite> .output restemplatebkup.sql
+sqlite> .dump
+```
+Com isso ele vai criar um arquivo com nosso banco de dados, onde podemos colocar esse arquivo onde quisermos.
+Podemos fazer um backup também de uma única tabela, dai temos que passar somente o nome da tabela depois do comando __.dump__ que ele vai fazer dump somente dela.
+```sql
+sqlite> .output personbkup.sql
+sqlite> .dump persons
+```

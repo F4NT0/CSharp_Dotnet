@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Banco de dados/SQLite/Básico/SQLite Database.md",
+                "file": "Banco de dados/SQLite/Básico/SQLite Tables.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Banco de dados/SQLite/Básico/SQLite Database.md",
+                "file": "Banco de dados/SQLite/Básico/SQLite Tables.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Banco de dados/SQLite/Básico/SQLite Database.md",
+                "file": "Banco de dados/SQLite/Básico/SQLite Tables.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Banco de dados/SQLite/Básico/SQLite Database.md"
+                "file": "Banco de dados/SQLite/Básico/SQLite Tables.md"
               }
             }
           },
@@ -180,11 +180,12 @@
   },
   "active": "e6f8b71aea4a6a83",
   "lastOpenFiles": [
-    "Banco de dados/SQLite/images/SQLiteConsoleDBCreation.gif",
     "Banco de dados/SQLite/Básico/Comandos SQLite console.md",
-    "SQLitePowershell.png",
-    "SQLiteConsolePrompt.png",
+    "Banco de dados/SQLite/Básico/SQLite Tables.md",
     "Banco de dados/SQLite/Básico/SQLite Database.md",
+    "Banco de dados/SQLite/images/SQLiteConsoleDBCreation.gif",
+    "Banco de dados/SQLite/images/SQLitePowershell.png",
+    "Banco de dados/SQLite/images/SQLiteConsolePrompt.png",
     "Banco de dados/SQLite/Básico/Instalando SQLite e SQLite Studio.md",
     "Página Principal.md",
     "README.md",
@@ -192,7 +193,6 @@
     "Banco de dados/SQL Linguagem/Database.md",
     "Banco de dados/SQLite/Página Inicial do SQLite.md",
     "Banco de dados/SQLite/Vídeos de estudo.md",
-    "Banco de dados/SQLite/Básico/SQLite Tables.md",
     "Banco de dados/SQLite/images/SQLiteStudioAddDatabase3.png",
     "Banco de dados/SQLite/images/SQLiteStudioAddDatabase2.png",
     "Banco de dados/SQLite/images/SQLiteDBFolder.gif",
@@ -200,7 +200,6 @@
     "Banco de dados/SQLite/images/SQLiteDatabaseCreation3.png",
     "Banco de dados/SQLite/images/SQLiteDatabaseCreation2.png",
     "Banco de dados/SQLite/images/SQLiteDatabaseCreation2.png",
-    "Banco de dados/SQLite/images/SQLiteDatabaseCreation1.png",
     "Banco de dados/SQL Linguagem/Página inicial SQL Linguagem.md",
     "Banco de dados/SQL Server/Página Inicial SQL Server.md",
     "Banco de dados/SQL Linguagem",

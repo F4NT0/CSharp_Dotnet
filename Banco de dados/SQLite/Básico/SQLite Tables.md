@@ -50,4 +50,52 @@ Agora irei explicar o que cada parte da tabela significa.
 
 ### Tipos de dados
 ---
-Podemos usar os seguinte tipos de dados para dizer que informação é esperada para cada coluna 
+Podemos usar os seguinte tipos de dados para dizer que informação é esperada para cada coluna
+
+| Nome    | Descrição                  | Exemplo     |
+| ------- | -------------------------- | ----------- |
+| INTEGER | tipo inteiro até 8 bytes   | age INTEGER |
+| REAL    | tipo flutuante até 8 bytes | salary REAL |
+| TEXT    | tipo texto                 | name TEXT   |
+| BLOB    | tipo de dado de entrada    | image BLOB  |
+| NULL    | tipo de valor nulo         |             |
+### Exemplo de tabela
+---
+agora que entendemos o sintaxe, vamos criar a tabela do nosso objeto Person que estamos criando no [[9 - Banco de dados]] na nossa API REST.
+
+No exemplo da API temos os seguintes dados:
+```csharp
+namespace RESTTemplate.Model
+{
+    public class Person
+    {
+        public long Id { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public string Address { get; set; }
+        public string Gender { get; set; }
+    }
+}
+```
+Nesse código em C# temos os dados do modelo do objeto Person definido em [[3 - Model]] na API REST de exemplo.
+Dessa forma podemos transformar esses dados para uma tabela com os seguintes tipos:
+
+| em C#  | em SQL  |
+| ------ | ------- |
+| long   | INTEGER |
+| string | TEXT    |
+Sabemos também que o Id deve ser único e que todo o objeto Person é organizado e selecionado por ele, então ele será nossa __PRIMARY KEY__.
+Sabemos que `FirstName`e `LastName` são dados obrigatórios, por isso devemos dizer que eles são __NOT NULL__ na nossa tabela.
+
+Com esses dados nossa tabela em SQL fica da seguinte forma:
+```sql
+CREATE TABLE IF NOT EXISTS persons (
+	person_id INTEGER PRIMARY KEY,
+	first_name TEXT NOT NULL,
+	last_name TEXT NOT NULL,
+	address TEXT,
+	gender TEXT
+);
+```
+
+Todos os nomes das colunas não podem ter nomes maiúsculos e as informações são separadas com underline `_` 

@@ -86,11 +86,12 @@
   "Banco de dados/SQLite/Página Inicial do SQLite.md": "SiMarkdown",
   "Banco de dados/SQLite/Básico": "FasFolder",
   "Banco de dados/SQLite/images": "FiImage",
-  "Banco de dados/SQLite/Básico/Instalando SQLite e SQLite Studio.md": "SiMarkdown",
-  "Banco de dados/SQLite/Básico/SQLite Database.md": "SiMarkdown",
-  "Banco de dados/SQLite/Básico/Comandos SQLite console.md": "SiMarkdown",
   "Banco de dados/SQL Linguagem": "TiSql",
   "Banco de dados/SQL Linguagem/Database.md": "TiDatabaseStar",
   "Banco de dados/SQL Linguagem/Página inicial SQL Linguagem.md": "SiMarkdown",
-  "Banco de dados/SQLite/Básico/SQLite Tables.md": "SiMarkdown"
+  "Banco de dados/SQLite/Básico/1- Instalando SQLite e SQLite Studio.md": "SiMarkdown",
+  "Banco de dados/SQLite/Básico/2 - Comandos SQLite console.md": "SiMarkdown",
+  "Banco de dados/SQLite/Básico/3 - SQLite Database.md": "SiMarkdown",
+  "Banco de dados/SQLite/Básico/4 - SQLite Tables.md": "SiMarkdown",
+  "Banco de dados/SQLite/Básico/5 - SQLite Buscas.md": "SiMarkdown"
 }

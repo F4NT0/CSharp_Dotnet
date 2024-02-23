@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Banco de dados/SQLite/Básico/SQLite Tables.md",
+                "file": "Banco de dados/SQLite/Básico/4 - SQLite Tables.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Banco de dados/SQLite/Básico/SQLite Tables.md",
+                "file": "Banco de dados/SQLite/Básico/4 - SQLite Tables.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Banco de dados/SQLite/Básico/SQLite Tables.md",
+                "file": "Banco de dados/SQLite/Básico/4 - SQLite Tables.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Banco de dados/SQLite/Básico/SQLite Tables.md"
+                "file": "Banco de dados/SQLite/Básico/4 - SQLite Tables.md"
               }
             }
           },
@@ -180,14 +180,15 @@
   },
   "active": "e6f8b71aea4a6a83",
   "lastOpenFiles": [
+    "Banco de dados/SQLite/Básico/5 - SQLite Buscas.md",
+    "Banco de dados/SQLite/Básico/4 - SQLite Tables.md",
+    "Banco de dados/SQLite/Básico/3 - SQLite Database.md",
     "ASP.NET/Básico/3 - Model.md",
-    "Banco de dados/SQLite/Básico/SQLite Tables.md",
-    "Banco de dados/SQLite/Básico/Comandos SQLite console.md",
-    "Banco de dados/SQLite/Básico/SQLite Database.md",
+    "Banco de dados/SQLite/Básico/2 - Comandos SQLite console.md",
     "Banco de dados/SQLite/images/SQLiteConsoleDBCreation.gif",
     "Banco de dados/SQLite/images/SQLitePowershell.png",
     "Banco de dados/SQLite/images/SQLiteConsolePrompt.png",
-    "Banco de dados/SQLite/Básico/Instalando SQLite e SQLite Studio.md",
+    "Banco de dados/SQLite/Básico/1- Instalando SQLite e SQLite Studio.md",
     "Página Principal.md",
     "README.md",
     "ASP.NET/Básico/9 - Banco de dados.md",

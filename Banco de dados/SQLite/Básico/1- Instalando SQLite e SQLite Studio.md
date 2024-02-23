@@ -51,4 +51,4 @@ Não precisa instalar o programa, nesse caso você extrai todos os arquivos que 
 
 ## Criando um database e conectando nele
 ---
-Agora que temos o nosso SQLite configurado, devemos criar um [[SQLite Database]] e se conectar com ele para podermos criar nossas tabelas
+Agora que temos o nosso SQLite configurado, devemos criar um [[3 - SQLite Database]] e se conectar com ele para podermos criar nossas tabelas

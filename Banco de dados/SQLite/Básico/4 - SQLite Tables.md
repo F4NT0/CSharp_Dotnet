@@ -2,8 +2,8 @@
 
 ## Conteúdos anteriores
 ---
-- [[Instalando SQLite e SQLite Studio]]
-- [[SQLite Database]]
+- [[1- Instalando SQLite e SQLite Studio]]
+- [[3 - SQLite Database]]
 ---
 ```table-of-contents
 ```
@@ -99,3 +99,7 @@ CREATE TABLE IF NOT EXISTS persons (
 ```
 
 Todos os nomes das colunas não podem ter nomes maiúsculos e as informações são separadas com underline `_` 
+
+### Criando a tabela pelo SQLite Studio
+---
+Para criarmos uma tabela no SQLite Studio primeiro

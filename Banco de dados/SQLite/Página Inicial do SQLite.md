@@ -14,9 +14,9 @@ Espero que isso ajude! Se você tiver mais perguntas, fique à vontade para perg
 ## Páginas sobre SQLite
 ---
 - [[Vídeos de estudo]]
-- [[Instalando SQLite e SQLite Studio]]
-- [[Comandos SQLite console]]
-- [[SQLite Database]]
+- [[1- Instalando SQLite e SQLite Studio]]
+- [[2 - Comandos SQLite console]]
+- [[3 - SQLite Database]]
 
 ## Links importantes
 ---

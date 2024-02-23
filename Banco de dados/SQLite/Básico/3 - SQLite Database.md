@@ -5,7 +5,7 @@
 
 ## Criando um database SQLite
 ---
-Agora que temos tudo instalado como mostrado no tutorial de instalação [[Instalando SQLite e SQLite Studio]] devemos criar um database para colocarmos nossas tabelas.
+Agora que temos tudo instalado como mostrado no tutorial de instalação [[1- Instalando SQLite e SQLite Studio]] devemos criar um database para colocarmos nossas tabelas.
 
 Para isso devemos criar uma pasta em nosso diretório **C://sqlite** chamado **db** onde iremos colocar nossos databases. Esse é o caminho onde colocaremos e interagiremos com nosso banco de dados SQLite:
 
@@ -61,4 +61,4 @@ Um Gif mostrando o acesso!
 
 ## Próximo assunto
 ---
-[[SQLite Tables]] - Como criar tabelas no database criado
+[[4 - SQLite Tables]] - Como criar tabelas no database criado

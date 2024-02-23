@@ -102,4 +102,15 @@ Todos os nomes das colunas não podem ter nomes maiúsculos e as informações s
 
 ### Criando a tabela pelo SQLite Studio
 ---
-Para criarmos uma tabela no SQLite Studio primeiro
+Para criarmos uma tabela no SQLite Studio primeiro precisamos abrir um editor, para escrevermos nossa query, para isso podemos usar o comando do teclado __Alt + E__ para abrir um editor ou clicar no símbolo do editor no topo do SQLite Studio.
+![[SQLiteStudioOpenSQLEditor.gif]]
+Agora colamos nosso código em SQL e criamos a tabela.
+![[SQLiteStudioCreateTable.gif]]
+Agora vamos ver passo a passo de como fazer.
+1) Cole no editor de Query a tabela que você deseja criar
+![[SQLiteStudioAddTableCode.png]]
+2) Como pode ver não tem nenhuma tabela criada, com isso rode o comando __run__ apresentado como uma seta azul, mas antes verifique se você está no banco de dados correto que você deseja.
+![[SQLiteStudioRunSQLTable.png]]
+3) Com isso ele vai criar a tabela e vai mostrar na lista de tabelas ao lado, onde podemos abrir a tabela clicando no nome dela duas vezes.
+![[SQLStudioOpenTable.png]]
+

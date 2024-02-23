@@ -1,13 +1,13 @@
 [[Página Inicial ASP_NET]]
 
 ## Páginas anteriores
-- [[1 - Criando template ASPNET no Visual Studio]]
-- [[2 - Básico de REST]]
-- [[3 - Model]]
-- [[4 - Services]]
-- [[5 - Template de um Controller]]
-- [[6 - Controller]]
-- [[7 - Iniciando o projeto]]
+- [[1 - ASP.NET Template]]
+- [[2 - ASP.NET REST]]
+- [[3 - ASP.NET Model]]
+- [[4 - ASP.NET Services]]
+- [[5 - ASP.NET Controller Template]]
+- [[6 - ASP.NET Controller]]
+- [[7 - ASP.NET Run Project]]
 - [[8 - Postman]]
 
 ```table-of-contents

@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "e649bd41f765c2a9",
+        "id": "6a97dd780cccaec1",
         "type": "tabs",
         "children": [
           {
-            "id": "e6f8b71aea4a6a83",
+            "id": "45518402ccd3cf95",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "ASP.NET/Página Inicial ASP_NET.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -82,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "ASP.NET/Página Inicial ASP_NET.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -98,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "ASP.NET/Página Inicial ASP_NET.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "ASP.NET/Página Inicial ASP_NET.md"
+              }
             }
           },
           {
@@ -170,17 +178,18 @@
       "graph:Abrir visualização em gráfico": false
     }
   },
-  "active": "e6f8b71aea4a6a83",
+  "active": "45518402ccd3cf95",
   "lastOpenFiles": [
+    "Banco de dados/SQLite/Básico/5 - SQLite Buscas.md",
+    "Banco de dados/SQLite/Básico/6 - SQLite.md",
     "Banco de dados/SQLite/Básico/4 - SQLite Tables.md",
     "Banco de dados/SQLite/images/SQLStudioOpenTable.png",
     "Banco de dados/SQLite/images/SQLiteStudioRunSQLTable.png",
     "Banco de dados/SQLite/images/SQLiteStudioAddTableCode.png",
     "Banco de dados/SQLite/images/SQLiteStudioCreateTable.gif",
     "Banco de dados/SQLite/images/SQLiteStudioOpenSQLEditor.gif",
-    "Banco de dados/SQLite/Básico/5 - SQLite Buscas.md",
     "Banco de dados/SQLite/Básico/3 - SQLite Database.md",
-    "ASP.NET/Básico/3 - Model.md",
+    "ASP.NET/Básico/3 - ASP.NET Model.md",
     "Banco de dados/SQLite/Básico/2 - Comandos SQLite console.md",
     "Banco de dados/SQLite/images/SQLiteConsoleDBCreation.gif",
     "Banco de dados/SQLite/images/SQLitePowershell.png",
@@ -188,7 +197,7 @@
     "Banco de dados/SQLite/Básico/1- Instalando SQLite e SQLite Studio.md",
     "Página Principal.md",
     "README.md",
-    "ASP.NET/Básico/9 - Banco de dados.md",
+    "ASP.NET/Básico/9 - ASP.NET Database.md",
     "Banco de dados/SQL Linguagem/Database.md",
     "Banco de dados/SQLite/Página Inicial do SQLite.md",
     "Banco de dados/SQLite/Vídeos de estudo.md",
@@ -203,13 +212,13 @@
     "Banco de dados/SQLite/Básico",
     "Banco de dados/SQLite",
     "Banco de dados",
-    "ASP.NET/Básico/2 - Básico de REST.md",
-    "ASP.NET/Básico/4 - Services.md",
-    "ASP.NET/Básico/5 - Template de um Controller.md",
-    "ASP.NET/Básico/6 - Controller.md",
-    "ASP.NET/Básico/7 - Iniciando o projeto.md",
+    "ASP.NET/Básico/2 - ASP.NET REST.md",
+    "ASP.NET/Básico/4 - ASP.NET Services.md",
+    "ASP.NET/Básico/5 - ASP.NET Controller Template.md",
+    "ASP.NET/Básico/6 - ASP.NET Controller.md",
+    "ASP.NET/Básico/7 - ASP.NET Run Project.md",
     "ASP.NET/Básico/8 - Postman.md",
-    "ASP.NET/Básico/1 - Criando template ASPNET no Visual Studio.md",
+    "ASP.NET/Básico/1 - ASP.NET Template.md",
     "Banco de dados/SQL Server/Básico",
     "Banco de dados/SQL Server",
     "Obsidian/Página inicial do Obsidian.md",

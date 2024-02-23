@@ -5,7 +5,7 @@
 
 ## Rodando o projeto
 ---
-É bem simples rodar o projeto no Visual Studio, onde após configurado o $\color{lightgreen}{\sf launchSettings.json}$ com as rotas definidas no [[6 - Controller]] somente precisamos clicar no Runner desejado, possuindo 3 principais:
+É bem simples rodar o projeto no Visual Studio, onde após configurado o $\color{lightgreen}{\sf launchSettings.json}$ com as rotas definidas no [[6 - ASP.NET Controller]] somente precisamos clicar no Runner desejado, possuindo 3 principais:
 
 ![[ASPNET_RunningOptions.png]]
  Podemos selecionar a opção que quiser e clique em **Run...** que é onde tem o nome da opção escrita:

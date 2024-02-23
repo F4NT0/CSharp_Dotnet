@@ -2,7 +2,7 @@
 
 Em uma API REST no C#, os “Services” são componentes que encapsulam a lógica de negócios e as operações que podem ser reutilizadas. Eles são responsáveis por realizar tarefas específicas e complexas, como interagir com um banco de dados ou processar dados.
 
-Os Services são usados para manter os [[6 - Controller]] enxutos e o código organizado. Em vez de colocar toda a lógica de negócios em um [[6 - Controller]], você pode criar um Service para lidar com essa lógica e, em seguida, injetar esse serviço no controlador. Isso torna o código mais fácil de manter e testar.
+Os Services são usados para manter os [[6 - ASP.NET Controller]] enxutos e o código organizado. Em vez de colocar toda a lógica de negócios em um [[6 - ASP.NET Controller]], você pode criar um Service para lidar com essa lógica e, em seguida, injetar esse serviço no controlador. Isso torna o código mais fácil de manter e testar.
 
 ---
 
@@ -60,7 +60,7 @@ $\color{yellow}{\sf interface}$ = interface mostra que o nosso arquivo é uma in
 
 ### Definindo métodos na Interface
 ---
-Agora iremos construir a estrutura base dos métodos que iremos utilizar em nossos Controllers, utilizando o sistema do CRUD explicado em [[2 - Básico de REST]] onde temos os seguintes tipos:
+Agora iremos construir a estrutura base dos métodos que iremos utilizar em nossos Controllers, utilizando o sistema do CRUD explicado em [[2 - ASP.NET REST]] onde temos os seguintes tipos:
 
 $\color{yellow}{\sf Create}$ = utilizamos a requisição HTTP $\color{orange}{\sf POST}$ para criar um objeto no banco de dados, mas na nossa Interface usamos o método $\color{lightblue}{\sf Create(Object \space object)}$ para criarmos um objeto novo no banco de dados.
 $\color{yellow}{\sf Read}$ = utilizamos a requisição HTTP $\color{cyan}{\sf GET}$ para buscar um objeto no banco de dados, mas na nossa Interface usamos o método $\color{lightblue}{\sf FindById(long \space id)}$ para procurar por um objeto específico pelo seu ID ou  $\color{lightblue}{\sf FindAll()}$ para procurar por todos os objetos existentes no banco de dados.
@@ -196,4 +196,4 @@ builder.Services.AddScoped<IPersonService, PersonServiceImplementation>();
 ---
 ## Próximo
 ---
-[[5 - Template de um Controller]]
+[[5 - ASP.NET Controller Template]]

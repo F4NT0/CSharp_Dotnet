@@ -27,7 +27,7 @@ sqlite3 db/meudatabase.db
 ```
 Ele vai criar um banco de dados com o nome do arquivo que pedimos para criar ou ele vai pegar da pasta **C:/sqlite/db** o arquivo que já existe com esse nome.
 
-Eu vou criar um banco de dados para usar de exemplo no meu projeto de API REST em .NET como explicado no documento [[9 - Banco de dados]] onde vai se chamar da seguinte forma:
+Eu vou criar um banco de dados para usar de exemplo no meu projeto de API REST em .NET como explicado no documento [[9 - ASP.NET Database]] onde vai se chamar da seguinte forma:
 
 ```
 sqlite3 db/restemplate.db

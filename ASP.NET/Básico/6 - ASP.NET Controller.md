@@ -1,8 +1,8 @@
 [[Página Inicial ASP_NET]]
 
 Como criar um Controller para definirmos nossas Requisições a API REST
-Entenda o [[2 - Básico de REST]] neste artigo.
-Entenda como criar um template ASP.NET neste artigo: [[1 - Criando template ASPNET no Visual Studio]]
+Entenda o [[2 - ASP.NET REST]] neste artigo.
+Entenda como criar um template ASP.NET neste artigo: [[1 - ASP.NET Template]]
 
 ---
 ```table-of-contents
@@ -20,8 +20,8 @@ Depois abrimos o arquivo **launchSettings.json** e colocamos uma rota que iremos
 ---
 Antes de mexer aqui deve ser feito os seguintes tutoriais primeiros:
 
-1. [[3 - Model]]
-2. [[4 - Services]]
+1. [[3 - ASP.NET Model]]
+2. [[4 - ASP.NET Services]]
 ---
 
 ### Configurando o Service no nosso Controller
@@ -52,7 +52,7 @@ Com isso já podemos usar o nosso Service no Controller.
 
 ### Configurando as rotas HTTP
 ---
-Agora que temos definido os métodos que iremos usar para fazer as requisições que se encontram explicados na Implementation dos [[4 - Services]] podemos fazer nossos métodos do Controller para interagirmos com as requisições de entrada na API.
+Agora que temos definido os métodos que iremos usar para fazer as requisições que se encontram explicados na Implementation dos [[4 - ASP.NET Services]] podemos fazer nossos métodos do Controller para interagirmos com as requisições de entrada na API.
 
 Antes no nosso template somente usamos o HTTP request de GET, mas agora iremos poder usar todas.
 
@@ -180,4 +180,4 @@ E pronto! toda vez que iniciarmos o projeto, ele vai iniciar na rota $\color{lig
 ---
 ## Próximo
 ---
-[[7 - Iniciando o projeto]]
+[[7 - ASP.NET Run Project]]

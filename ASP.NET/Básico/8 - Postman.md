@@ -6,13 +6,13 @@
 ## Utilizando Postman
 ---
 Iremos testar o Postman utilizando o nosso exemplo de API REST criado, para isso precisa primeiro ler os seguinte documentos:
-1. [[1 - Criando template ASPNET no Visual Studio]]
-2. [[2 - Básico de REST]]
-3. [[3 - Model]]
-4. [[4 - Services]]
-5. [[5 - Template de um Controller]]
-6. [[6 - Controller]]
-7. [[7 - Iniciando o projeto]]
+1. [[1 - ASP.NET Template]]
+2. [[2 - ASP.NET REST]]
+3. [[3 - ASP.NET Model]]
+4. [[4 - ASP.NET Services]]
+5. [[5 - ASP.NET Controller Template]]
+6. [[6 - ASP.NET Controller]]
+7. [[7 - ASP.NET Run Project]]
 ---
 ### Instalando o Postman
 ---
@@ -72,7 +72,7 @@ Isso vai abrir uma nova tela onde devemos dizer:
 ![[PostmanCreateRequest1.png]]
 Devemos então colocar um nome que nos ajude a entender que tipo de requisição estamos querendo fazer, colocar com a opção POST e colocar a rota definida na nossa API, como o seguinte exemplo:
 ![[CreatePersonPostman1.png]]
-Agora temos que pegar as informações do nosso [[3 - Model]] e colocar em formato JSON na aba **Body** onde iremos definir os valores do nosso Objeto Person, para isso deve ser seguido os passos abaixo.
+Agora temos que pegar as informações do nosso [[3 - ASP.NET Model]] e colocar em formato JSON na aba **Body** onde iremos definir os valores do nosso Objeto Person, para isso deve ser seguido os passos abaixo.
 1. Acesse a aba **Body**
 2. Selecione a opção de texto **raw**
 3. Quando selecionado **raw** vai mostrar no final da linha de opções escrito **JSON**

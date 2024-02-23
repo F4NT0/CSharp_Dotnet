@@ -11,12 +11,8 @@
             "id": "e6f8b71aea4a6a83",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Banco de dados/SQLite/Básico/4 - SQLite Tables.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -86,7 +82,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Banco de dados/SQLite/Básico/4 - SQLite Tables.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +98,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Banco de dados/SQLite/Básico/4 - SQLite Tables.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,9 +119,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Banco de dados/SQLite/Básico/4 - SQLite Tables.md"
-              }
+              "state": {}
             }
           },
           {
@@ -180,13 +172,13 @@
   },
   "active": "e6f8b71aea4a6a83",
   "lastOpenFiles": [
+    "Banco de dados/SQLite/Básico/4 - SQLite Tables.md",
     "Banco de dados/SQLite/images/SQLStudioOpenTable.png",
     "Banco de dados/SQLite/images/SQLiteStudioRunSQLTable.png",
     "Banco de dados/SQLite/images/SQLiteStudioAddTableCode.png",
     "Banco de dados/SQLite/images/SQLiteStudioCreateTable.gif",
     "Banco de dados/SQLite/images/SQLiteStudioOpenSQLEditor.gif",
     "Banco de dados/SQLite/Básico/5 - SQLite Buscas.md",
-    "Banco de dados/SQLite/Básico/4 - SQLite Tables.md",
     "Banco de dados/SQLite/Básico/3 - SQLite Database.md",
     "ASP.NET/Básico/3 - Model.md",
     "Banco de dados/SQLite/Básico/2 - Comandos SQLite console.md",
@@ -202,7 +194,6 @@
     "Banco de dados/SQLite/Vídeos de estudo.md",
     "Banco de dados/SQLite/images/SQLiteStudioAddDatabase3.png",
     "Banco de dados/SQLite/images/SQLiteStudioAddDatabase2.png",
-    "Banco de dados/SQLite/images/SQLiteDBFolder.gif",
     "Banco de dados/SQL Linguagem/Página inicial SQL Linguagem.md",
     "Banco de dados/SQL Server/Página Inicial SQL Server.md",
     "Banco de dados/SQL Linguagem",

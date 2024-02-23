@@ -4,16 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "d0a59027c2dc415c",
+        "id": "e649bd41f765c2a9",
         "type": "tabs",
         "children": [
           {
-            "id": "5831269345801d7b",
+            "id": "e6f8b71aea4a6a83",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.5.8"
+                "file": "Banco de dados/SQLite/Básico/SQLite Database.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -84,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Banco de dados/SQLite/Básico/SQLite Database.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -100,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Banco de dados/SQLite/Básico/SQLite Database.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Banco de dados/SQLite/Básico/SQLite Database.md"
+              }
             }
           },
           {
@@ -172,18 +178,21 @@
       "graph:Abrir visualização em gráfico": false
     }
   },
-  "active": "5831269345801d7b",
+  "active": "e6f8b71aea4a6a83",
   "lastOpenFiles": [
+    "Banco de dados/SQLite/images/SQLiteConsoleDBCreation.gif",
+    "Banco de dados/SQLite/Básico/Comandos SQLite console.md",
+    "SQLitePowershell.png",
+    "SQLiteConsolePrompt.png",
+    "Banco de dados/SQLite/Básico/SQLite Database.md",
+    "Banco de dados/SQLite/Básico/Instalando SQLite e SQLite Studio.md",
     "Página Principal.md",
     "README.md",
-    "Banco de dados/SQLite/Básico/SQLite Database.md",
     "ASP.NET/Básico/9 - Banco de dados.md",
     "Banco de dados/SQL Linguagem/Database.md",
     "Banco de dados/SQLite/Página Inicial do SQLite.md",
     "Banco de dados/SQLite/Vídeos de estudo.md",
     "Banco de dados/SQLite/Básico/SQLite Tables.md",
-    "Banco de dados/SQLite/Básico/Instalando SQLite e SQLite Studio.md",
-    "Banco de dados/SQLite/Básico/Comandos SQLite console.md",
     "Banco de dados/SQLite/images/SQLiteStudioAddDatabase3.png",
     "Banco de dados/SQLite/images/SQLiteStudioAddDatabase2.png",
     "Banco de dados/SQLite/images/SQLiteDBFolder.gif",
@@ -192,8 +201,6 @@
     "Banco de dados/SQLite/images/SQLiteDatabaseCreation2.png",
     "Banco de dados/SQLite/images/SQLiteDatabaseCreation2.png",
     "Banco de dados/SQLite/images/SQLiteDatabaseCreation1.png",
-    "Banco de dados/SQLite/images/SQLiteStudioOpening.png",
-    "Banco de dados/SQLite/images/SQLiteAccess.png",
     "Banco de dados/SQL Linguagem/Página inicial SQL Linguagem.md",
     "Banco de dados/SQL Server/Página Inicial SQL Server.md",
     "Banco de dados/SQL Linguagem",
@@ -217,7 +224,6 @@
     "Obsidian/Plugins do Obsidian.md",
     "Obsidian/Vídeos de auxilio.md",
     "ASP.NET/Básico",
-    "Obsidian/Utilizando Obsidian.md",
     "Visual_Studio/images",
     "Obsidian/images"
   ]

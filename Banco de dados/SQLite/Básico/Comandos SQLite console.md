@@ -1,5 +1,8 @@
 [[Página Inicial do SQLite]]
 
+```table-of-contents
+```
+
 ## Comandos
 ---
 Quando colocamos o comando **.help** no console conectados ao SQLite ele nos mostra os tipos de comandos que podemos usar:
@@ -16,11 +19,56 @@ Quando colocamos o comando **.help** no console conectados ao SQLite ele nos mos
 | `INSERT INTO nome_tabela (coluna1, coluna2) VALUES (valor1, valor2);` | Insere dados em uma tabela. |
 | `UPDATE nome_tabela SET coluna1 = valor1 WHERE condição;` | Atualiza dados em uma tabela. |
 | `DELETE FROM nome_tabela WHERE condição;` | Deleta dados de uma tabela. |
-### Criando um database
 
+### Acessando o SQLite pelo PowerShell
+---
+Acessar pelo prompt de comando somente acessamos a rota `C://sqlite` e rodamos o comando __sqlite3__ diretamente:
+![[SQLiteConsolePrompt.png]]
+Para acessar pelo Powershell é um pouco diferente, temos que colocar `.\` antes do comando:
+![[SQLitePowershell.png]]
+
+
+### Criando um database
+---
 - Podemos criar um diretório chamado **db** dentro do diretório **C://sqlite** para colocarmos nossos banco de dados.
 - Acessamos o diretório **C://sqlite** por um console e rodamos o seguinte comando:
 ```
 sqlite3 db/nomedatabase.db
 ```
 - Esse comando vai criar um banco de dados chamado `nomedatabase` dentro do diretório **db** totalmente vazio.
+
+### Verificando qual database está conectado
+---
+Quando rodamos o comando __.database__ conectado ao `sqlite3` podemos ver a rota para o banco de dados conectado atualmente, já que ele não mostra o nome do database sempre que você se conecta nele.
+```sql
+sqlite> .database
+sqlite> C:/sqlite/db/restemplate.db
+```
+
+### Desconectando de um database
+---
+Podemos nos desconectar de um database utilizando três comandos: __.exit__ ou __.quit__ ou __.q__ 
+Esses comando farão o `sqlite3` finalizar e voltar ao console normal.
+
+### Criando uma tabela
+---
+
+### Analisando dados de uma tabela (schema)
+---
+Podemos ver os dados de uma tabela utilizando o comando __.schema__ e passando como atributo o nome da tabela que deseja ver.
+Por exemplo, tenho uma tabela chamado persons, para verificar os dados que se encontram nela usamos o seguinte comando conectado ao sqlite3:
+```sql
+.schema persons
+```
+O resultado desse comando é mostrar o código SQL da estrutura da tabela criada.
+
+### Salvando resultado de uma query em um arquivo texto
+---
+Podemos salvar o resultado de uma query SQL (ou seja um comando SQL rodado) em um arquivo texto, para isso usamos o comando __.output__ com o nome do arquivo texto desejado e a query que queremos rodar, como por exemplo:
+```sql
+.output persons.txt
+SELECT FirstName FROM persons
+ORDER BY id
+LIMIT 24;
+```
+Esse comando vai criar um arquivo chamado `persons.txt` e vai salvar nele o resultado da query que passamos embaixo, onde é esperado os primeiros nomes das pessoas organizados pelo ID e limitado a somente 24 registros.

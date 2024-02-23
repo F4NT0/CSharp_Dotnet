@@ -36,10 +36,18 @@ CREATE TABLE [IF NOT EXISTS] [schema_name].table_name (
 	table_constraint
 )[WITHOUT ROWID];
 ```
-Agora irei explicar o que cada parte da tabela significa
+Agora irei explicar o que cada parte da tabela significa.
 
-| Nome          | Descrição                                                      |
-| ------------- | -------------------------------------------------------------- |
-| CREATE TABLE  | comando de SQL para criar uma nova tabela                      |
-| IF NOT EXISTS | Usado para verificar se já não existe uma tabela com esse nome |
-| schema_name   | É o nome d                                                     |
+| Nome             | Descrição                                                      |
+| ---------------- | -------------------------------------------------------------- |
+| CREATE TABLE     | comando de SQL para criar uma nova tabela                      |
+| IF NOT EXISTS    | Usado para verificar se já não existe uma tabela com esse nome |
+| schema_name      | É o nome do schema, que é um conjunto de tabelas               |
+| table_name       | É o nome da tabela que queremos criar                          |
+| coluna_1         | É um dado dessa tabela, que irá ficar em uma coluna            |
+| data_type        | É o tipo de dado que vem da nossa API                          |
+| table_constraint | É algum tipo de constraints que somente a tabela tem.          |
+
+### Tipos de dados
+---
+Podemos usar os seguinte tipos de dados para dizer que informação é esperada para cada coluna 

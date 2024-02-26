@@ -79,7 +79,6 @@ Agora temos que pegar as informações do nosso [[3 - ASP.NET Model]] e colocar 
 4. Devemos construir o JSON com os dados como abaixo:
 ```JSON
 {
-    "Id": 1,
     "FirstName": "Gabriel",
     "LastName": "Fanto",
     "Address": "Porto Alegre",

@@ -61,7 +61,7 @@ Podemos usar os seguinte tipos de dados para dizer que informação é esperada 
 | NULL    | tipo de valor nulo         |             |
 ### Exemplo de tabela
 ---
-agora que entendemos o sintaxe, vamos criar a tabela do nosso objeto Person que estamos criando no [[9 - ASP.NET Database]] na nossa API REST.
+agora que entendemos o sintaxe, vamos criar a tabela do nosso objeto Person que estamos criando no [[9 - ASP.NET Context]] na nossa API REST.
 
 No exemplo da API temos os seguintes dados:
 ```csharp

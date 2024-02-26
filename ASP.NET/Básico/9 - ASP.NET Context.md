@@ -14,7 +14,7 @@
 ```
 
 ---
-## Conectando a um banco de dados
+## Criando um Context para acesso ao banco de dados
 ---
 Podemos usar vários tipos de banco de dados, mas nesse exemplo irei utilizar o SQLite por ser mais simples de configurar e mais simples de utilizar em projetos de POC (Proof of Concept).
 Criei uma explicação bem mais a fundo de como utilizar o SQLite e como usar ele em nosso projeto como explicado em [[3 - SQLite Database]] onde criamos lá como exemplo o banco de dados **restemplate** para nosso objetivo de entender a conexão de forma simples.
@@ -57,7 +57,7 @@ Após instalado podemos verificar se ele foi corretamente adicionado clicando du
 
 ![[ASPNET_VerifyPackages.png]]
 
-### Criando a conexão com o Banco de dados
+### Criando uma Classe de contexto de acesso
 ---
 Agora que instalamos o pacote no projeto, vamos criar sua configuração no nosso projeto, onde iremos criar uma pasta dentro de _Models_ chamada __Context__ onde ficam armazenado as conexões com o banco de dados.
 No nosso caso que estamos trabalhando com SQLite, vamos criar uma classe dentro do diretório __Context__ chamado __SQLiteContext__ .
@@ -67,3 +67,59 @@ Criação do Folder __Context__
 
 Criação da classe __SQLiteContext__
 ![[CreateContextFile.gif]]
+
+Nessa nova classe, temos que extender a interface __DbContext__ em nossa classe de conexão ao banco de dados e depois adicionar o _EntityFrameworkCore_ em nossa lista de pacotes conectados nessa classe.
+```csharp
+// Antes
+namespace RESTTemplate.Model.Context
+{
+    public class SQLiteContext
+    {
+    }
+}
+
+// Depois
+using Microsoft.EntityFrameworkCore;
+
+namespace RESTTemplate.Model.Context
+{
+    public class SQLiteContext : DbContext
+    {
+    }
+}
+```
+Agora vamos construir dois construtores para nossa classe, um deles é vazio e o outro recebe por parâmetro opções de acesso.
+
+```csharp
+using Microsoft.EntityFrameworkCore;
+
+namespace RESTTemplate.Model.Context
+{
+    public class SQLiteContext : DbContext
+    {
+        public SQLiteContext() 
+        { 
+            
+        }
+
+        public SQLiteContext(DbContextOptions<SQLiteContext> options) : base(options)
+        {
+
+        }
+    }
+}
+```
+
+Qualquer Context deve ter essa estrutura básica, agora vamos construir os métodos dos modelos que queremos em nosso banco de dados.
+
+### Criando método de acesso ao Model Person
+---
+Agora vamos colocar em nossa classe Context a conexão ao Model de Person, para isso adicionamos o seguinte atributo:
+
+```csharp
+public DbSet<Person> Persons { get; set; }
+```
+
+### Atualizando o appsettings.json
+---
+Agora que criamos o nosso Context para acessar ao Banco de dados, devemos atualizar o arquivo _appsettings.json_ com os dados de conexão

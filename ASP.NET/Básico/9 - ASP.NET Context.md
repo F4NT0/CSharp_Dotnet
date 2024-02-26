@@ -57,6 +57,9 @@ Após instalado podemos verificar se ele foi corretamente adicionado clicando du
 
 ![[ASPNET_VerifyPackages.png]]
 
+Devemos adicionar também o Pacote _Microsoft.EntityFrameworkCore.Tools_ junto com esse primeiro.
+
+![[ASPNET_EFCorePackageTools.png]]
 ### Criando uma Classe de contexto de acesso
 ---
 Agora que instalamos o pacote no projeto, vamos criar sua configuração no nosso projeto, onde iremos criar uma pasta dentro de _Models_ chamada __Context__ onde ficam armazenado as conexões com o banco de dados.
@@ -122,4 +125,5 @@ public DbSet<Person> Persons { get; set; }
 
 ### Atualizando o appsettings.json
 ---
-Agora que criamos o nosso Context para acessar ao Banco de dados, devemos atualizar o arquivo _appsettings.json_ com os dados de conexão
+Agora que criamos o nosso Context para acessar ao Banco de dados, devemos atualizar o arquivo _appsettings.json_ com os dados de conexão.
+No nosso caso podemos criar um banco de dados internamente em nossa API usando o 

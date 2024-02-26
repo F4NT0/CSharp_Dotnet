@@ -178,8 +178,9 @@
       "graph:Abrir visualização em gráfico": false
     }
   },
-  "active": "dff1c6618bc1f866",
+  "active": "45518402ccd3cf95",
   "lastOpenFiles": [
+    "ASP.NET/images/ASPNET_EFCorePackageTools.png",
     "ASP.NET/images/CreateContextFile.gif",
     "ASP.NET/images/CreateContextFolder.gif",
     "ASP.NET/images/ASPNET_VerifyPackages.png",
@@ -194,7 +195,6 @@
     "Banco de dados/SQLite/images/SQLStudioOpenTable.png",
     "Banco de dados/SQLite/images/SQLiteStudioRunSQLTable.png",
     "Banco de dados/SQLite/images/SQLiteStudioAddTableCode.png",
-    "Banco de dados/SQLite/images/SQLiteStudioCreateTable.gif",
     "Banco de dados/SQLite/Básico/3 - SQLite Database.md",
     "ASP.NET/Básico/3 - ASP.NET Model.md",
     "Banco de dados/SQLite/Básico/2 - Comandos SQLite console.md",

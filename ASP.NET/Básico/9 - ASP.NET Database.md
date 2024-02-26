@@ -53,4 +53,17 @@ Então clique em __Install__ e aceite os requisitos para o pacote e ele vai inst
 Assim que tiver baixado ele vai mostrar um check em verde no lado do pacote.
 
 ![[ASPNET_InstalledPackage.png]]
+Após instalado podemos verificar se ele foi corretamente adicionado clicando duas vezes no nome da API na área de __Solution Explorer__
 
+![[ASPNET_VerifyPackages.png]]
+
+### Criando a conexão com o Banco de dados
+---
+Agora que instalamos o pacote no projeto, vamos criar sua configuração no nosso projeto, onde iremos criar uma pasta dentro de _Models_ chamada __Context__ onde ficam armazenado as conexões com o banco de dados.
+No nosso caso que estamos trabalhando com SQLite, vamos criar uma classe dentro do diretório __Context__ chamado __SQLiteContext__ .
+
+Criação do Folder __Context__
+![[CreateContextFolder.gif]]
+
+Criação da classe __SQLiteContext__
+![[CreateContextFile.gif]]

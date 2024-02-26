@@ -93,11 +93,162 @@ Agora que temos a requisição preparada, devemos rodar o projeto e testar nossa
 Com isso temos a response mostrando o que foi salvo no banco de dados e nos retornando o objeto que criamos, além do código 200.
 #### GET ALL
 ---
-Para podermos ver todos os dados salvos é bem simples, só precisamos pegar
+Para podermos ver todos os dados salvos é bem simples, só precisamos pegar a requisição base definida utilizando a opção GET do Postman.
+Não é necessitado nenhum _Body_ nem configurações, só definir como GET.
 
+![[ASPNET_GETALLPOSTMAN.png]]
+O retorno no Response vão ser todos os registros do banco de dados.
+
+![[ASPNET_GETALLPOSTMAN2.png]]
 #### GET BY ID
 ---
+Get By ID é da mesma forma que o GET ALL mas na requisição passamos um ID para pegarmos somente aquele registro no banco de dados.
+Vai ser buscado no banco de dados somente o registro que possuir o ID definido.
+
+![[ASPNET_GETBYIDPOSTMAN.png]]
+
+Vai retornar no Response somente os dados do objeto que possui o ID 1 que foi passado na URL da requisição.
+
+![[ASPNET_GETBYIDPOSTMAN2.png]]
+
 #### PUT
 ---
+O PUT ele necessita ser passado pelo __Body__ do Postman um registro completo também com ID, ele vai pegar o ID passado no JSON e buscar no banco de dados e alterar todos os dados que foram colocados diferentes no Body.
+ Um exemplo nosso é o objeto de ID 1 como abaixo:
+ 
+```json
+{
+    "id": 1,
+    "firstName": "Gabriel",
+    "lastName": "Fanto",
+    "address": "Porto Alegre",
+    "gender": "Male"
+}
+```
+
+Agora vamos fazer algumas alterações, mantendo o ID definido mas mudando todo o resto:
+
+```json
+{
+    "id": 1,
+    "firstName": "Liliane",
+    "lastName": "Clemente",
+    "address": "Novo Hamburgo",
+    "gender": "Female"
+}
+```
+
+No Postman colocamos esse novo JSON no __Body__ e deixamos a URL normal como do POST, mas mudamos o tipo de requisição para __PUT__.
+
+![[ASPNET_PUTPOSTMAN.png]]
+
+No nosso Response irá mostrar exatamente os dados que colocamos no __Body__ e se fizermos novamente a requisição GET BY ID com o ID desse objeto modificado teremos como resposta se no banco de dados atualizou os dados passados.
+
+![[ASPNET_PUTPOSTMAN2.png]]
+
 #### DELETE
 ---
+Delete tem a mesma URL do GET BY ID, onde passamos um ID que ele vai buscar o objeto do banco de dados e irá apagá-lo permanentemente.
+A principal mudança é que devemos selecionar no Postman que essa requisição será do tipo DELETE.
+
+![[ASPNET_DELETEPOSTMAN.png]]
+
+Ele não vai retornar nada como resposta, mas irá nos entregar como resposta o 204 NO CONTENT para vermos que realmente foi removido.
+
+![[ASPNET_DELETEPOSTMAN2.png]]
+
+### Configurações avançadas
+---
+Podemos fazer algumas configurações que irá fazer nosso projeto ser muito mais avançado para testarmos de forma completa e no fluxo correto.
+
+#### Utilizando o Enviroment
+
+Agora que criamos um Enviroment, vamos colocar a nossa configuração do Localhost que fizemos em nosso projeto ASP.NET.
+
+A configuração se encontra no arquivo _launchsettings.json_ onde podemos usar o `http`, `https`, `IIS Express` onde eu normalmente uso o http.
+
+```json
+"profiles": {
+  "http": {
+    "commandName": "Project",
+    "dotnetRunMessages": true,
+    "launchBrowser": true,
+    "launchUrl": "api/person",
+    "applicationUrl": "http://localhost:5110",
+    "environmentVariables": {
+      "ASPNETCORE_ENVIRONMENT": "Development"
+    }
+  }
+}
+```
+
+Como podemos ver nessa configuração, a URL da nossa aplicação será iniciada no `http://localhost:5110` e será o inicio de URL de todas as nossas requisições como foi mostrado nos exemplos anteriores.
+
+Com isso em mente, podemos colocar essa URL em nosso Enviroment e reutilizar essa variável em todas as nossas requisições.
+
+![[ASPNET_POSTMANENVIROMENT1.png]]
+
+Para invocarmos as variáveis do enviroment primeiro precisamos ativá-lo em nosso projeto, somente selecionando ele nas opções de enviroment no canto direito bem encima.
+
+![[ASPNET_POSTMANENVIROMENT2.png]]
+
+Selecione o Enviroment desejado e verifique as variáveis existentes:
+
+![[SelectEnviromentPostman.gif]]
+
+Agora para podermos chamar essa Variável utilizamos chaves duplas em volta do nome da variável em nossas URLs:
+
+![[ASPNET_UPDATEPOSTVARIABLE.png]]
+![[ASPNET_UPDATEGETALLPOSTMAN.png]]
+![[ASPNET_UPDATEGETIDPOSTMAN.png]]
+![[ASPNET_UPDATEUPDATEPOSTMAN.png]]
+![[ASPNET_UPDATEDELETEPOSTMAN.png]]
+Agora sempre que mudar a URL para outra posta ou trocar para produção, somente deve ser atualizado o valor da variável, não precisando alterar as URLs de cada requisição.
+
+#### Criando uma variável global pelos testes
+
+Variáveis globais podem ser usadas por todas as requisições de todas as Collections que pertencem ao grupo que estou mexendo, elas são muito úteis para criarmos ou interagirmos com variáveis que mudam o tempo todo, no nosso caso, quando criamos um POST e gera um ID na response podemos salvar esse ID para reutilizarmos.
+
+Para fazer isso, iremos utilizar pela primeira vez a aba do Postman chamada __Tests__ , nela podemos criar Testes em Javascript utilizando a biblioteca do Postman chamado __PM__.
+
+Um exemplo simples é verificarmos se a resposta da nossa requisição deu 200 OK:
+
+```js
+pm.test("Status code is 200", function () {
+	pm.response.to.have.status(200);
+});
+```
+
+Para pegarmos um dado da Response do Postman temos que usar o método do Postman chamado __globals__  mas primeiro devemos ter uma variável que armazene os valores do JSON como abaixo:
+
+```js
+var jsonData = pm.response.json();
+```
+
+Com essa variável pegamos o ID como se escreve no Response e usamos o _set_ do __globals__ para definir o valor que pegamos em uma variável que definimos o nome:
+
+```js
+pm.globals.set("Person Id", jsonData.id);
+```
+
+Com isso definido criamos o Teste usando o __pm.test__ como no exemplo do response status:
+
+```js
+pm.test("Validate ID", function () {
+	var jsonData = pm.response.json();
+	pm.globals.set("Person Id", jsonData.id);
+});
+```
+
+Abaixo se encontra o nosso teste na aba __Tests__ no Postman
+
+![[ASPNET_TESTPOST.png]]
+
+Rodando esse teste, ele vai criar um novo objeto, pegar o ID do Response e salvar nas variáveis globais do Postman:
+
+![[AddGlobalVariables.gif]]
+
+Agora podemos usar esse ID salvo em outras requisições como por exemplo o GET BY ID, onde de vez de passarmos um ID específico, ele pega dessa variável:
+
+![[AddGlobalVariables2.gif]]
+

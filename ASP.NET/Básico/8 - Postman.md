@@ -85,19 +85,15 @@ Agora temos que pegar as informações do nosso [[3 - ASP.NET Model]] e colocar 
     "Gender": "Male"
 }
 ```
-
-Agora em vídeo:
-
-![[CreatePersonPOST.gif]]
-
 ###### Testando
 Agora que temos a requisição preparada, devemos rodar o projeto e testar nossa rota, onde no caso do POST ele vai pegar as informações do **Body** e enviar para o banco de dados e nos dar o resultado 200 OK junto com os dados salvos no banco no **Response**
 
-![[CreatePersonPOSTResponse.gif]]
+![[CreatePersonPOST.gif]]
 
 Com isso temos a response mostrando o que foi salvo no banco de dados e nos retornando o objeto que criamos, além do código 200.
 #### GET ALL
 ---
+Para podermos ver todos os dados salvos é bem simples, só precisamos pegar
 
 #### GET BY ID
 ---

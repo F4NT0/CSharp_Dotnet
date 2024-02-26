@@ -93,5 +93,7 @@
   "ASP.NET/Básico/5 - ASP.NET Controller Template.md": "SiMarkdown",
   "ASP.NET/Básico/6 - ASP.NET Controller.md": "SiMarkdown",
   "ASP.NET/Básico/7 - ASP.NET Run Project.md": "SiMarkdown",
-  "ASP.NET/Básico/9 - ASP.NET Context.md": "SiMarkdown"
+  "ASP.NET/Básico/9 - ASP.NET Context.md": "SiMarkdown",
+  "ASP.NET/Básico/10 - Ajustando Model.md": "SiMarkdown",
+  "ASP.NET/Básico/11 - Ajustando Implementations.md": "SiMarkdown"
 }

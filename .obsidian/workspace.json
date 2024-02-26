@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ASP.NET/Básico/9 - ASP.NET Context.md",
+                "file": "ASP.NET/Básico/11 - Ajustando Implementations.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ASP.NET/Básico/9 - ASP.NET Context.md",
+                "file": "ASP.NET/Básico/11 - Ajustando Implementations.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ASP.NET/Básico/9 - ASP.NET Context.md",
+                "file": "ASP.NET/Básico/11 - Ajustando Implementations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ASP.NET/Básico/9 - ASP.NET Context.md"
+                "file": "ASP.NET/Básico/11 - Ajustando Implementations.md"
               }
             }
           },
@@ -180,6 +180,16 @@
   },
   "active": "45518402ccd3cf95",
   "lastOpenFiles": [
+    "ASP.NET/images/ASPNET_FindAllSQLiteConnection.png",
+    "Banco de dados/SQLite/images/SQLiteINSERTSELECT.png",
+    "ASP.NET/Básico/9 - ASP.NET Context.md",
+    "Banco de dados/SQLite/Básico/3 - SQLite Database.md",
+    "ASP.NET/Básico/10 - Ajustando Model.md",
+    "ASP.NET/Básico/11 - Ajustando Implementations.md",
+    "ASP.NET/Básico/4 - ASP.NET Services.md",
+    "ASP.NET/Básico/5 - ASP.NET Controller Template.md",
+    "ASP.NET/Básico/6 - ASP.NET Controller.md",
+    "Banco de dados/SQLite/Básico/4 - SQLite Tables.md",
     "ASP.NET/images/ASPNET_EFCorePackageTools.png",
     "ASP.NET/images/CreateContextFile.gif",
     "ASP.NET/images/CreateContextFolder.gif",
@@ -191,17 +201,12 @@
     "ASP.NET/Página Inicial ASP_NET.md",
     "Banco de dados/SQLite/Básico/5 - SQLite Buscas.md",
     "Banco de dados/SQLite/Básico/6 - SQLite.md",
-    "Banco de dados/SQLite/Básico/4 - SQLite Tables.md",
     "Banco de dados/SQLite/images/SQLStudioOpenTable.png",
-    "Banco de dados/SQLite/images/SQLiteStudioRunSQLTable.png",
-    "Banco de dados/SQLite/images/SQLiteStudioAddTableCode.png",
-    "Banco de dados/SQLite/Básico/3 - SQLite Database.md",
     "ASP.NET/Básico/3 - ASP.NET Model.md",
     "Banco de dados/SQLite/Básico/2 - Comandos SQLite console.md",
     "Banco de dados/SQLite/Básico/1- Instalando SQLite e SQLite Studio.md",
     "Página Principal.md",
     "README.md",
-    "ASP.NET/Básico/9 - ASP.NET Context.md",
     "Banco de dados/SQL Linguagem/Database.md",
     "Banco de dados/SQLite/Página Inicial do SQLite.md",
     "Banco de dados/SQLite/Vídeos de estudo.md",
@@ -214,15 +219,10 @@
     "Banco de dados/SQLite",
     "Banco de dados",
     "ASP.NET/Básico/2 - ASP.NET REST.md",
-    "ASP.NET/Básico/4 - ASP.NET Services.md",
-    "ASP.NET/Básico/5 - ASP.NET Controller Template.md",
-    "ASP.NET/Básico/6 - ASP.NET Controller.md",
     "ASP.NET/Básico/7 - ASP.NET Run Project.md",
     "ASP.NET/Básico/8 - Postman.md",
-    "ASP.NET/Básico/1 - ASP.NET Template.md",
     "Banco de dados/SQL Server/Básico",
     "Banco de dados/SQL Server",
-    "Obsidian/Página inicial do Obsidian.md",
     "ASP.NET/Básico",
     "Visual_Studio/images",
     "Obsidian/images"

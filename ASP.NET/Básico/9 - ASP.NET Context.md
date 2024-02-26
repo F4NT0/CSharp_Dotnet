@@ -126,4 +126,27 @@ public DbSet<Person> Persons { get; set; }
 ### Atualizando o appsettings.json
 ---
 Agora que criamos o nosso Context para acessar ao Banco de dados, devemos atualizar o arquivo _appsettings.json_ com os dados de conexão.
-No nosso caso podemos criar um banco de dados internamente em nossa API usando o 
+No nosso caso passamos uma String com o nome do nosso banco de dados utilizando na string o nome __Data Source__.
+Deve ser colocado todo o caminho até o banco de dados, onde no nosso caso quando criamos localmente em [[3 - SQLite Database#Criando pelo Console]] ele se encontra no seguinte caminho: _C:\sqlite\db\restemplate.db_ e no _appsettings.json_ sempre que tiver uma barra deve colocar duas, como mostra o exemplo abaixo:
+
+```json
+"SQLiteConnection": {
+  "SQLiteConnectionString": "Data Source=C:\\sqlite\\db\\restemplate.db"  
+}
+```
+ Podemos colocar essa info antes do _Logging_ no _appsettings.json_
+
+### Conectando o Connection no Program.cs
+---
+Em .NET 8 é feito essa configuração no _Program.cs_ onde vamos dizer a nossa API qual é a conexão do nosso banco de dados, onde colocamos essas informações depois de _AddControllers()_.
+Primeiro criamos uma variável puxando as informações que se encontram no _appsetings.json_ como configuramos:
+
+```csharp
+var connection = builder.Configuration["SQLiteConnection:SQLiteConnectionString"];
+```
+
+Depois criamos um serviço chamado __AddDbContext<>()__ onde iremos conectar o Context que criamos nos passos anteriores e definimos as opções de acesso. 
+
+```csharp
+builder.Services.AddDbContext<SQLiteContext>(options => options.UseSqlite(connection));
+```

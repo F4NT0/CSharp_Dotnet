@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ASP.NET/Página Inicial ASP_NET.md",
+                "file": "ASP.NET/Básico/9 - ASP.NET Database.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ASP.NET/Página Inicial ASP_NET.md",
+                "file": "ASP.NET/Básico/9 - ASP.NET Database.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ASP.NET/Página Inicial ASP_NET.md",
+                "file": "ASP.NET/Básico/9 - ASP.NET Database.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ASP.NET/Página Inicial ASP_NET.md"
+                "file": "ASP.NET/Básico/9 - ASP.NET Database.md"
               }
             }
           },
@@ -180,6 +180,11 @@
   },
   "active": "45518402ccd3cf95",
   "lastOpenFiles": [
+    "ASP.NET/images/ASPNET_InstalledPackage.png",
+    "ASP.NET/images/InstallNugetPackage.gif",
+    "ASP.NET/images/ASPNET_ManageNugetPackages2.png",
+    "ASP.NET/images/ASPNET_ManageNugetPackages1.png",
+    "ASP.NET/Página Inicial ASP_NET.md",
     "Banco de dados/SQLite/Básico/5 - SQLite Buscas.md",
     "Banco de dados/SQLite/Básico/6 - SQLite.md",
     "Banco de dados/SQLite/Básico/4 - SQLite Tables.md",
@@ -193,7 +198,6 @@
     "Banco de dados/SQLite/Básico/2 - Comandos SQLite console.md",
     "Banco de dados/SQLite/images/SQLiteConsoleDBCreation.gif",
     "Banco de dados/SQLite/images/SQLitePowershell.png",
-    "Banco de dados/SQLite/images/SQLiteConsolePrompt.png",
     "Banco de dados/SQLite/Básico/1- Instalando SQLite e SQLite Studio.md",
     "Página Principal.md",
     "README.md",
@@ -201,13 +205,10 @@
     "Banco de dados/SQL Linguagem/Database.md",
     "Banco de dados/SQLite/Página Inicial do SQLite.md",
     "Banco de dados/SQLite/Vídeos de estudo.md",
-    "Banco de dados/SQLite/images/SQLiteStudioAddDatabase3.png",
-    "Banco de dados/SQLite/images/SQLiteStudioAddDatabase2.png",
     "Banco de dados/SQL Linguagem/Página inicial SQL Linguagem.md",
     "Banco de dados/SQL Server/Página Inicial SQL Server.md",
     "Banco de dados/SQL Linguagem",
     "Banco de dados/SQL.md",
-    "ASP.NET/Página Inicial ASP_NET.md",
     "Banco de dados/SQLite/images",
     "Banco de dados/SQLite/Básico",
     "Banco de dados/SQLite",
@@ -222,7 +223,6 @@
     "Banco de dados/SQL Server/Básico",
     "Banco de dados/SQL Server",
     "Obsidian/Página inicial do Obsidian.md",
-    "Obsidian/Plugins do Obsidian.md",
     "ASP.NET/Básico",
     "Visual_Studio/images",
     "Obsidian/images"

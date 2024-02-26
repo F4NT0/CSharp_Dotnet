@@ -19,4 +19,38 @@
 Podemos usar vários tipos de banco de dados, mas nesse exemplo irei utilizar o SQLite por ser mais simples de configurar e mais simples de utilizar em projetos de POC (Proof of Concept).
 Criei uma explicação bem mais a fundo de como utilizar o SQLite e como usar ele em nosso projeto como explicado em [[3 - SQLite Database]] onde criamos lá como exemplo o banco de dados **restemplate** para nosso objetivo de entender a conexão de forma simples.
 
+### Adicionando uma dependência
+---
+Dependências (ou Dependencies) são softwares criados na biblioteca do Nuget para podermos utilizar em projetos .NET, __Nuget__ é o gerenciador de pacotes do .NET que nos ajuda de uma maneira fácil de adicionar, remover e atualizar bibliotecas e ferramentas em projetos .NET.
+Todas as bibliotecas e ferramentas adicionadas ficam dentro de _Dependencies_ no nosso projeto, para poder adicionar nesse diretório devemos clicar com o botão direito do mouse no nome do diretório _Dependencies_ e escolher a opção __Manage Nuget Packages__ 
+
+![[ASPNET_ManageNugetPackages1.png]]
+
+Ele vai abrir uma página visual do Nuget para pesquisarmos o pacote que queremos instalar no nosso projeto, de forma simples e fácil.
+
+### Entity Framework Core
+---
+O __Entity Framework Core__ (EF Core) é uma versão leve, extensível e de código aberto do Entity Framework, que é uma tecnologia de acesso a dados popular no .NET.
+
+O EF Core é um _mapeador objeto-relacional (ORM)_ que permite aos desenvolvedores .NET trabalhar com bancos de dados usando objetos .NET. Ele elimina a necessidade da maior parte do código de acesso a dados que os desenvolvedores geralmente precisam escrever.
+
+Com o EF Core, você pode realizar as seguintes tarefas:
+
+- Modelar um domínio orientado a objetos no .NET e mapeá-lo para um banco de dados relacional.
+- Consultar e manipular dados diretamente do código de aplicativo usando LINQ.
+- Realizar o rastreamento de alterações, persistência e manipulação de dados de maneira eficiente.
+- Migrar seu esquema de banco de dados de maneira segura usando migrações do EF Core.
+
+O EF Core suporta muitos provedores de banco de dados, como SQL Server, SQLite, PostgreSQL, MySQL e muitos outros. Ele também suporta uma variedade de padrões de desenvolvimento de aplicativos, incluindo aplicativos de console, aplicativos de desktop, aplicativos da web ASP.NET Core e muito mais.
+
+### Adicionando o EF Core com SQLite
+---
+Utilizando o ORM EF Core do SQLite nos ajuda a ter mais controle dos dados que estamos querendo que entre no nosso projeto, por isso quando abre a tela do Nuget para pesquisarmos pelo pacote devemos buscar por __EntityFrameworkCore.SQLite__.
+
+![[ASPNET_ManageNugetPackages2.png]]
+
+Então clique em __Install__ e aceite os requisitos para o pacote e ele vai instalar para você nas dependências do projeto.
+Assim que tiver baixado ele vai mostrar um check em verde no lado do pacote.
+
+![[ASPNET_InstalledPackage.png]]
 

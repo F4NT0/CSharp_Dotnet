@@ -56,4 +56,89 @@ O nosso projeto deve ter os seguintes pacotes até esse momento:
 
 ![[ASPNET_MigrationsPackages.png]]
 
+### Configurando o Program.cs
+
+Agora devemos configurar para que nosso projeto pegue as alterações que fizermos e crie uma migration, para isso iremos criar as seguintes configurações para o SQLite:
+
+1. Coloque o seguinte código antes do __builder.build__
+
+```csharp
+/**
+ * -------------------------------
+ *   CONFIGURAÇÃO DE MIGRATIONS
+ * -------------------------------
+ * Migrations serve para controlarmos as modificações
+ * do banco de dados pelo código.
+ */
+
+if (builder.Environment.IsDevelopment())
+{
+    if (connection != null)
+	{
+        MigrateDatabase(connection);
+    }
+}
+```
+
+2. Crie o Método __MigrateDatabase__ como mostrado abaixo:
+
+```csharp
+void MigrateDatabase(string connection)
+{
+	try
+	{
+		var evolveConnection = new SqliteConnection(connection);
+		var evolve = new Evolve(evolveConnection, Log.Information)
+		{
+			Locations = new List<string> { "db/migrations", "db/dataset" },
+			IsEraseDisabled = true,
+		};
+		evolve.Migrate();
+	}
+	catch (Exception ex)
+	{
+		Log.Error("Database migration failed", ex);
+		throw;
+	}
+}
+```
+
+Esse método vai se conectar ao banco de dados usando o __Evolve__ e irá criar os migrations nas localizações _db/migrations_ e _db/dataset_.
+
+### Criando o Database em nosso projeto
+
+Iremos criar agora um diretório chamado __db__ e dois diretórios internos chamado __migrations__ e __dataset__ como colocado no código do Program.cs.
+
+![[ASPNET_Db.png]]
+
+__dataset__ serve para colocar dados necessários e inserções de dados padrões no banco de dados.
+__migrations__ são as modificações feitas no banco de dados que são salvas nesse diretório.
+
+Seguindo a [documentação oficial do Evolve](https://evolve-db.netlify.app/configuration/naming/) temos que criar um Script com a seguinte estrutura para colocar o código SQL da nossa tabela:
+
+```sql
+V1__Create_Table_Person.sql
+```
+
+Após a versão deve ser colocados dois underlines `_` e cada parte do nome deve ser separado por um underline.
+
+Depois criar um script em SQL que popule de dados a tabela começando com uma versão acima da versão da criação de tabelas.
+
+```sql
+V2__Populate_Table_Person.sql
+```
+
+Para isso clique na pasta __db__ com o botão direito do mouse e selecione __Add__ e depois a opção __New Item__
+
+![[VS_NewItem1.png]]
+
+Coloque o nome e a extensão _.sql_ no final para criar um script SQL:
+
+![[VS_NewItem2.png]]
+
+
+
+
+
+
 

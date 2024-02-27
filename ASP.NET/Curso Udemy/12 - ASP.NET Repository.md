@@ -115,7 +115,7 @@ namespace RESTTemplate.Repository.Implementations
 
         public Person Update(Person person)
         {
-            if (!Exists(person.Id)) return new Person();
+            if (!Exists(person.Id)) return null;
 
             var result = _context.Persons.SingleOrDefault(p => p.Id.Equals(person.Id));
 
@@ -143,6 +143,11 @@ namespace RESTTemplate.Repository.Implementations
 ```
 
 Toda a lógica dos Services agora será modificada!
+
+Foi ajustado também a chamada do método _Exists_ no update onde caso não exista o ID ele deve retornar `null`.
+```csharp
+if (!Exists(person.Id)) return null;
+```
 
 ## Adicionando a dependência no Program.cs
 ---

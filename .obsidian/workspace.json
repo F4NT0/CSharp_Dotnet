@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ASP.NET/Curso Udemy/12 - ASP.NET Repository.md",
+                "file": "ASP.NET/Curso Udemy/14 - ASP.NET Migrations.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ASP.NET/Curso Udemy/12 - ASP.NET Repository.md",
+                "file": "ASP.NET/Curso Udemy/14 - ASP.NET Migrations.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ASP.NET/Curso Udemy/12 - ASP.NET Repository.md",
+                "file": "ASP.NET/Curso Udemy/14 - ASP.NET Migrations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ASP.NET/Curso Udemy/12 - ASP.NET Repository.md"
+                "file": "ASP.NET/Curso Udemy/14 - ASP.NET Migrations.md"
               }
             }
           },
@@ -180,8 +180,10 @@
   },
   "active": "2e9fbe3790e3c69f",
   "lastOpenFiles": [
-    "ASP.NET/Curso Udemy/13 - ASP.NET Alterando Service.md",
     "ASP.NET/Curso Udemy/12 - ASP.NET Repository.md",
+    "ASP.NET/Curso Udemy/14 - ASP.NET Migrations.md",
+    "ASP.NET/Página Inicial ASP_NET.md",
+    "ASP.NET/Curso Udemy/13 - ASP.NET Alterando Service.md",
     "ASP.NET/Curso Udemy/11 - ASP.NET Ajustando Implementations.md",
     "ASP.NET/images/ASPNET_RepositoryPersonInterface2.png",
     "ASP.NET/images/ASPNET_RepositoryPersonInterface.png",
@@ -205,7 +207,6 @@
     "ASP.NET/Curso Udemy/1 - ASP.NET Template.md",
     "Banco de dados/SQLite/Básico/3 - SQLite Database.md",
     "Banco de dados/SQLite/Básico/4 - SQLite Tables.md",
-    "ASP.NET/Página Inicial ASP_NET.md",
     "Banco de dados/SQLite/Básico/5 - SQLite Buscas.md",
     "Banco de dados/SQLite/Básico/6 - SQLite.md",
     "Banco de dados/SQLite/Básico/2 - Comandos SQLite console.md",
@@ -215,7 +216,6 @@
     "Banco de dados/SQL Linguagem/Database.md",
     "Banco de dados/SQLite/Página Inicial do SQLite.md",
     "Banco de dados/SQLite/Vídeos de estudo.md",
-    "Banco de dados/SQL Linguagem/Página inicial SQL Linguagem.md",
     "Banco de dados/SQL Linguagem",
     "Banco de dados/SQLite/images",
     "Banco de dados/SQLite/Básico",

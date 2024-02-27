@@ -30,8 +30,30 @@
 
 Lembre-se de que as migrações são uma prática recomendada para manter o esquema do banco de dados em sincronia com o modelo de dados, especialmente quando você implanta seu aplicativo em produção. 🚀
 
-## Como colocar Migration
+## Como colocar Migration no projeto
 ---
 Agora vamos ver de implementar o Migration em nosso projeto.
 
-Precisamos baixar alguns Pacotes em nosso projeto, o primeiro dele se chama __Evolve__
+### Baixando os pacotes necessários
+
+Precisamos baixar alguns Pacotes em nosso projeto, o primeiro dele se chama __Evolve__ para lidar com o Migration em nosso projeto. Para baixar pacotes só seguir o tutorial [[Adicionando Pacotes com NuGet]].
+
+![[ASPNET_MigrationsEvolve.png]]
+
+Próximo Pacote se chama __Serilog__ para criar uma forma de Login com a aplicação.
+
+![[ASPNET_MigrationsSerilog.png]]
+
+Outro pacote é o __Serilog.AspNetCore__ que ajuda o Serilog se conectar ao ASP.NET Core.
+
+![[ASPNET_MigrationsSerilogAspNetCore.png]]
+
+Por fim iremos baixar o __Serilog.Sinks.Console__.
+
+![[ASPNET_MigrationsSerilogSinksConsole.png]]
+
+O nosso projeto deve ter os seguintes pacotes até esse momento:
+
+![[ASPNET_MigrationsPackages.png]]
+
+

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ASP.NET/Básico/8 - Postman.md",
+                "file": "ASP.NET/Básico/11 - ASP.NET Ajustando Implementations.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ASP.NET/Básico/8 - Postman.md",
+                "file": "ASP.NET/Básico/11 - ASP.NET Ajustando Implementations.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ASP.NET/Básico/8 - Postman.md",
+                "file": "ASP.NET/Básico/11 - ASP.NET Ajustando Implementations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ASP.NET/Básico/8 - Postman.md"
+                "file": "ASP.NET/Básico/11 - ASP.NET Ajustando Implementations.md"
               }
             }
           },
@@ -180,12 +180,18 @@
   },
   "active": "2e9fbe3790e3c69f",
   "lastOpenFiles": [
-    "ASP.NET/images/3PontosPostmanExport.gif",
+    "ASP.NET/Básico/10 - ASP.NET Ajustando Model.md",
+    "ASP.NET/Básico/9 - ASP.NET Context.md",
     "ASP.NET/Básico/8 - Postman.md",
+    "ASP.NET/images/ExportEnviroment.gif",
+    "ASP.NET/images/ASPNET_EnviromentLocation4.png",
+    "ASP.NET/images/ASPNET_EnviromentLocation3.png",
+    "ASP.NET/images/ASPNET_EnviromentLocation2.png",
+    "ASP.NET/images/ASPNET_EnviromentLocation.png",
+    "ASP.NET/images/3PontosPostmanExport.gif",
     "ASP.NET/images/ASPNET_ExportPostman2.png",
     "ASP.NET/images/ASPNET_ExportPostman.png",
     "ASP.NET/images/ExportPostmanCollection.gif",
-    "ASP.NET/Básico/9 - ASP.NET Context.md",
     "ASP.NET/Básico/7 - ASP.NET Run Project.md",
     "ASP.NET/Básico/6 - ASP.NET Controller.md",
     "ASP.NET/Básico/5 - ASP.NET Controller Template.md",
@@ -194,13 +200,7 @@
     "ASP.NET/Básico/2 - ASP.NET REST.md",
     "ASP.NET/Básico/1 - ASP.NET Template.md",
     "ASP.NET/images/AddGlobalVariables2.gif",
-    "ASP.NET/images/AddGlobalVariables.gif",
-    "ASP.NET/images/ASPNET_TESTPOST.png",
-    "ASP.NET/images/ASPNET_UPDATEDELETEPOSTMAN.png",
-    "ASP.NET/images/ASPNET_UPDATEUPDATEPOSTMAN.png",
-    "ASP.NET/images/ASPNET_UPDATEGETIDPOSTMAN.png",
     "ASP.NET/Básico/11 - ASP.NET Ajustando Implementations.md",
-    "ASP.NET/Básico/10 - ASP.NET Ajustando Model.md",
     "Banco de dados/SQLite/Básico/3 - SQLite Database.md",
     "Banco de dados/SQLite/Básico/4 - SQLite Tables.md",
     "ASP.NET/Página Inicial ASP_NET.md",

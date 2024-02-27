@@ -6,14 +6,33 @@
     "emojiStyle": "none",
     "iconColor": "#ffc800",
     "recentlyUsedIcons": [
+      "TiPng",
+      "TiGif",
       "TiDatabaseStar",
       "TiSql",
-      "FiImage",
-      "FasFolder",
-      "SiMarkdown"
+      "FiImage"
     ],
     "recentlyUsedIconsSize": 5,
-    "rules": [],
+    "rules": [
+      {
+        "rule": ".gif",
+        "icon": "TiGif",
+        "for": "everything",
+        "order": 0
+      },
+      {
+        "rule": ".png",
+        "icon": "TiPng",
+        "for": "everything",
+        "order": 1
+      },
+      {
+        "rule": ".md",
+        "icon": "SiMarkdown",
+        "for": "everything",
+        "order": 2
+      }
+    ],
     "extraMargin": {
       "top": 0,
       "right": 4,
@@ -95,5 +114,14 @@
   "ASP.NET/Básico/7 - ASP.NET Run Project.md": "SiMarkdown",
   "ASP.NET/Básico/9 - ASP.NET Context.md": "SiMarkdown",
   "ASP.NET/Básico/10 - ASP.NET Ajustando Model.md": "SiMarkdown",
-  "ASP.NET/Básico/11 - ASP.NET Ajustando Implementations.md": "SiMarkdown"
+  "ASP.NET/Básico/11 - ASP.NET Ajustando Implementations.md": "SiMarkdown",
+  "ASP.NET/images/3PontosPostmanExport.gif": "TiGif",
+  "ASP.NET/images/1_CreateAPI_VS_withoutcode.png": "TiPng",
+  "ASP.NET/images/2_CreateAPI_VS_NewProject.png": "TiPng",
+  "ASP.NET/images/3_CreateAPI_VS_Templates.png": "TiPng",
+  "ASP.NET/images/4_CreateAPI_VS_ConfigureNP.png": "TiPng",
+  "ASP.NET/images/5_CreateAPI_VS_AditionalInformation.png": "TiPng",
+  "ASP.NET/images/6_CreateAPI_VS_GenerateMethod.png": "TiPng",
+  "ASP.NET/images/AddGlobalVariables.gif": "TiGif",
+  "ASP.NET/images/AddGlobalVariables2.gif": "TiGif"
 }

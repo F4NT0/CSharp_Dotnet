@@ -254,3 +254,24 @@ Agora podemos usar esse ID salvo em outras requisições como por exemplo o GET 
 
 ### Exportação de Collections e Enviroments
 ---
+Podemos exportar de forma bem simples, exportar significa que podemos guardar as modificações nas requisições do Postman em um diretório ou projeto.
+No meu caso eu guardei todas as minhas modificações no projeto ASP.NET em um diretório chamado `postman` no repositório do projeto, dessa forma podemos sempre ter a versão atualizada das requisições para qualquer um poder baixar e importar ao seu próprio Postman instalado em sua máquina, com suas devidas documentações.
+
+
+#### Exportação de Collections
+
+Para isso clicamos nos 3 pontos que aparece quando se coloca o mouse do lado do nome do projeto:
+
+![[3PontosPostmanExport.gif]]
+
+Depois podemos escolher a opção do `Export` que vai abrir uma nova tela:
+
+![[ASPNET_ExportPostman.png]]
+
+Selecionamos a opção 2.1 de tipos de JSONs do Postman e depois clicamos em `Export`:
+
+![[ASPNET_ExportPostman2.png]]
+
+Para uma visão completa fiz um GIF mostrando todos esses passos mais rápido:
+
+![[ExportPostmanCollection.gif]]

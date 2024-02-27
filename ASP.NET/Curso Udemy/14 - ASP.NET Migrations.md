@@ -39,23 +39,23 @@ Agora vamos ver de implementar o Migration em nosso projeto.
 
 Precisamos baixar alguns Pacotes em nosso projeto, o primeiro dele se chama __Evolve__ para lidar com o Migration em nosso projeto. Para baixar pacotes só seguir o tutorial [[Adicionando Pacotes com NuGet]].
 
-![](ASP.NET/images/ASPNET_MigrationsEvolve.png)
+![](../images/ASPNET_MigrationsEvolve.png)
 
 Próximo Pacote se chama __Serilog__ para criar uma forma de Login com a aplicação.
 
-![](ASP.NET/images/ASPNET_MigrationsSerilog.png)
+![](../images/ASPNET_MigrationsSerilog.png)
 
 Outro pacote é o __Serilog.AspNetCore__ que ajuda o Serilog se conectar ao ASP.NET Core.
 
-![](ASP.NET/images/ASPNET_MigrationsSerilogAspNetCore.png)
+![](../images/ASPNET_MigrationsSerilogAspNetCore.png)
 
 Por fim iremos baixar o __Serilog.Sinks.Console__.
 
-![](ASP.NET/images/ASPNET_MigrationsSerilogSinksConsole.png)
+![](../images/ASPNET_MigrationsSerilogSinksConsole.png)
 
 O nosso projeto deve ter os seguintes pacotes até esse momento:
 
-![](ASP.NET/images/ASPNET_MigrationsPackages.png)
+![](../images/ASPNET_MigrationsPackages.png)
 
 ### Configurando o Program.cs
 
@@ -110,7 +110,7 @@ Esse método vai se conectar ao banco de dados usando o __Evolve__ e irá criar 
 
 Iremos criar agora um diretório chamado __db__ e dois diretórios internos chamado __migrations__ e __dataset__ como colocado no código do Program.cs.
 
-![[ASPNET_Db.png]]
+![](../images/ASPNET_Db.png)
 
 __dataset__ serve para colocar dados necessários e inserções de dados padrões no banco de dados.
 __migrations__ são as modificações feitas no banco de dados que são salvas nesse diretório.
@@ -131,17 +131,17 @@ V2__Populate_Table_Person.sql
 
 Para isso clique na pasta __db__ com o botão direito do mouse e selecione __Add__ e depois a opção __New Item__
 
-![[VS_NewItem1.png]]
+![](../../VS_NewItem1.png)
 
 Coloque o nome e a extensão _.sql_ no final para criar um script SQL:
 
-![[VS_NewItem2.png]]
+![](../../VS_NewItem2.png)
 
 Depois de criar os dois documentos SQL, o Create Table fica no diretório __migrations__ por ser o construtor da tabela e o Populate Table por possuir dados de inserção é considerado __dataset__.
 
 Pegue os arquivos e arraste para os devidos diretórios.
 
-![[VS_PopulateTable.png]]
+![](../../VS_PopulateTable.png)
 
 Colocamos a criação de nossa tabela, como mostrado em [[4 - SQLite Tables#Exemplo de tabela]] em nosso arquivo __V1_Create_Table_Person.sql__ 
 
@@ -178,15 +178,15 @@ VALUES (6, 'Liliane', 'Clemente', 'Fortaleza', 'Female');
 
 Nesse momento então vamos fazer um __DROP__ do nosso banco de dados e vamos criar ele pelo nosso programa, para isso no SQLite Studio tem a opção de deletar o database:
 
-![[SQLite_DropDatabase.png]]
+![](../../SQLite_DropDatabase.png)
 
 Só por garantia, vamos deletar também o arquivo _restemplate.db_ que fica o nosso banco de dados:
 
-![[SQLite_DropDatabase2.png]]
+![](../../SQLite_DropDatabase2.png)
 
 Agora vamos rodar a aplicação e ele deve criar o banco de dados com os dados colocados no __dataset__.
 
-![[SQLite_MigrationComplete.png]]
+![](../../SQLite_MigrationComplete.png)
 
 Deu certo! além de criar o database pelo nosso programa, ele também criou uma tabela mostrando as modificações que foram feitas e quando elas ocorreram!
 

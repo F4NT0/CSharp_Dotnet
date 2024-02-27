@@ -136,6 +136,59 @@ Coloque o nome e a extensão _.sql_ no final para criar um script SQL:
 
 ![[VS_NewItem2.png]]
 
+Depois de criar os dois documentos SQL, o Create Table fica no diretório __migrations__ por ser o construtor da tabela e o Populate Table por possuir dados de inserção é considerado __dataset__.
+
+Pegue os arquivos e arraste para os devidos diretórios.
+
+![[VS_PopulateTable.png]]
+
+Colocamos a criação de nossa tabela, como mostrado em [[4 - SQLite Tables#Exemplo de tabela]] em nosso arquivo __V1_Create_Table_Person.sql__ 
+
+```sql
+CREATE TABLE IF NOT EXISTS persons (
+	person_id INTEGER PRIMARY KEY,
+	first_name TEXT NOT NULL,
+	last_name TEXT NOT NULL,
+	address TEXT,
+	gender TEXT
+);
+```
+
+Adicionamos alguns INSERTs no arquivo __V2__Populate_Table_Person.sql__ como mostrado:
+
+```sql
+INSERT INTO persons (person_id, first_name, last_name, address, gender) 
+VALUES (2, 'Gabriel', 'Fanto', 'Porto Alegre', 'Male');
+
+INSERT INTO persons (person_id, first_name, last_name, address, gender) 
+VALUES (3, 'Gabriel', 'Fanto', 'Porto Alegre', 'Male');
+
+INSERT INTO persons (person_id, first_name, last_name, address, gender) 
+VALUES (4, 'Gabriel', 'Fanto', 'Porto Alegre', 'Male');
+
+INSERT INTO persons (person_id, first_name, last_name, address, gender) 
+VALUES (5, 'Gabriel', 'Fanto', 'Porto Alegre', 'Male');
+
+INSERT INTO persons (person_id, first_name, last_name, address, gender) 
+VALUES (6, 'Liliane', 'Clemente', 'Fortaleza', 'Female');
+```
+
+### Testando o Database 
+
+Nesse momento então vamos fazer um __DROP__ do nosso banco de dados e vamos criar ele pelo nosso programa, para isso no SQLite Studio tem a opção de deletar o database:
+
+![[SQLite_DropDatabase.png]]
+
+Só por garantia, vamos deletar também o arquivo _restemplate.db_ que fica o nosso banco de dados:
+
+![[SQLite_DropDatabase2.png]]
+
+Agora vamos rodar a aplicação e ele deve criar o banco de dados com os dados colocados no __dataset__.
+
+![[SQLite_MigrationComplete.png]]
+
+Deu certo! além de criar o database pelo nosso programa, ele também criou uma tabela mostrando as modificações que foram feitas e quando elas ocorreram!
+
 
 
 

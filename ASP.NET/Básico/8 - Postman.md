@@ -252,3 +252,5 @@ Agora podemos usar esse ID salvo em outras requisições como por exemplo o GET 
 
 ![[AddGlobalVariables2.gif]]
 
+### Exportação de Collections e Enviroments
+---

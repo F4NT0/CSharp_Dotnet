@@ -143,3 +143,13 @@ namespace RESTTemplate.Repository.Implementations
 ```
 
 Toda a lógica dos Services agora será modificada!
+
+## Adicionando a dependência no Program.cs
+---
+Assim como fizemos no Service, devemos alterar o _Program.cs_ adicionando a conexão com o Repository que foi recém criado, de uma forma bem simples, adicione o seguinte código abaixo da dependência do Service:
+
+```csharp
+builder.Services.AddScoped<IPersonRepository, PersonRepositoryImplementation>();
+```
+
+

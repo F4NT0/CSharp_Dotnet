@@ -130,4 +130,34 @@ public void Delete(long id)
 
 Ele pode ser removido porque ele somente é utilizado pelo Repository agora.
 
-### Atualização do Método
+### Atualização do Método FindAll
+
+```csharp
+// Antes
+public List<Person> FindAll()
+{
+   return _context.Persons.ToList();
+}
+
+// Depois
+public List<Person> FindAll()
+{
+   return _repository.FindAll();
+}
+```
+
+### Atualização do Método FindById
+
+```csharp
+// Antes
+public Person FindbyID(long id)
+{
+    return _context.Persons.SingleOrDefault(p => p.Id.Equals(id));
+}
+
+// Depois
+public Person FindbyID(long id)
+{
+    return _repository.FindbyID(id);
+}
+```

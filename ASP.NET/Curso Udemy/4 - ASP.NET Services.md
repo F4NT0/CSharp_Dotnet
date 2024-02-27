@@ -1,4 +1,5 @@
 [[Página Inicial ASP_NET]]
+![[R (3).png#center|200]]
 
 Em uma API REST no C#, os “Services” são componentes que encapsulam a lógica de negócios e as operações que podem ser reutilizadas. Eles são responsáveis por realizar tarefas específicas e complexas, como interagir com um banco de dados ou processar dados.
 

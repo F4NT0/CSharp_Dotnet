@@ -1,4 +1,5 @@
 [[Página Inicial ASP_NET]]
+![[R (3).png#center|200]]
 
 O Model é um arquivo onde vão os valores que iremos trabalhar em uma API, são os dados requisitados para utilizar a API.
 

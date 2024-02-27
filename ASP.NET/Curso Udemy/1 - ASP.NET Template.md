@@ -1,4 +1,5 @@
 [[Página Inicial ASP_NET]]
+![[R (3).png#center|200]]
 
 Tutorial rápido de criar um template ASP.NET pelo Visual Studio para ganhar tempo!
 

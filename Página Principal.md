@@ -1,4 +1,5 @@
 # $$\boxed{\mathbb{DESENVOLVEDOR \space .NET}}$$
+![[R (3).png#center|200]]
 
 * Bem vindo ao Repositório de conhecimento e estudos de desenvolvimento .NET.
 * A ideia desse Repositório é unificar o conhecimento no desenvolvimento com a tecnologia da Microsoft .NET e a Linguagem C#.

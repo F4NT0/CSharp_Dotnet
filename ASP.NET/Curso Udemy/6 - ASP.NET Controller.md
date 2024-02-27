@@ -1,4 +1,5 @@
 [[Página Inicial ASP_NET]]
+![[R (3).png#center|200]]
 
 Como criar um Controller para definirmos nossas Requisições a API REST
 Entenda o [[2 - ASP.NET REST]] neste artigo.

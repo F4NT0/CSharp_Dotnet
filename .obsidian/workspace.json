@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ASP.NET/Curso Udemy/1 - ASP.NET Template.md",
+                "file": "ASP.NET/Curso Udemy/9 - ASP.NET Context.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "path:\"ASP.NET/\" ",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -87,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ASP.NET/Curso Udemy/1 - ASP.NET Template.md",
+                "file": "ASP.NET/Curso Udemy/9 - ASP.NET Context.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ASP.NET/Curso Udemy/1 - ASP.NET Template.md",
+                "file": "ASP.NET/Curso Udemy/9 - ASP.NET Context.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ASP.NET/Curso Udemy/1 - ASP.NET Template.md"
+                "file": "ASP.NET/Curso Udemy/9 - ASP.NET Context.md"
               }
             }
           },
@@ -179,12 +178,32 @@
       "graph:Abrir visualização em gráfico": false
     }
   },
-  "active": "0aee3475557f2c12",
+  "active": "31ec970240841f56",
   "lastOpenFiles": [
+    "ASP.NET/Curso Udemy/12 - ASP.NET Repository.md",
+    "ASP.NET/Curso Udemy/15 - ASP.NET Generic Repository.md",
+    "ASP.NET/Curso Udemy/1 - ASP.NET Template.md",
+    "ASP.NET/Curso Udemy/5 - ASP.NET Controller Template.md",
+    "ASP.NET/Curso Udemy/8 - Postman.md",
+    "ASP.NET/Curso Udemy/11 - ASP.NET Ajustando Implementations.md",
+    "ASP.NET/Curso Udemy/9 - ASP.NET Context.md",
+    "ASP.NET/Curso Udemy/6 - ASP.NET Controller.md",
+    "ASP.NET/Curso Udemy/4 - ASP.NET Services.md",
+    "ASP.NET/Curso Udemy/2 - ASP.NET REST.md",
+    "ASP.NET/Curso Udemy/3 - ASP.NET Model.md",
+    "ASP.NET/Curso Udemy/14 - ASP.NET Migrations.md",
+    "ASP.NET/Curso Udemy/13 - ASP.NET Alterando Service.md",
+    "ASP.NET/Curso Udemy/7 - ASP.NET Run Project.md",
+    "ASP.NET/Curso Udemy/10 - ASP.NET Ajustando Model.md",
+    "Página Principal.md",
+    "README.md",
+    "VSCode/Página Inicial Visual Studio Code.md",
+    "Visual_Studio/Página Inicial Visual Studio.md",
+    "Visual_Studio/Criando repositório no Visual Studio.md",
+    "Adicionando.md",
+    "Visual_Studio/Adicionando Pacotes com NuGet.md",
     "ASP.NET/images/logo.png",
     "ASP.NET/images/logo.png.crdownload",
-    "ASP.NET/Curso Udemy/15 - ASP.NET Generic Repository.md",
-    "ASP.NET/Curso Udemy/14 - ASP.NET Migrations.md",
     "Banco de dados/SQLite/images/SQLite_MigrationComplete.png",
     "Banco de dados/SQLite/images/SQLite_DropDatabase2.png",
     "Banco de dados/SQLite/images/SQLite_DropDatabase.png",
@@ -195,29 +214,9 @@
     "ASP.NET/images/ASPNET_Db.png",
     "ASP.NET/images/ASPNET_MigrationsPackages.png",
     "ASP.NET/images/ASPNET_MigrationsSerilogSinksConsole.png",
-    "ASP.NET/images/ASPNET_MigrationsSerilogAspNetCore.png",
-    "Adicionando.md",
     "[[Adicionando.md",
-    "Visual_Studio/Adicionando Pacotes com NuGet.md",
-    "ASP.NET/Curso Udemy/12 - ASP.NET Repository.md",
     "ASP.NET/Página Inicial ASP_NET.md",
-    "ASP.NET/Curso Udemy/13 - ASP.NET Alterando Service.md",
-    "ASP.NET/Curso Udemy/11 - ASP.NET Ajustando Implementations.md",
-    "ASP.NET/Curso Udemy/10 - ASP.NET Ajustando Model.md",
-    "ASP.NET/Curso Udemy/9 - ASP.NET Context.md",
-    "ASP.NET/Curso Udemy/8 - Postman.md",
-    "ASP.NET/Curso Udemy/7 - ASP.NET Run Project.md",
-    "ASP.NET/Curso Udemy/6 - ASP.NET Controller.md",
-    "ASP.NET/Curso Udemy/5 - ASP.NET Controller Template.md",
-    "ASP.NET/Curso Udemy/4 - ASP.NET Services.md",
-    "ASP.NET/Curso Udemy/3 - ASP.NET Model.md",
-    "ASP.NET/Curso Udemy/2 - ASP.NET REST.md",
-    "ASP.NET/Curso Udemy/1 - ASP.NET Template.md",
     "Banco de dados/SQLite/Básico/3 - SQLite Database.md",
-    "Banco de dados/SQLite/Básico/5 - SQLite Buscas.md",
-    "Banco de dados/SQLite/Básico/6 - SQLite.md",
-    "Banco de dados/SQLite/Básico/2 - Comandos SQLite console.md",
-    "Banco de dados/SQLite/Básico/1- Instalando SQLite e SQLite Studio.md",
     "Banco de dados/SQL Linguagem",
     "Banco de dados/SQLite/images",
     "Banco de dados/SQLite/Básico",

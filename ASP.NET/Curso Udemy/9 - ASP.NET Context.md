@@ -1,4 +1,5 @@
 [[Página Inicial ASP_NET]]
+![[R (3).png#center|200]]
 
 ## Páginas anteriores
 - [[1 - ASP.NET Template]]

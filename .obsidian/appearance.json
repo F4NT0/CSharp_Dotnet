@@ -1,5 +1,8 @@
 {
   "accentColor": "#8246be",
   "theme": "obsidian",
-  "cssTheme": "Tokyo Night"
+  "cssTheme": "Tokyo Night",
+  "enabledCssSnippets": [
+    "images"
+  ]
 }

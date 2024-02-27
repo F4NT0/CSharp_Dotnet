@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ASP.NET/Curso Udemy/14 - ASP.NET Migrations.md",
+                "file": "ASP.NET/Curso Udemy/1 - ASP.NET Template.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "path:\"ASP.NET/\" ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -86,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ASP.NET/Curso Udemy/14 - ASP.NET Migrations.md",
+                "file": "ASP.NET/Curso Udemy/1 - ASP.NET Template.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ASP.NET/Curso Udemy/14 - ASP.NET Migrations.md",
+                "file": "ASP.NET/Curso Udemy/1 - ASP.NET Template.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ASP.NET/Curso Udemy/14 - ASP.NET Migrations.md"
+                "file": "ASP.NET/Curso Udemy/1 - ASP.NET Template.md"
               }
             }
           },
@@ -178,13 +179,16 @@
       "graph:Abrir visualização em gráfico": false
     }
   },
-  "active": "31ec970240841f56",
+  "active": "0aee3475557f2c12",
   "lastOpenFiles": [
+    "ASP.NET/images/logo.png",
+    "ASP.NET/images/logo.png.crdownload",
+    "ASP.NET/Curso Udemy/15 - ASP.NET Generic Repository.md",
+    "ASP.NET/Curso Udemy/14 - ASP.NET Migrations.md",
     "Banco de dados/SQLite/images/SQLite_MigrationComplete.png",
     "Banco de dados/SQLite/images/SQLite_DropDatabase2.png",
     "Banco de dados/SQLite/images/SQLite_DropDatabase.png",
     "Banco de dados/SQLite/Básico/4 - SQLite Tables.md",
-    "ASP.NET/Curso Udemy/14 - ASP.NET Migrations.md",
     "Visual_Studio/images/VS_PopulateTable.png",
     "Visual_Studio/images/VS_NewItem2.png",
     "Visual_Studio/images/VS_NewItem1.png",
@@ -192,7 +196,6 @@
     "ASP.NET/images/ASPNET_MigrationsPackages.png",
     "ASP.NET/images/ASPNET_MigrationsSerilogSinksConsole.png",
     "ASP.NET/images/ASPNET_MigrationsSerilogAspNetCore.png",
-    "ASP.NET/images/ASPNET_MigrationsSerilog.png",
     "Adicionando.md",
     "[[Adicionando.md",
     "Visual_Studio/Adicionando Pacotes com NuGet.md",
@@ -215,7 +218,6 @@
     "Banco de dados/SQLite/Básico/6 - SQLite.md",
     "Banco de dados/SQLite/Básico/2 - Comandos SQLite console.md",
     "Banco de dados/SQLite/Básico/1- Instalando SQLite e SQLite Studio.md",
-    "Página Principal.md",
     "Banco de dados/SQL Linguagem",
     "Banco de dados/SQLite/images",
     "Banco de dados/SQLite/Básico",
@@ -224,7 +226,6 @@
     "Banco de dados/SQL Server/Básico",
     "Banco de dados/SQL Server",
     "ASP.NET/Curso Udemy",
-    "Visual_Studio/images",
-    "Obsidian/images"
+    "Visual_Studio/images"
   ]
 }

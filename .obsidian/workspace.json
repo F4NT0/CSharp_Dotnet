@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Obsidian/Centralizando imagens.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Obsidian/Centralizando imagens.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Obsidian/Centralizando imagens.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Obsidian/Centralizando imagens.md"
               }
             }
           },
@@ -180,6 +180,9 @@
   },
   "active": "31ec970240841f56",
   "lastOpenFiles": [
+    "Página Principal.md",
+    "Obsidian/Centralizando imagens.md",
+    "README.md",
     "ASP.NET/Curso Udemy/14 - ASP.NET Migrations.md",
     "ASP.NET/Curso Udemy/15 - ASP.NET Generic Repository.md",
     "ASP.NET/Curso Udemy/2 - ASP.NET REST.md",
@@ -195,8 +198,6 @@
     "ASP.NET/Curso Udemy/6 - ASP.NET Controller.md",
     "ASP.NET/Curso Udemy/4 - ASP.NET Services.md",
     "ASP.NET/Curso Udemy/3 - ASP.NET Model.md",
-    "Página Principal.md",
-    "README.md",
     "VSCode/Página Inicial Visual Studio Code.md",
     "Visual_Studio/Página Inicial Visual Studio.md",
     "Visual_Studio/Criando repositório no Visual Studio.md",
@@ -216,7 +217,6 @@
     "ASP.NET/images/ASPNET_MigrationsSerilogSinksConsole.png",
     "[[Adicionando.md",
     "ASP.NET/Página Inicial ASP_NET.md",
-    "Banco de dados/SQLite/Básico/3 - SQLite Database.md",
     "Banco de dados/SQL Linguagem",
     "Banco de dados/SQLite/images",
     "Banco de dados/SQLite/Básico",

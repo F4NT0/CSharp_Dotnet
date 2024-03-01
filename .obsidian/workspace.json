@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/Centralizando imagens.md",
+                "file": "Banco de dados/SQLite/Básico/3 - SQLite Database.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/Centralizando imagens.md",
+                "file": "Banco de dados/SQLite/Básico/3 - SQLite Database.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/Centralizando imagens.md",
+                "file": "Banco de dados/SQLite/Básico/3 - SQLite Database.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/Centralizando imagens.md"
+                "file": "Banco de dados/SQLite/Básico/3 - SQLite Database.md"
               }
             }
           },
@@ -180,8 +180,11 @@
   },
   "active": "31ec970240841f56",
   "lastOpenFiles": [
-    "Página Principal.md",
+    "Banco de dados/SQLite/Básico/4 - SQLite Tables.md",
+    "Banco de dados/SQLite/Básico/2 - Comandos SQLite console.md",
+    "Banco de dados/SQLite/Básico/1- Instalando SQLite e SQLite Studio.md",
     "Obsidian/Centralizando imagens.md",
+    "Página Principal.md",
     "README.md",
     "ASP.NET/Curso Udemy/14 - ASP.NET Migrations.md",
     "ASP.NET/Curso Udemy/15 - ASP.NET Generic Repository.md",
@@ -208,15 +211,12 @@
     "Banco de dados/SQLite/images/SQLite_MigrationComplete.png",
     "Banco de dados/SQLite/images/SQLite_DropDatabase2.png",
     "Banco de dados/SQLite/images/SQLite_DropDatabase.png",
-    "Banco de dados/SQLite/Básico/4 - SQLite Tables.md",
     "Visual_Studio/images/VS_PopulateTable.png",
     "Visual_Studio/images/VS_NewItem2.png",
     "Visual_Studio/images/VS_NewItem1.png",
     "ASP.NET/images/ASPNET_Db.png",
     "ASP.NET/images/ASPNET_MigrationsPackages.png",
     "ASP.NET/images/ASPNET_MigrationsSerilogSinksConsole.png",
-    "[[Adicionando.md",
-    "ASP.NET/Página Inicial ASP_NET.md",
     "Banco de dados/SQL Linguagem",
     "Banco de dados/SQLite/images",
     "Banco de dados/SQLite/Básico",

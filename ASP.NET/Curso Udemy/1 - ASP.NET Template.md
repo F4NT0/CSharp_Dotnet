@@ -34,7 +34,10 @@ Com o `F2` do teclado podemos renomear um arquivo que tivermos selecionado no Vi
 
 ## Como gerar um método
 ---
+
 Pelo Visual Studio podemos colocar o nome de uma função e ele pode nos gerar o esqueleto da função.
+
+Como mostra abaixo, vai aparecer uma lupa e mostrar a opção de gerar o método vazio para implementarmos a lógica.
 
 ![[6_CreateAPI_VS_GenerateMethod.png]]
 

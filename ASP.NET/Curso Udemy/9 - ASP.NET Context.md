@@ -66,13 +66,16 @@ Devemos adicionar também o Pacote _Microsoft.EntityFrameworkCore.Tools_ junto c
 Agora que instalamos o pacote no projeto, vamos criar sua configuração no nosso projeto, onde iremos criar uma pasta dentro de _Models_ chamada __Context__ onde ficam armazenado as conexões com o banco de dados.
 No nosso caso que estamos trabalhando com SQLite, vamos criar uma classe dentro do diretório __Context__ chamado __SQLiteContext__ .
 
-Criação do Folder __Context__
+Criação do Folder __Context__.
+
 ![[CreateContextFolder.gif]]
 
-Criação da classe __SQLiteContext__
+Criação da classe __SQLiteContext__.
+
 ![[CreateContextFile.gif]]
 
-Nessa nova classe, temos que extender a interface __DbContext__ em nossa classe de conexão ao banco de dados e depois adicionar o _EntityFrameworkCore_ em nossa lista de pacotes conectados nessa classe.
+Nessa nova classe, temos que estender a classe do Entity Framework chamada __DbContext__ em nossa classe de conexão ao banco de dados e depois adicionar o _Entity Framework Core_ em nossa lista de pacotes conectados nessa classe.
+
 ```csharp
 // Antes
 namespace RESTTemplate.Model.Context
@@ -92,6 +95,7 @@ namespace RESTTemplate.Model.Context
     }
 }
 ```
+
 Agora vamos construir dois construtores para nossa classe, um deles é vazio e o outro recebe por parâmetro opções de acesso.
 
 ```csharp

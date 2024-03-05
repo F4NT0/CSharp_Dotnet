@@ -20,18 +20,22 @@ O folder Model não vem por padrão em templates ASP.NET, por isso temos que con
 ![[ASPNET_AddFolder2.png]]
 
 3) Coloque o nome de **Model**
+
 ![[ASPNET_AddFolder3.png]]
 
 ### Criando um Arquivo Model
 ---
 Podemos criar quantos Models quisermos, para isso primeiro devemos criar uma nova classe dentro do folder Model:
 
-1) Clique com o botão direito no Folder desejado e selecione a opção **Add...**
+1) Clique com o botão direito no Folder desejado e selecione a opção **Add**
 
 ![[ASPNET_CreateClass1.png]]
-2) Depois seleciona a opção **Class...**
+
+2) Depois selecione a opção **Class...** para abrir o criado de classes do Visual Studio.
+
 ![[ASPNET_CreateClass2.png]]
 3) Coloque o nome desejado que será o nome oficial da classe, iremos chamar a nossa classe de **Person**.
+
 ![[ASPNET_CreateClass3.png]]
 
 ### Entendendo uma Classe

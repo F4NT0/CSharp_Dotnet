@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ASP.NET/Curso Udemy/3 - ASP.NET Model.md",
+                "file": "ASP.NET/Curso Udemy/10 - ASP.NET Ajustando Model.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ASP.NET/Curso Udemy/3 - ASP.NET Model.md",
+                "file": "ASP.NET/Curso Udemy/10 - ASP.NET Ajustando Model.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ASP.NET/Curso Udemy/3 - ASP.NET Model.md",
+                "file": "ASP.NET/Curso Udemy/10 - ASP.NET Ajustando Model.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ASP.NET/Curso Udemy/3 - ASP.NET Model.md"
+                "file": "ASP.NET/Curso Udemy/10 - ASP.NET Ajustando Model.md"
               }
             }
           },
@@ -180,6 +180,7 @@
   },
   "active": "31ec970240841f56",
   "lastOpenFiles": [
+    "ASP.NET/Curso Udemy/3 - ASP.NET Model.md",
     "ASP.NET/Curso Udemy/7 - ASP.NET Run Project.md",
     "ASP.NET/Curso Udemy/9 - ASP.NET Context.md",
     "ASP.NET/Curso Udemy/10 - ASP.NET Ajustando Model.md",
@@ -202,7 +203,6 @@
     "ASP.NET/Curso Udemy/5 - ASP.NET Controller Template.md",
     "ASP.NET/Curso Udemy/6 - ASP.NET Controller.md",
     "ASP.NET/Curso Udemy/4 - ASP.NET Services.md",
-    "ASP.NET/Curso Udemy/3 - ASP.NET Model.md",
     "VSCode/Página Inicial Visual Studio Code.md",
     "Visual_Studio/Página Inicial Visual Studio.md",
     "Visual_Studio/Criando repositório no Visual Studio.md",

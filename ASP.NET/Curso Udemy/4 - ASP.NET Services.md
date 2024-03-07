@@ -36,8 +36,8 @@ Para criar uma interface é bem simples, clicamos com o botão direito no folder
 Em **Class...** selecionamos a opção **Interface** e colocamos o nome do nosso Model desejado começando com um I para dizer que é uma Interface e depois escrito Service para sabermos que é um Service da API, como no exemplo abaixo:
 
 | Nome do Model | Nome do Service |
-| ---- | ---- |
-| Person | IPersonService |
+| ------------- | --------------- |
+| Person        | IPersonService  |
 Isso é um padrão para qualquer Service no C#.
 
 ![[ASPNET_CreateInterface2.png]]

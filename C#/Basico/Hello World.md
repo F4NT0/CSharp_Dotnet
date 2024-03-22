@@ -1,9 +1,4 @@
 # $${\boxed{\sf CRIANDO \space PRIMEIRO \space HELLO \space WORLD}}$$
-
-<p align="center">
-    <img src="../../imagens/R (3).png" width=200>
-</p>
-
 ---
 
 O primeiro hello world é o mais emocionante, mas o que ninguém diz que tem várias formas e boas práticas.

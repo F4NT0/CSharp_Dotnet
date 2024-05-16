@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C#/Basico/Hello World.md",
+                "file": "ASP.NET/Curso Udemy/14 - ASP.NET Migrations.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C#/Basico/Hello World.md",
+                "file": "ASP.NET/Curso Udemy/14 - ASP.NET Migrations.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C#/Basico/Hello World.md",
+                "file": "ASP.NET/Curso Udemy/14 - ASP.NET Migrations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C#/Basico/Hello World.md"
+                "file": "ASP.NET/Curso Udemy/14 - ASP.NET Migrations.md"
               }
             }
           },
@@ -180,12 +180,13 @@
   },
   "active": "31ec970240841f56",
   "lastOpenFiles": [
+    "ASP.NET/Curso Udemy/15 - ASP.NET Generic Repository.md",
+    "C#/Basico/Hello World.md",
     "C#/Basico/Tipo de dados.md",
     "C#/Basico/Métodos.md",
     "C#/Basico/Matemática.md",
     "C#/Basico/In_Out.md",
     "C#/Basico/If-Else.md",
-    "C#/Basico/Hello World.md",
     "C#/Basico/Básico de Csharp.md",
     "ASP.NET/Curso Udemy/6 - ASP.NET Controller.md",
     "ASP.NET/Curso Udemy/5 - ASP.NET Controller Template.md",
@@ -206,7 +207,6 @@
     "Banco de dados/SQLite/Básico/2 - Comandos SQLite console.md",
     "Banco de dados/SQLite/Básico/4 - SQLite Tables.md",
     "Banco de dados/SQLite/Básico/3 - SQLite Database.md",
-    "Obsidian/Centralizando imagens.md",
     "ASP.NET/images/logo.png",
     "ASP.NET/images/logo.png.crdownload",
     "Banco de dados/SQLite/images/SQLite_MigrationComplete.png",

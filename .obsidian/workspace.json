@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ASP.NET/Curso Udemy/14 - ASP.NET Migrations.md",
+                "file": "Dotnet/Criar projeto pelo console.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ASP.NET/Curso Udemy/14 - ASP.NET Migrations.md",
+                "file": "Dotnet/Criar projeto pelo console.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ASP.NET/Curso Udemy/14 - ASP.NET Migrations.md",
+                "file": "Dotnet/Criar projeto pelo console.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ASP.NET/Curso Udemy/14 - ASP.NET Migrations.md"
+                "file": "Dotnet/Criar projeto pelo console.md"
               }
             }
           },
@@ -180,6 +180,13 @@
   },
   "active": "31ec970240841f56",
   "lastOpenFiles": [
+    "Dotnet/Instalação do Dotnet.md",
+    "Dotnet/instalacao/install_sdk3.png",
+    "Dotnet/instalacao/install_sdk2.png",
+    "Dotnet/instalacao/install_sdk1.png",
+    "Dotnet/instalacao/website_version.png",
+    "Dotnet/Criar projeto pelo console.md",
+    "ASP.NET/Curso Udemy/14 - ASP.NET Migrations.md",
     "ASP.NET/Curso Udemy/15 - ASP.NET Generic Repository.md",
     "C#/Basico/Hello World.md",
     "C#/Basico/Tipo de dados.md",
@@ -199,24 +206,16 @@
     "ASP.NET/Curso Udemy/9 - ASP.NET Context.md",
     "ASP.NET/Curso Udemy/3 - ASP.NET Model.md",
     "ASP.NET/Curso Udemy/7 - ASP.NET Run Project.md",
-    "ASP.NET/Curso Udemy/14 - ASP.NET Migrations.md",
     "ASP.NET/Curso Udemy/8 - Postman.md",
     "ASP.NET/Curso Udemy/1 - ASP.NET Template.md",
     "Banco de dados/SQLite/Básico/1- Instalando SQLite e SQLite Studio.md",
     "Banco de dados/SQLite/Básico/5 - SQLite Buscas.md",
-    "Banco de dados/SQLite/Básico/2 - Comandos SQLite console.md",
-    "Banco de dados/SQLite/Básico/4 - SQLite Tables.md",
-    "Banco de dados/SQLite/Básico/3 - SQLite Database.md",
     "ASP.NET/images/logo.png",
     "ASP.NET/images/logo.png.crdownload",
     "Banco de dados/SQLite/images/SQLite_MigrationComplete.png",
     "Banco de dados/SQLite/images/SQLite_DropDatabase2.png",
     "Banco de dados/SQLite/images/SQLite_DropDatabase.png",
     "Visual_Studio/images/VS_PopulateTable.png",
-    "Visual_Studio/images/VS_NewItem2.png",
-    "Visual_Studio/images/VS_NewItem1.png",
-    "ASP.NET/images/ASPNET_Db.png",
-    "ASP.NET/images/ASPNET_MigrationsPackages.png",
     "Banco de dados/SQL Linguagem",
     "Banco de dados/SQLite/images",
     "Banco de dados/SQLite/Básico",
